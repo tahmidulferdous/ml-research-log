@@ -1,0 +1,22 @@
+{
+  "id": "tahmidulkashfi/notebook6e92e358e2",
+  "id_no": 26082679,
+  "title": "notebook6e92e358e2",
+  "code_file": "notebook6e92e358e2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "heptapod/titanic",
+    "rahulsah06/titanic"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:e431dec14d7ff274a5b363ee326992d06f6335107b4b475a37a0bbc7f766f42d",
+  "machine_shape": "None"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "tahmidulkashfi/notebookaf5f5c0d5d",
+  "id_no": 82752802,
+  "title": "notebookaf5f5c0d5d",
+  "code_file": "notebookaf5f5c0d5d.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "tahmidulkashfi/trying",
+    "tahmidulkashfi/trying1"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:5b3264d2d3aefa4f5e4d6f036b0d2b2d9691dab62493ae3af85a3153608f30a7",
+  "machine_shape": "Gpu"
+}

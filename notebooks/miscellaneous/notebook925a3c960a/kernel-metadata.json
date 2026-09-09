@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/notebook925a3c960a",
+  "id_no": 18209238,
+  "title": "notebook925a3c960a",
+  "code_file": "notebook925a3c960a.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/megentart",
+  "id_no": 85550224,
+  "title": "megentaRT",
+  "code_file": "megentart.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

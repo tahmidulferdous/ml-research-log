@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/notebookbb7259a656",
+  "id_no": 92473514,
+  "title": "notebookbb7259a656",
+  "code_file": "notebookbb7259a656.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

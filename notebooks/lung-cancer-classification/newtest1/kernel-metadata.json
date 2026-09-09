@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/newtest1",
+  "id_no": 109144895,
+  "title": "newtest1",
+  "code_file": "newtest1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "tahmidulkashfi/new-chest"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:58f63ed194fa7d5c55181f1e8ec0be141e9211efa23bc7501c1c865f7e00057d",
+  "machine_shape": "NvidiaTeslaT4"
+}

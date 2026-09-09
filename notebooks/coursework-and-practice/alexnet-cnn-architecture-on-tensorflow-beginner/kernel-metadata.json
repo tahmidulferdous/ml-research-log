@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/alexnet-cnn-architecture-on-tensorflow-beginner",
+  "id_no": 52582553,
+  "title": "AlexNet CNN Architecture on Tensorflow (beginner)",
+  "code_file": "alexnet-cnn-architecture-on-tensorflow-beginner.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "pankrzysiu/cifar10-python"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:efc66ec56152887e85f4780f840dbbd178ed08d92b86a6211c5de9002d58418f",
+  "machine_shape": "None"
+}

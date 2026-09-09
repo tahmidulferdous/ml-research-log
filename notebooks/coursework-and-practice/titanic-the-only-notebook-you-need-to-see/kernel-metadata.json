@@ -1,0 +1,24 @@
+{
+  "id": "tahmidulkashfi/titanic-the-only-notebook-you-need-to-see",
+  "id_no": 45013612,
+  "title": "Titanic - The Only Notebook You Need To See",
+  "code_file": "titanic-the-only-notebook-you-need-to-see.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "guesejustin/91-genetic-algorithms-explained-using-geap",
+    "vaishvik25/titanic-eda-fe-3-model-decision-tree-viz"
+  ],
+  "competition_sources": [
+    "titanic"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:594cecd4f19def128c340b6c07f17a7ab67a0c74305e27eef4dc96a818fc7d88",
+  "machine_shape": "None"
+}

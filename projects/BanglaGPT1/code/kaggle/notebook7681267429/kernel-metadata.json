@@ -1,0 +1,22 @@
+{
+  "id": "tahmidulkashfi/notebook7681267429",
+  "id_no": 78247503,
+  "title": "notebook7681267429",
+  "code_file": "notebook7681267429.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "aagalib/complete-works-of-kazi-nazrul-islam",
+    "aagalib/complete-works-of-rabindranath-tagore"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:d8674e13fab653bf7fb8d9a102f2ae94036771ccb5c73f51888d881421e1f937",
+  "machine_shape": "Gpu"
+}

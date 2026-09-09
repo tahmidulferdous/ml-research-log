@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/notebook8d383a34a6",
+  "id_no": 23629741,
+  "title": "notebook8d383a34a6",
+  "code_file": "notebook8d383a34a6.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "dogs-vs-cats"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:e8e4711f3eefd97688df1b282d8f08c95a346b1747722d677c2e82fd2bd94688",
+  "machine_shape": "None"
+}

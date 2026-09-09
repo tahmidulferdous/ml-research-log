@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/notebook148c7b5ee8",
+  "id_no": 80218029,
+  "title": "notebook148c7b5ee8",
+  "code_file": "notebook148c7b5ee8.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

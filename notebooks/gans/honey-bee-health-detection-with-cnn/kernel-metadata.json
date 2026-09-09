@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/honey-bee-health-detection-with-cnn",
+  "id_no": 64512658,
+  "title": "Honey Bee health detection with CNN",
+  "code_file": "honey-bee-health-detection-with-cnn.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "jenny18/honey-bee-annotated-images"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:a315a22d1938b0833ad8a5046da925c0e1adab3043a96aed5e5fee0ed5615383",
+  "machine_shape": "Gpu"
+}

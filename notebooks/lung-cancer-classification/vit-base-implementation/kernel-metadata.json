@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/vit-base-implementation",
+  "id_no": 79296246,
+  "title": "Vit-Base Implementation",
+  "code_file": "vit-base-implementation.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "fedesoriano/cifar100"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:d8674e13fab653bf7fb8d9a102f2ae94036771ccb5c73f51888d881421e1f937",
+  "machine_shape": "None"
+}

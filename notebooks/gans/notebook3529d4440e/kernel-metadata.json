@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/notebook3529d4440e",
+  "id_no": 65134518,
+  "title": "notebook3529d4440e",
+  "code_file": "notebook3529d4440e.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "dogs-vs-cats"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:d5f66652dfa098a9521987ed589d1c7791b33008c97533fe0ddfc3182d7daad0",
+  "machine_shape": "Gpu"
+}

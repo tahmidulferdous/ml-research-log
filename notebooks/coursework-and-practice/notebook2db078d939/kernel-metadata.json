@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/notebook2db078d939",
+  "id_no": 18323261,
+  "title": "notebook2db078d939",
+  "code_file": "notebook2db078d939.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "camnugent/california-housing-prices"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:648f97c8be132f304cff3d397339f2d815de79721f3695f43c08a6aec3bc0a5d",
+  "machine_shape": "None"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "tahmidulkashfi/11-proxy-validation",
+  "id_no": 133458987,
+  "title": "11 proxy validation",
+  "code_file": "11-proxy-validation.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "tahmidulkashfi/iqoth-honest-lib",
+    "tahmidulkashfi/iqoth-results",
+    "vafaeii/luna16",
+    "hamdallak/the-iqothnccd-lung-cancer-dataset"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "machine_shape": "None"
+}

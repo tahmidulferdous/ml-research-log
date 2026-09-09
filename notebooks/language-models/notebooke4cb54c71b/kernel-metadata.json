@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/notebooke4cb54c71b",
+  "id_no": 80218039,
+  "title": "notebooke4cb54c71b",
+  "code_file": "notebooke4cb54c71b.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

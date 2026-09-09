@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/notebookca481fcd28",
+  "id_no": 84055709,
+  "title": "notebookca481fcd28",
+  "code_file": "notebookca481fcd28.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "nelgiriyewithana/credit-card-fraud-detection-dataset-2023"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:3223337db7786b068bfeac3a1b741bf0d572a4bf309735b45692de873b7758db",
+  "machine_shape": "None"
+}

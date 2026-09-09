@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/notebook66fa5cb3f3",
+  "id_no": 48944556,
+  "title": "notebook66fa5cb3f3",
+  "code_file": "notebook66fa5cb3f3.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "house-prices-advanced-regression-techniques"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:d3f015ec2413708a30a824fb9b1c5639ac31a9a62d35438fc3628b37fe3c6553",
+  "machine_shape": "None"
+}

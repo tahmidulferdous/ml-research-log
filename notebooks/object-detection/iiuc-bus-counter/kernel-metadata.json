@@ -1,0 +1,22 @@
+{
+  "id": "tahmidulkashfi/iiuc-bus-counter",
+  "id_no": 67528897,
+  "title": "iiuc bus counter",
+  "code_file": "iiuc-bus-counter.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "tahmidulkashfi/iiuc-bus",
+    "tahmidulkashfi/iiuc-1080p"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:141219e230dab548ccc19aa4e62bcf805ed9de0b4d5112227e28f5f1a25991f8",
+  "machine_shape": "Gpu"
+}

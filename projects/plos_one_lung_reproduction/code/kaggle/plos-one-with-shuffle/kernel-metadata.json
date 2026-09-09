@@ -1,0 +1,23 @@
+{
+  "id": "tahmidulkashfi/plos-one-with-shuffle",
+  "id_no": 117061076,
+  "title": "plos_one_with_shuffle",
+  "code_file": "plos-one-with-shuffle.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "hamdallak/the-iqothnccd-lung-cancer-dataset"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:00377cd1b3d470a605bc5b0ceca79969e369644e9b36802242a1c70e627372f9",
+  "machine_shape": "NvidiaTeslaT4"
+}

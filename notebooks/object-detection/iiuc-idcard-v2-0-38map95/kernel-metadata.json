@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/iiuc-idcard-v2-0-38map95",
+  "id_no": 67884693,
+  "title": "iiuc-idcard-v2=0.38map95",
+  "code_file": "iiuc-idcard-v2-0-38map95.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "tahmidulkashfi/iiuc-idcard-data"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:a16cda2c5d52fa988d413876f3ffad7a46cca58678514601feb175990dc187c0",
+  "machine_shape": "Gpu"
+}

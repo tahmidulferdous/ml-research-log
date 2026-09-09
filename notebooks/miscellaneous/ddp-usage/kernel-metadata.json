@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/ddp-usage",
+  "id_no": 105954054,
+  "title": "DDP usage",
+  "code_file": "ddp-usage.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python-tpuvm@sha256:ba5261f06a81207a567abbc75b143d68f0a9ba7485c66f068103d317d93d901b",
+  "machine_shape": "None"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/classification-metrics-for-beginners",
+  "id_no": 50364738,
+  "title": "Classification Metrics for Beginners",
+  "code_file": "classification-metrics-for-beginners.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:287c4e0e224e592dc6113940a6cf3d099b814c7bff0c1e8da57f8e6bad123ac5",
+  "machine_shape": "None"
+}

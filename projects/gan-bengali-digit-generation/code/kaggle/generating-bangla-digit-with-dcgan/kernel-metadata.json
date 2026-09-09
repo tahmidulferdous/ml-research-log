@@ -1,0 +1,23 @@
+{
+  "id": "tahmidulkashfi/generating-bangla-digit-with-dcgan",
+  "id_no": 70581284,
+  "title": "Generating Bangla Digit with DCGAN",
+  "code_file": "generating-bangla-digit-with-dcgan.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "wchowdhu/bengali-digits"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:141219e230dab548ccc19aa4e62bcf805ed9de0b4d5112227e28f5f1a25991f8",
+  "machine_shape": "Gpu"
+}

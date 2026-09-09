@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/lets-predict-nan-value",
+  "id_no": 65076048,
+  "title": "lets Predict NaN Value",
+  "code_file": "lets-predict-nan-value.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "titanic"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:1608d7a1ab13555cef49e4327d64aab32e4f9fcf47a708dea2bc21a0c084c446",
+  "machine_shape": "None"
+}

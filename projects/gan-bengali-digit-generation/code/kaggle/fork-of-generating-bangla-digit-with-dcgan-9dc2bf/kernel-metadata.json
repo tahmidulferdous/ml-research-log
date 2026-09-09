@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/fork-of-generating-bangla-digit-with-dcgan-9dc2bf",
+  "id_no": 74821382,
+  "title": "Fork of Generating Bangla Digit with DCGAN 9dc2bf",
+  "code_file": "fork-of-generating-bangla-digit-with-dcgan-9dc2bf.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "wchowdhu/bengali-digits"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:141219e230dab548ccc19aa4e62bcf805ed9de0b4d5112227e28f5f1a25991f8",
+  "machine_shape": "Gpu"
+}

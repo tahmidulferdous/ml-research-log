@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/tpu-tesing",
+  "id_no": 94073625,
+  "title": "TPU_tesing",
+  "code_file": "tpu-tesing.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python-tpuvm@sha256:64e0ef90792530ed0b664b1725a98eb5d307f370bcde409408d268474897bb5c",
+  "machine_shape": "None"
+}

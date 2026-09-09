@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/notebooka476258d3f",
+  "id_no": 65794190,
+  "title": "notebooka476258d3f",
+  "code_file": "notebooka476258d3f.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": true,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "flower-classification-with-tpus"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python-tpuvm@sha256:93208205855768f53bf687aaccdfcbdb45baa7568b0da671aae415c764a78923",
+  "machine_shape": "Tpu1VmV38"
+}

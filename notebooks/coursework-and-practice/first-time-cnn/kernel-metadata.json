@@ -1,0 +1,23 @@
+{
+  "id": "tahmidulkashfi/first-time-cnn",
+  "id_no": 61711276,
+  "title": "first time CNN?",
+  "code_file": "first-time-cnn.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "digit-recognizer"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:436e0a65b25fcc09cd6dbf95c9eff0e90121e967dee4f12a3009222e459da6db",
+  "machine_shape": "Gpu"
+}

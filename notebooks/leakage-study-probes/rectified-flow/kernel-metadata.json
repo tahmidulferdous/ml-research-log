@@ -1,0 +1,25 @@
+{
+  "id": "tahmidulkashfi/rectified-flow",
+  "id_no": 110746010,
+  "title": "rectified_flow",
+  "code_file": "rectified-flow.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "hamdallak/the-iqothnccd-lung-cancer-dataset"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [
+    "tahmidulkashfi/rectified-flow-75m-800epch/PyTorch/default/1"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9fa0da194fad2241d3f01a80581cbecbd3a258b4d1b695e2cbbbc62a0fd205ac",
+  "machine_shape": "NvidiaTeslaT4"
+}

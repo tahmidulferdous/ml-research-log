@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/attention",
+  "id_no": 94316018,
+  "title": "Attention",
+  "code_file": "attention.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "tahmidulkashfi/small-text-txt"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:d17e738679831983025ea49f3d09f81557cf2a54b4d8f8902b45d282e0de9583",
+  "machine_shape": "None"
+}

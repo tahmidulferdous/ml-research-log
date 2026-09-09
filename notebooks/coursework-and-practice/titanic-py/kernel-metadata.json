@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/titanic-py",
+  "id_no": 36881508,
+  "title": "titanic.py",
+  "code_file": "titanic-py.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "titanic"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:a014d28e475b203f79b1e3f473603c8e1672ecb22f82a2c327781bad6e137b09",
+  "machine_shape": "None"
+}

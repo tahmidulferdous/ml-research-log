@@ -1,0 +1,22 @@
+{
+  "id": "tahmidulkashfi/base-train-ccal",
+  "id_no": 93260513,
+  "title": "base_train_ccal",
+  "code_file": "base-train-ccal.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "tahmidulkashfi/lung-split",
+    "hamdallak/the-iqothnccd-lung-cancer-dataset"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:320043e14c68293f1c946585b9257123385205a58af4b94b17d31868cae4e868",
+  "machine_shape": "Gpu"
+}

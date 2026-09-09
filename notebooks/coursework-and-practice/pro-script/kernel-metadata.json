@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/pro-script",
+  "id_no": 50863904,
+  "title": "pro script",
+  "code_file": "pro-script.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "utility script"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:287c4e0e224e592dc6113940a6cf3d099b814c7bff0c1e8da57f8e6bad123ac5",
+  "machine_shape": "None"
+}

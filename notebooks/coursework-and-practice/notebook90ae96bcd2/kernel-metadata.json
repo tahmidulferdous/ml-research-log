@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/notebook90ae96bcd2",
+  "id_no": 65750076,
+  "title": "notebook90ae96bcd2",
+  "code_file": "notebook90ae96bcd2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "flower-classification-with-tpus"
+  ],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

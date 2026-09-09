@@ -1,0 +1,25 @@
+{
+  "id": "tahmidulkashfi/first-time-pretrained-97",
+  "id_no": 64345963,
+  "title": "first time pretrained 97%",
+  "code_file": "first-time-pretrained-97.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "jenny18/honey-bee-annotated-images"
+  ],
+  "kernel_sources": [
+    "pvtrmalli/kaggle-utils-py",
+    "gpreda/data-quality-stats",
+    "gpreda/plotly-utils"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:d5f66652dfa098a9521987ed589d1c7791b33008c97533fe0ddfc3182d7daad0",
+  "machine_shape": "Gpu"
+}

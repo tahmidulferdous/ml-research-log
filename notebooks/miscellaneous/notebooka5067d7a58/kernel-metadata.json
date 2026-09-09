@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/notebooka5067d7a58",
+  "id_no": 18217007,
+  "title": "notebooka5067d7a58",
+  "code_file": "notebooka5067d7a58.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

@@ -25,6 +25,14 @@ Each project directory contains:
 `runs.csv` is the primary evidence. It is exported directly from the Weights & Biases
 API and is not edited by hand.
 
+[`notebooks/`](notebooks/) holds the Kaggle notebooks that are not tied to a logged
+project: exploratory probes, one-off experiments, coursework and practice, grouped by
+topic. Everything the author has written on Kaggle is here, including the work that
+did not lead anywhere.
+
+Checkpoints are kept at one per project. Intermediate epoch checkpoints stay in
+Weights & Biases rather than in this repository.
+
 ## Projects
 
 

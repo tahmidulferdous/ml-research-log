@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/dataset-preprocessing",
+  "id_no": 113355340,
+  "title": "dataset_preprocessing",
+  "code_file": "dataset-preprocessing.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

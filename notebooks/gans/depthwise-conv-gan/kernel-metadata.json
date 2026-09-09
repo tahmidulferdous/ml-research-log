@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/depthwise-conv-gan",
+  "id_no": 107902995,
+  "title": "Depthwise Conv GAN",
+  "code_file": "depthwise-conv-gan.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "wchowdhu/bengali-digits"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:58f63ed194fa7d5c55181f1e8ec0be141e9211efa23bc7501c1c865f7e00057d",
+  "machine_shape": "NvidiaTeslaT4"
+}

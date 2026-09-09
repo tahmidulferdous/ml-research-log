@@ -1,0 +1,19 @@
+{
+  "id": "tahmidulkashfi/notebook6611de01ad",
+  "id_no": 73455679,
+  "title": "notebook6611de01ad",
+  "code_file": "notebook6611de01ad.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

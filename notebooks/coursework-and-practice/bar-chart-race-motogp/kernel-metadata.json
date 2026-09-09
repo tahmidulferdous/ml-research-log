@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/bar-chart-race-motogp",
+  "id_no": 45156293,
+  "title": "Bar Chart Race MotoGP",
+  "code_file": "bar-chart-race-motogp.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "fabriziocominetti/motogp-standing-2020"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:f450ad1b403f0c99bc9ca891a547c279fbeca8f70023a99b805691552d112ebe",
+  "machine_shape": "NvidiaTeslaT4"
+}

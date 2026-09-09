@@ -1,0 +1,21 @@
+{
+  "id": "tahmidulkashfi/diff-aug-inference",
+  "id_no": 110317239,
+  "title": "diff_aug_inference",
+  "code_file": "diff-aug-inference.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [
+    "tahmidulkashfi/diff-aug-3000epoch/PyTorch/default/1"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9fa0da194fad2241d3f01a80581cbecbd3a258b4d1b695e2cbbbc62a0fd205ac",
+  "machine_shape": "NvidiaTeslaT4"
+}
