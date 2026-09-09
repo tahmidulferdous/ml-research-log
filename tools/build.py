@@ -216,14 +216,14 @@ def repo_index():
     if not src.exists():
         return ""
     rows = list(csv.DictReader(src.open()))
-    out = ["", "## Each project as its own repository", "",
-           "Every project above also stands alone, with its own README, run table, code",
-           "and checkpoint:", "",
-           "| Repository | Runs | Weights |", "| --- | --- | --- |"]
+    out = ["", "## Published repositories", "",
+           "The same material is published as focused repositories. The thesis work is one",
+           "repository; the projects unrelated to it get one each:", "",
+           "| Repository | Runs | |", "| --- | --- | --- |"]
     for r in rows:
-        w = "yes" if r["has_weights"] == "1" else "-"
+        note = "the thesis, nine experiments" if r["wandb_project"] == "thesis" else ""
         out.append(f"| [{r['repo']}](https://github.com/{USER}/{r['repo']}) | "
-                   f"{r['runs']} | {w} |")
+                   f"{r['runs']} | {note} |")
     return "\n".join(out)
 
 

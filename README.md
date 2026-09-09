@@ -53,27 +53,19 @@ Weights & Biases rather than in this repository.
 | [gan-bengali-digit-generation](projects/gan-bengali-digit-generation/) | 28 | 2024-11 to 2024-11 | DCGAN and WGAN variants generating Bengali handwritten digits. |
 | [Ultralytics](projects/Ultralytics/) | 6 | 2024-10 to 2024-10 | YOLOv11 detection models for university ID card detection. |
 
-## Each project as its own repository
+## Published repositories
 
-Every project above also stands alone, with its own README, run table, code
-and checkpoint:
+The same material is published as focused repositories. The thesis work is one
+repository; the projects unrelated to it get one each:
 
-| Repository | Runs | Weights |
+| Repository | Runs | |
 | --- | --- | --- |
-| [lung-ct-split-leakage-benchmark](https://github.com/tahmidulferdous/lung-ct-split-leakage-benchmark) | 6 | yes |
-| [ccal-attention-cnn-reproduction](https://github.com/tahmidulferdous/ccal-attention-cnn-reproduction) | 31 | yes |
-| [ccal-attention-cnn-development](https://github.com/tahmidulferdous/ccal-attention-cnn-development) | 90 | yes |
-| [lung-ct-efficientnet-leakage](https://github.com/tahmidulferdous/lung-ct-efficientnet-leakage) | 16 | - |
-| [lung-ct-vit-leakage](https://github.com/tahmidulferdous/lung-ct-vit-leakage) | 2 | - |
-| [lung-ct-plos-cnn-leakage](https://github.com/tahmidulferdous/lung-ct-plos-cnn-leakage) | 2 | - |
-| [dsmat-lung-cancer-mamba](https://github.com/tahmidulferdous/dsmat-lung-cancer-mamba) | 18 | - |
-| [ct-rectified-flow-augmentation](https://github.com/tahmidulferdous/ct-rectified-flow-augmentation) | 18 | - |
-| [ct-diffusion-augmentation](https://github.com/tahmidulferdous/ct-diffusion-augmentation) | 5 | - |
-| [bangla-gpt-from-scratch](https://github.com/tahmidulferdous/bangla-gpt-from-scratch) | 4 | - |
-| [bengali-digit-gan](https://github.com/tahmidulferdous/bengali-digit-gan) | 28 | - |
-| [wgan-face-generation](https://github.com/tahmidulferdous/wgan-face-generation) | 14 | yes |
-| [yolo11-idcard-detection](https://github.com/tahmidulferdous/yolo11-idcard-detection) | 6 | yes |
-| [early-cnn-experiments](https://github.com/tahmidulferdous/early-cnn-experiments) | 10 | - |
+| [lung-ct-data-leakage-study](https://github.com/tahmidulferdous/lung-ct-data-leakage-study) | 188 | the thesis, nine experiments |
+| [bangla-gpt-from-scratch](https://github.com/tahmidulferdous/bangla-gpt-from-scratch) | 4 |  |
+| [bengali-digit-gan](https://github.com/tahmidulferdous/bengali-digit-gan) | 28 |  |
+| [wgan-face-generation](https://github.com/tahmidulferdous/wgan-face-generation) | 14 |  |
+| [yolo11-idcard-detection](https://github.com/tahmidulferdous/yolo11-idcard-detection) | 6 |  |
+| [early-cnn-experiments](https://github.com/tahmidulferdous/early-cnn-experiments) | 10 |  |
 
 ## A note on the lung cancer work
 
