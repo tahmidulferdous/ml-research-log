@@ -19,6 +19,35 @@ NOTEBOOKS = ROOT / "notebooks"
 
 WANDB_PROJECT = re.compile(r'project\s*=\s*["\']([^"\'/]+)["\']')
 
+# Credentials that have turned up inside pulled notebooks. Every file is scrubbed on
+# the way in, so a fresh scrape cannot reintroduce one. Two have been found so far: a
+# Weights & Biases key belonging to the author, and a Kaggle key belonging to someone
+# else entirely, copied in with a tutorial notebook.
+SCRUB = [
+    (re.compile(r"(wandb\.login\(\s*key\s*=\s*[\"\'])[0-9a-f]{40}"),
+     r"\1REDACTED_WANDB_API_KEY"),
+    (re.compile(r'("username"\s*:\s*")[^"]+(",\s*"key"\s*:\s*")[0-9a-f]{32}'),
+     r"\1REDACTED\2REDACTED_KAGGLE_API_KEY"),
+    (re.compile(r"(['\"]?(?:api[_-]?key|secret|password)['\"]?\s*[:=]\s*[\"\'])"
+                r"[A-Za-z0-9_\-]{32,}"),
+     r"\1REDACTED"),
+]
+TEXTUAL = {".ipynb", ".py", ".json", ".txt", ".yaml", ".yml", ".md", ".sh", ".cfg"}
+
+
+def copy_scrubbed(src, dest):
+    """Copy one file, redacting any credential that matches a known pattern."""
+    if src.suffix.lower() not in TEXTUAL:
+        shutil.copy2(src, dest)
+        return 0
+    text = src.read_text(errors="ignore")
+    hits = 0
+    for pattern, replacement in SCRUB:
+        text, n = pattern.subn(replacement, text)
+        hits += n
+    dest.write_text(text)
+    return hits
+
 # Topic label -> keywords searched in slug and notebook source, first match wins.
 TOPICS = [
     ("leakage-study-probes",
@@ -58,6 +87,14 @@ def classify(slug: str, text: str) -> str:
         if re.search(pattern, hay):
             return label
     return "miscellaneous"
+
+
+def audit():
+    """The notebook audit, if one has been done: slug -> row."""
+    path = Path(__file__).resolve().parent / "notebook_audit.csv"
+    if not path.exists():
+        return {}
+    return {r["slug"]: r for r in csv.DictReader(path.open())}
 
 
 def kernel_meta():
@@ -117,30 +154,41 @@ def main():
         sys.exit("nothing staged in _incoming/kaggle")
 
     known = {p.name for p in PROJECTS.iterdir() if p.is_dir()}
-    placed, index = {}, []
+    reviewed = audit()
+    placed, index, redacted, dropped = {}, [], 0, []
 
     for d in kernels:
+        verdict = reviewed.get(d.name, {})
+        if verdict.get("publish") == "false":
+            dropped.append(d.name)
+            continue
+
         text = kernel_text(d)
         title, date = meta.get(d.name, (d.name, ""))
+        name = verdict.get("suggested_title") or d.name
+        if verdict.get("suggested_title"):
+            title = verdict["suggested_title"].replace("-", " ")
+
         declared = {p for p in WANDB_PROJECT.findall(text) if p in known}
         if declared:
             project = sorted(declared)[0]
-            dest = PROJECTS / project / "code" / "kaggle" / d.name
-            placed.setdefault(project, []).append(d.name)
-            where = f"projects/{project}/code/kaggle/{d.name}"
+            dest = PROJECTS / project / "code" / "kaggle" / name
+            placed.setdefault(project, []).append(name)
+            where = f"projects/{project}/code/kaggle/{name}"
             topic = None
         else:
-            topic = classify(d.name, text)
-            dest = NOTEBOOKS / topic / d.name
-            where = f"notebooks/{topic}/{d.name}"
+            topic = verdict.get("topic_should_be") or classify(d.name, text)
+            dest = NOTEBOOKS / topic / name
+            where = f"notebooks/{topic}/{name}"
         dest.mkdir(parents=True, exist_ok=True)
         for f in d.iterdir():
             if f.is_file():
-                shutil.copy2(f, dest / f.name)
-        index.append({"slug": d.name, "title": title, "date": date, "where": where,
-                      "topic": topic, "empty": len(text.strip()) < 400})
+                redacted += copy_scrubbed(f, dest / f.name.replace(d.name, name))
+        index.append({"slug": name, "title": title, "date": date, "where": where,
+                      "topic": topic, "empty": len(text.strip()) < 400,
+                      "note": verdict.get("one_line_description", "")})
 
-    write_notebook_index([i for i in index if i["topic"]])
+    write_notebook_index([i for i in index if i["topic"]], len(dropped))
     weights = move_weights()
     reqs = copy_requirements()
 
@@ -151,6 +199,8 @@ def main():
     for name, n, size in weights:
         print(f"weights: {name} {n} file(s) {size/1e6:.0f} MB")
     print(f"requirements.txt copied for {reqs} projects")
+    print(f"{len(dropped)} empty or unpublishable notebooks left out, "
+          f"{redacted} credential(s) redacted on copy")
 
 
 NOTEBOOK_INTRO = """# Notebooks
@@ -159,26 +209,29 @@ NOTEBOOK_INTRO = """# Notebooks
 exploratory work, one-off probes, coursework and practice. Notebooks that produced
 the runs in `projects/` live with their project instead.
 
-Each notebook is stored exactly as it was pulled from Kaggle, alongside its
-`kernel-metadata.json`. Notebooks marked *empty* were created and never filled in;
-they are kept only so the record is complete.
+Each notebook is stored as it was pulled from Kaggle, alongside its
+`kernel-metadata.json`. Notebooks that Kaggle auto-named have been given a readable
+title and a one-line description after review; the directory name is that title.
+
+{dropped} further notebooks were left out: empty stubs, unmodified Kaggle starter
+boilerplate, and one copied tutorial that carried a third party's credential.
 
 """
 
 
-def write_notebook_index(items):
+def write_notebook_index(items, dropped=0):
     NOTEBOOKS.mkdir(exist_ok=True)
-    lines = [NOTEBOOK_INTRO.format(n=len(items))]
+    lines = [NOTEBOOK_INTRO.format(n=len(items), dropped=dropped)]
     for topic, _ in TOPICS + [("miscellaneous", "")]:
         group = sorted((i for i in items if i["topic"] == topic),
                        key=lambda i: i["date"], reverse=True)
         if not group:
             continue
         lines += [f"## {topic.replace('-', ' ')} ({len(group)})", "",
-                  "| Notebook | Last run | |", "| --- | --- | --- |"]
+                  "| Notebook | Last run | What it is |", "| --- | --- | --- |"]
         for i in group:
-            note = "*empty*" if i["empty"] else ""
-            lines.append(f"| [{i['title']}]({topic}/{i['slug']}/) | {i['date']} | {note} |")
+            lines.append(f"| [{i['title']}]({topic}/{i['slug']}/) | {i['date']} | "
+                         f"{i.get('note', '')} |")
         lines.append("")
     (NOTEBOOKS / "README.md").write_text("\n".join(lines))
 
