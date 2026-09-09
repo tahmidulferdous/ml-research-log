@@ -207,6 +207,26 @@ Weights & Biases rather than in this repository.
 
 """
 
+USER = "tahmidulferdous"
+
+
+def repo_index():
+    """Link out to the per-project repositories, if they have been built."""
+    src = ROOT.parent / "github_repos" / "REPOS.csv"
+    if not src.exists():
+        return ""
+    rows = list(csv.DictReader(src.open()))
+    out = ["", "## Each project as its own repository", "",
+           "Every project above also stands alone, with its own README, run table, code",
+           "and checkpoint:", "",
+           "| Repository | Runs | Weights |", "| --- | --- | --- |"]
+    for r in rows:
+        w = "yes" if r["has_weights"] == "1" else "-"
+        out.append(f"| [{r['repo']}](https://github.com/{USER}/{r['repo']}) | "
+                   f"{r['runs']} | {w} |")
+    return "\n".join(out)
+
+
 ROOT_OUTRO = """
 ## A note on the lung cancer work
 
@@ -249,8 +269,11 @@ def main():
         ncfg, nmet = write_runs_csv(d / "runs.csv", runs)
         nfig = copy_figures(project, runs, d / "figures")
         (d / "README.md").write_text(project_readme(project, m, runs, ncfg, nmet, nfig))
-        for sub, note in (("code", "Training code for this project goes here."),
-                          ("weights", "Final checkpoint for this project goes here.")):
+        for sub, note in (
+                ("code", "No training code has been recovered for this project yet."),
+                ("weights", "No model checkpoint was uploaded to Weights & Biases for "
+                            "this project. The training code and the logged metrics in "
+                            "`runs.csv` are the record of these runs.")):
             p = d / sub
             p.mkdir(exist_ok=True)
             if not any(p.iterdir()):
@@ -268,6 +291,7 @@ def main():
         period = f"{m['createdAt'][:7]} to {(m['lastActive'] or m['updatedAt'])[:7]}"
         body.append(f"| [{project}](projects/{project}/) | {n} | {period} | "
                     f"{DESCRIPTIONS.get(project, '')} |")
+    body.append(repo_index())
     body.append(ROOT_OUTRO)
     (ROOT / "README.md").write_text("\n".join(body))
     print(f"\n{total_runs} runs across {len(summary)} projects -> {ROOT}")
