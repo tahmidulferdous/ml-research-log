@@ -10,6 +10,17 @@ together with the code that produced them and the figures they generated.
 Every run was trained on free-tier Kaggle accelerators (Tesla T4 or TPU v3-8), so
 each project directory carries the notebook or script exactly as it ran there.
 
+## When this work was done
+
+This repository was put together in September 2026, so its commit history starts then. The
+experiments are older. Every run was logged to Weights & Biases while it trained, and W&B
+stamps each run on its own servers, so the dates below come from W&B and not from git.
+
+![Weights & Biases project list with last-run dates](docs/wandb-projects.png)
+
+The `created_at` column of every `runs.csv` holds the W&B timestamp of each run, and the
+`wandb_url` column links to the run itself.
+
 ## How to read this
 
 Each project directory contains:
