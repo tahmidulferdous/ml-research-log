@@ -1,0 +1,48 @@
+============================================================
+CCAL Paper Reproduction - Image-Level 80/20 Split
+============================================================
+Total images found: 1097
+  Bengin cases: 120
+  Malignant cases: 561
+  Normal cases: 416
+
+After 80/20 split:
+  Train: 877
+  Test:  220
+  Train after augmentation: 9999
+
+Creating CCAL model...
+Total Parameters: 703,331
+Trainable Parameters: 703,331
+
+Starting training...
+Epoch 1/50 [Train]:  99%|█████████▉| 311/313 [01:02<00:00,  6.27it/s]W0425 10:38:47.756000 387 torch/_inductor/utils.py:1679] [0/1] Not enough SMs to use max_autotune_gemm mode
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/lowering.py:7627: UserWarning:
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+Epoch 1/50 [Train]: 100%|██████████| 313/313 [01:33<00:00,  3.36it/s]
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/lowering.py:7627: UserWarning:
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+  ✓ New best model! Val Acc: 37.73%
+Epoch  1: Train Loss=0.6549 Acc=72.93% | Val Loss=3.8243 Acc=37.73% | LR=0.001000 | 105.1s
+Epoch 2/50 [Train]: 100%|██████████| 313/313 [00:58<00:00,  5.31it/s]
+Epoch  2: Train Loss=0.5187 Acc=80.76% | Val Loss=3.1154 Acc=37.73% | LR=0.001000 | 61.4s
+Epoch 3/50 [Train]: 100%|██████████| 313/313 [00:57<00:00,  5.43it/s]
+  ✓ New best model! Val Acc: 79.55%
+Epoch  3: Train Loss=0.4874 Acc=81.93% | Val Loss=0.5403 Acc=79.55% | LR=0.001000 | 60.1s
+Epoch 4/50 [Train]: 100%|██████████| 313/313 [00:57<00:00,  5.44it/s]
+Epoch  4: Train Loss=0.4766 Acc=82.17% | Val Loss=2.0251 Acc=54.09% | LR=0.001000 | 60.2s
+Epoch 5/50 [Train]: 100%|██████████| 313/313 [00:59<00:00,  5.25it/s]
+Epoch  5: Train Loss=nan Acc=31.70% | Val Loss=nan Acc=10.91% | LR=0.001000 | 62.3s
+Epoch 6/50 [Train]: 100%|██████████| 313/313 [00:59<00:00,  5.27it/s]
+Epoch  6: Train Loss=nan Acc=10.94% | Val Loss=nan Acc=10.91% | LR=0.001000 | 61.9s
+Epoch 7/50 [Train]:  80%|███████▉  | 249/313 [00:47<00:12,  5.22it/s]

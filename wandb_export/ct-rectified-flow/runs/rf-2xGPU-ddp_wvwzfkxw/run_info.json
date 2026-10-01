@@ -1,0 +1,135 @@
+{
+  "id": "UnVuOnYxOnd2d3pma3h3OmN0LXJlY3RpZmllZC1mbG93OnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "wvwzfkxw",
+  "displayName": "rf-2xGPU-ddp",
+  "state": "crashed",
+  "createdAt": "2026-02-26T23:21:31Z",
+  "computeSeconds": 0,
+  "tags": [],
+  "summaryMetrics": {},
+  "config": {
+    "gpu": {
+      "value": "Tesla T4"
+    },
+    "model": {
+      "value": "ConditionalUNet"
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "9c62plcr36sxuhxs9xux8gmon7zskt0r": {
+            "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+            "gpu": "Tesla T4",
+            "disk": {
+              "/": {
+                "used": "7165056417792",
+                "total": "8656922775552"
+              }
+            },
+            "host": "f8d6e67fde68",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "33662472192"
+            },
+            "python": "CPython 3.12.12",
+            "program": "/kaggle/working/rectified_flow_ct_augmentation.py",
+            "codePath": "rectified_flow_ct_augmentation.py",
+            "writerId": "9c62plcr36sxuhxs9xux8gmon7zskt0r",
+            "cpu_count": 2,
+            "gpu_count": 2,
+            "startedAt": "2026-02-26T23:21:30.479473Z",
+            "executable": "/usr/bin/python3",
+            "gpu_nvidia": [
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-20b6d6c7-b33e-723a-c6c7-fdc4b9b7a97b",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              },
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-6c320d4f-ecbc-f172-fb7f-07ceb43d52ba",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              }
+            ],
+            "cudaVersion": "13.0",
+            "codePathLocal": "rectified_flow_ct_augmentation.py",
+            "cpu_count_logical": 4
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            2
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 1000
+    },
+    "method": {
+      "value": "Rectified Flow"
+    },
+    "img_size": {
+      "value": 224
+    },
+    "num_gpus": {
+      "value": 2
+    },
+    "cfg_scale": {
+      "value": 3
+    },
+    "ema_decay": {
+      "value": 0.9999
+    },
+    "precision": {
+      "value": "fp16"
+    },
+    "euler_steps": {
+      "value": 30
+    },
+    "learning_rate": {
+      "value": 0.0003
+    },
+    "timestep_sampling": {
+      "value": "logit_normal"
+    },
+    "batch_size_per_gpu": {
+      "value": 12
+    },
+    "effective_batch_size": {
+      "value": 24
+    }
+  }
+}

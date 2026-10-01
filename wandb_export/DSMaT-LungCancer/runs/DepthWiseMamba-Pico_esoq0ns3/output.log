@@ -1,0 +1,16 @@
+✅ W&B run initialised
+
+✅ Found existing model: ./saved_models/DepthWiseMamba-Pico3_best.pth
+   Loaded! Best Val Acc: 93.33% (Epoch 43)
+======================================================================
+  TEST EVALUATION: DepthWiseMamba-Pico3 | Test Acc: 93.94%
+======================================================================
+                 precision    recall  f1-score   support
+
+   Bengin cases       1.00      0.78      0.88        18
+Malignant cases       0.90      1.00      0.95        85
+   Normal cases       0.98      0.90      0.94        62
+
+       accuracy                           0.94       165
+      macro avg       0.96      0.89      0.92       165
+   weighted avg       0.94      0.94      0.94       165

@@ -1,0 +1,193 @@
+{
+  "id": "UnVuOnYxOnN1ejdjMWQ1OkRTTWFULUx1bmdDYW5jZXI6dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "suz7c1d5",
+  "displayName": "DepthWiseMamba-Pico",
+  "state": "finished",
+  "createdAt": "2026-02-11T14:37:38Z",
+  "computeSeconds": 0,
+  "tags": [],
+  "summaryMetrics": {
+    "_wandb": {
+      "runtime": 283
+    },
+    "_runtime": 283
+  },
+  "config": {
+    "model": {
+      "value": {
+        "DepthWiseMamba-Pico": {
+          "dropout": 0.2,
+          "sa_heads": [
+            4,
+            4
+          ],
+          "mlp_expand": 2,
+          "stage_depths": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "stem_channels": [
+            16,
+            32
+          ],
+          "stage_channels": [
+            48,
+            96,
+            128,
+            192
+          ]
+        },
+        "DepthwiseMamba-Nano": {
+          "dropout": 0.4,
+          "sa_heads": [
+            4,
+            4
+          ],
+          "mlp_expand": 3,
+          "stage_depths": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "stem_channels": [
+            24,
+            48
+          ],
+          "stage_channels": [
+            64,
+            128,
+            192,
+            256
+          ]
+        }
+      }
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "6b9sl9eu9aocl27tu5wlprk19n1jlgk5": {
+            "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+            "gpu": "Tesla T4",
+            "disk": {
+              "/": {
+                "used": "7125032284160",
+                "total": "8656922775552"
+              }
+            },
+            "host": "5291a8268bf3",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "33662472192"
+            },
+            "python": "CPython 3.12.12",
+            "program": "kaggle.ipynb",
+            "codePath": "kaggle.ipynb",
+            "writerId": "6b9sl9eu9aocl27tu5wlprk19n1jlgk5",
+            "cpu_count": 2,
+            "gpu_count": 2,
+            "startedAt": "2026-02-11T14:37:31.986832Z",
+            "executable": "/usr/bin/python3",
+            "gpu_nvidia": [
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-23859d0e-86a6-a36f-a0a9-5d38dbebc70c",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              },
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-4cf53404-4800-bf26-f3d3-0b5012a29e31",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              }
+            ],
+            "cudaVersion": "13.0",
+            "cpu_count_logical": 4
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            2,
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.24.2",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.24.2",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.24.2",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 50
+    },
+    "optimizer": {
+      "value": "Adam"
+    },
+    "scheduler": {
+      "value": null
+    },
+    "batch_size": {
+      "value": 64
+    },
+    "model_name": {
+      "value": "DepthWiseMamba-Pico"
+    },
+    "num_classes": {
+      "value": 3
+    },
+    "num_workers": {
+      "value": 4
+    },
+    "track_flops": {
+      "value": true
+    },
+    "wandb_enabled": {
+      "value": true
+    },
+    "wandb_project": {
+      "value": "DSMaT-LungCancer"
+    },
+    "optimizer_params": {
+      "value": {
+        "lr": 0.0001,
+        "weight_decay": 0.001
+      }
+    },
+    "grad_clip_max_norm": {
+      "value": 1
+    }
+  }
+}

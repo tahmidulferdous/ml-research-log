@@ -1,0 +1,198 @@
+{
+  "id": "UnVuOnYxOjkxYjc3ODduOmN0LWRpZmZ1c2lvbi1hdWdtZW50YXRpb246dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "91b7787n",
+  "displayName": "ddpm-2xT4-ddp",
+  "state": "finished",
+  "createdAt": "2026-02-22T18:46:19Z",
+  "computeSeconds": 427,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 63,
+    "_wandb": {
+      "runtime": 427
+    },
+    "samples": {
+      "_type": "images/separated",
+      "count": 3,
+      "width": 522,
+      "format": "png",
+      "height": 132,
+      "captions": [
+        "Bengin (epoch 60)",
+        "Malignant (epoch 60)",
+        "Normal (epoch 60)"
+      ],
+      "filenames": [
+        "media/images/samples_60_eda80e3271642eed3887.png",
+        "media/images/samples_60_c0caaad5871497c3819e.png",
+        "media/images/samples_60_195248087aa3c72cbe8f.png"
+      ]
+    },
+    "_runtime": 427,
+    "best_loss": 0.04799948015715927,
+    "_timestamp": 1771786390.7522862,
+    "final_loss": 0.06210051958138744,
+    "train/loss": 0.06210051958138744,
+    "stop_reason": "plateau (no improvement for 20 epochs, best=0.0480)",
+    "train/epoch": 63,
+    "epochs_trained": 64,
+    "train/best_loss": 0.04799948015715927,
+    "train/eta_minutes": 13.101549678567856,
+    "total_time_minutes": 6.0248002171516415,
+    "train/epoch_time_s": 3.6899993419647217,
+    "training_loss_plot": {
+      "path": "media/images/training_loss_plot_63_61c4988152a5072d5663.png",
+      "size": 87139,
+      "_type": "image-file",
+      "width": 2084,
+      "format": "png",
+      "height": 731,
+      "sha256": "61c4988152a5072d566314f5ac07b1f59be69bb955be6526beb7d4779ae68ff9"
+    },
+    "train/elapsed_hours": 0.11508415612909528,
+    "train/learning_rate": 0.00015490228179981325,
+    "train/remaining_hours": 9.884915843870903,
+    "gpu/memory_reserved_gb": 8.921875,
+    "train/patience_counter": 20,
+    "gpu/memory_allocated_gb": 0.40412187576293945
+  },
+  "config": {
+    "ddp": {
+      "value": true
+    },
+    "gpu": {
+      "value": "Tesla T4"
+    },
+    "model": {
+      "value": "ConditionalUNet"
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "ihhpu1eikdq00o8e3op62dv01soii61v": {
+            "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+            "gpu": "Tesla T4",
+            "disk": {
+              "/": {
+                "used": "7165073559552",
+                "total": "8656922775552"
+              }
+            },
+            "host": "831288ac5e6b",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "33662472192"
+            },
+            "python": "CPython 3.12.12",
+            "program": "/kaggle/working/train_diffusion.py",
+            "codePath": "train_diffusion.py",
+            "writerId": "ihhpu1eikdq00o8e3op62dv01soii61v",
+            "cpu_count": 2,
+            "gpu_count": 2,
+            "startedAt": "2026-02-22T18:46:18.927651Z",
+            "executable": "/usr/bin/python3",
+            "gpu_nvidia": [
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-a5232ab1-ff00-42d1-d77e-1bff2900ae7e",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              },
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-3ad3954b-d70a-0019-6c5e-5e6c7b6a9e4d",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              }
+            ],
+            "cudaVersion": "13.0",
+            "codePathLocal": "train_diffusion.py",
+            "cpu_count_logical": 4
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            2,
+            13,
+            16,
+            61,
+            62
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            2
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 200
+    },
+    "params": {
+      "value": "~19M"
+    },
+    "img_size": {
+      "value": 128
+    },
+    "num_gpus": {
+      "value": 2
+    },
+    "patience": {
+      "value": 20
+    },
+    "ema_decay": {
+      "value": 0.9999
+    },
+    "precision": {
+      "value": "fp16"
+    },
+    "timesteps": {
+      "value": 1000
+    },
+    "learning_rate": {
+      "value": 0.0002
+    },
+    "torch_compile": {
+      "value": true
+    },
+    "convergence_loss": {
+      "value": 0.025
+    },
+    "batch_size_per_gpu": {
+      "value": 16
+    },
+    "max_training_hours": {
+      "value": 10
+    },
+    "effective_batch_size": {
+      "value": 32
+    }
+  }
+}

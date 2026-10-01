@@ -1,0 +1,93 @@
+{
+  "id": "UnVuOnYxOnR5empvcDN4OkJhbmdsYUdQVDE6dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "tyzjop3x",
+  "displayName": "driven-smoke-1",
+  "state": "finished",
+  "createdAt": "2025-03-09T17:13:08Z",
+  "computeSeconds": 53,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 19,
+    "_wandb": {
+      "runtime": 53
+    },
+    "_runtime": 49.765400571,
+    "val_loss": 2.609387159347534,
+    "iteration": 4500,
+    "_timestamp": 1741540432.183732,
+    "best_epoch": 4500,
+    "train_loss": 2.5093681812286377,
+    "best_val_loss": 2.609387159347534,
+    "learning_rate": 0.001,
+    "training_loss": 2.5315358638763428
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            55,
+            105
+          ],
+          "2": [
+            1,
+            55,
+            105
+          ],
+          "3": [
+            2,
+            3,
+            16,
+            23,
+            55,
+            62
+          ],
+          "4": "3.10.12",
+          "5": "0.19.1",
+          "8": [
+            1,
+            2,
+            5,
+            12
+          ],
+          "12": "0.19.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.19.1",
+        "python_version": "3.10.12"
+      }
+    },
+    "n_embd": {
+      "value": 32
+    },
+    "n_head": {
+      "value": 2
+    },
+    "dropout": {
+      "value": 0.2
+    },
+    "n_layer": {
+      "value": 2
+    },
+    "max_iters": {
+      "value": 5000
+    },
+    "batch_size": {
+      "value": 16
+    },
+    "block_size": {
+      "value": 32
+    },
+    "eval_iters": {
+      "value": 200
+    },
+    "eval_interval": {
+      "value": 500
+    },
+    "learning_rate": {
+      "value": 0.001
+    }
+  }
+}

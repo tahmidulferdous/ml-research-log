@@ -1,0 +1,171 @@
+{
+  "id": "UnVuOnYxOnE4enlubmt4OmN0LXJlY3RpZmllZC1mbG93OnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "q8zynnkx",
+  "displayName": "rf-JAX-8xTPUv5e",
+  "state": "finished",
+  "createdAt": "2026-03-01T19:58:22Z",
+  "computeSeconds": 712,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 144,
+    "_wandb": {
+      "runtime": 712
+    },
+    "_runtime": 712,
+    "_timestamp": 1772395768.3448212,
+    "train/loss": 0.17654849636939263,
+    "train/epoch": 1244,
+    "samples/Benign": {
+      "path": "media/images/samples/Benign_100_c64d1cd62b1929968876.png",
+      "size": 616986,
+      "_type": "image-file",
+      "width": 1717,
+      "format": "png",
+      "height": 448,
+      "sha256": "c64d1cd62b1929968876c037205427880d5c53dc98256e3afef2e860a3b79ebb"
+    },
+    "samples/Normal": {
+      "path": "media/images/samples/Normal_100_9f2754561023e12baabe.png",
+      "size": 1203590,
+      "_type": "image-file",
+      "width": 1717,
+      "format": "png",
+      "height": 448,
+      "sha256": "9f2754561023e12baabe89e054c9645884c3ace7cb5d319eeb53d106005fc71d"
+    },
+    "train/best_loss": 0.13910510463099326,
+    "train/elapsed_h": 0.18735406166977353,
+    "samples/Malignant": {
+      "path": "media/images/samples/Malignant_100_b18557d91748b51afae3.png",
+      "size": 323964,
+      "_type": "image-file",
+      "width": 1717,
+      "format": "png",
+      "height": 448,
+      "sha256": "b18557d91748b51afae3c4cb17b1567e49bfe1216125725e0c410f5e8fb5bbe1"
+    },
+    "util/epoch_time_s": 2.5045793056488037,
+    "util/step_time_ms": 80.79288082738076,
+    "train/epoch_time_s": 2.5045793056488037,
+    "util/profile_epoch": 0,
+    "util/images_per_sec": 297.05587613935387,
+    "util/rolling_step_time_ms": 109.15845517189273,
+    "util/rolling_images_per_sec": 281.8181700876436
+  },
+  "config": {
+    "lr": {
+      "value": 0.00015
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "4amvwaazb9n7hcajiq0etssyv3yeoeig": {
+            "os": "Linux-6.1.42+-x86_64-with-glibc2.41",
+            "tpu": {
+              "name": "v5e",
+              "count": 8,
+              "hbmGib": 16,
+              "devicesPerChip": 1
+            },
+            "disk": {
+              "/": {
+                "used": "7169057058816",
+                "total": "8656922775552"
+              }
+            },
+            "host": "ddff5d159392",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "405703245824"
+            },
+            "python": "CPython 3.12.12",
+            "program": "kaggle.ipynb",
+            "codePath": "kaggle.ipynb",
+            "writerId": "4amvwaazb9n7hcajiq0etssyv3yeoeig",
+            "cpu_count": 112,
+            "startedAt": "2026-03-01T19:58:19.824457Z",
+            "executable": "/usr/local/bin/python",
+            "cpu_count_logical": 224
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            45,
+            49,
+            53,
+            80
+          ],
+          "2": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            45,
+            49,
+            53,
+            80
+          ],
+          "3": [
+            2,
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            1,
+            2
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 3000
+    },
+    "method": {
+      "value": "Rectified Flow"
+    },
+    "params": {
+      "value": 73459585
+    },
+    "img_size": {
+      "value": 224
+    },
+    "framework": {
+      "value": "JAX/Flax"
+    },
+    "accelerator": {
+      "value": "TPU v5e \u00d7 8"
+    },
+    "lr_schedule": {
+      "value": "cosine_decay"
+    },
+    "base_channels": {
+      "value": 128
+    },
+    "effective_batch": {
+      "value": 24
+    },
+    "profile_enabled": {
+      "value": true
+    },
+    "per_device_batch": {
+      "value": 3
+    },
+    "profile_every_epochs": {
+      "value": 20
+    }
+  }
+}

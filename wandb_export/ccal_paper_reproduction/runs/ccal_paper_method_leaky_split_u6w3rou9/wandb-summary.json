@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":27},"_runtime":27,"model/trainable_parameters":703331,"dataset/train_samples":9999,"dataset/test_samples":220,"dataset/split_method":"image-level random (paper method)","_timestamp":1.7771103319410665e+09,"_step":1,"model/total_parameters":703331}

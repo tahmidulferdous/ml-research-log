@@ -1,0 +1,198 @@
+{
+  "id": "UnVuOnYxOnlyOGVoYXRiOmx1bmdfZWZmbmV0X3JlcHJvZHVjdGlvbjp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "yr8ehatb",
+  "displayName": "effnet_shuffled_seed123",
+  "state": "finished",
+  "createdAt": "2026-06-25T14:47:35Z",
+  "computeSeconds": 2652,
+  "tags": [
+    "seed:123",
+    "split:shuffled",
+    "v2"
+  ],
+  "summaryMetrics": {
+    "_step": 84,
+    "epoch": 14,
+    "_wandb": {
+      "runtime": 2652
+    },
+    "val/f1": 96.85443583118,
+    "val/acc": 98.19004524886876,
+    "_runtime": 2652,
+    "val/loss": 0.09114369787941408,
+    "train/acc": 99.6811224489796,
+    "_timestamp": 1782401508.1956832,
+    "train/loss": 0.0100137885611006,
+    "xai/gradcam": {
+      "path": "media/images/xai/gradcam_84_4665e88931c2a8525c97.png",
+      "size": 926569,
+      "_type": "image-file",
+      "width": 1400,
+      "format": "png",
+      "height": 1200,
+      "sha256": "4665e88931c2a8525c9703db95cf5197f8bc209959e9d6c058fb6e2895b438c1"
+    },
+    "best_val_acc": 99.5475113122172,
+    "learning_rate": 0.0003,
+    "test/EffNet-B0_acc": 98.6425339366516,
+    "test/EffNet-B0_auc": 99.6145916590357,
+    "test/EffNet-B1_acc": 97.28506787330316,
+    "test/EffNet-B1_auc": 99.77991474480788,
+    "test/EffNet-B2_acc": 98.19004524886876,
+    "test/EffNet-B2_auc": 99.83467691422786,
+    "test/EffNet-B3_acc": 99.0950226244344,
+    "test/EffNet-B3_auc": 99.93616593944506,
+    "test/EffNet-B4_acc": 99.5475113122172,
+    "test/EffNet-B4_auc": 99.9602130674049,
+    "confusion/EffNet-B0": {
+      "path": "media/images/confusion/EffNet-B0_17_5b19a7f10bdc63936426.png",
+      "size": 25536,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 600,
+      "sha256": "5b19a7f10bdc63936426a7b42f19e64055d2a3f2bfbaefc926ce1f38b3dacf44"
+    },
+    "confusion/EffNet-B1": {
+      "path": "media/images/confusion/EffNet-B1_31_1104e0fc5a153110f9da.png",
+      "size": 25001,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 600,
+      "sha256": "1104e0fc5a153110f9da7a6f7f7f9af96e704ba24253a112f726318df7c01905"
+    },
+    "confusion/EffNet-B2": {
+      "path": "media/images/confusion/EffNet-B2_44_b205f578dccb40e7bb6b.png",
+      "size": 25101,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 600,
+      "sha256": "b205f578dccb40e7bb6b5cee0647c39420c12bcdf40d8f9c5ec2d7af0bfa4e85"
+    },
+    "confusion/EffNet-B3": {
+      "path": "media/images/confusion/EffNet-B3_66_3b02cbd7028772d175ba.png",
+      "size": 25273,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 600,
+      "sha256": "3b02cbd7028772d175ba7c2c59aea180eeaf5a98fd1c2cbd22539a2c4d030411"
+    },
+    "confusion/EffNet-B4": {
+      "path": "media/images/confusion/EffNet-B4_82_31677c588e7e49a71689.png",
+      "size": 24982,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 600,
+      "sha256": "31677c588e7e49a71689dd645abd70fa7a356d3205f5f7ec8edf906d70b43abc"
+    },
+    "dataset/val_samples": 221,
+    "dataset/split_method": "shuffled ratio=(0.8, 0.2)",
+    "dataset/test_samples": 221,
+    "dataset/train_samples": 3140
+  },
+  "config": {
+    "seed": {
+      "value": 42
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "3": [
+            2,
+            13,
+            15,
+            16
+          ],
+          "4": "3.12.13",
+          "5": "0.28.0",
+          "8": [
+            2,
+            13
+          ],
+          "12": "0.28.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.28.0",
+        "python_version": "3.12.13"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 30
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "data_dir": {
+      "value": "/kaggle/input/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "variants": {
+      "value": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ]
+    },
+    "val_ratio": {
+      "value": 0.2
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "image_size": {
+      "value": 240
+    },
+    "test_ratio": {
+      "value": 0.1
+    },
+    "class_names": {
+      "value": [
+        "Benign",
+        "Malignant",
+        "Normal"
+      ]
+    },
+    "lr_patience": {
+      "value": 5
+    },
+    "train_ratio": {
+      "value": 0.7
+    },
+    "learning_rate": {
+      "value": 0.001
+    },
+    "lr_decay_factor": {
+      "value": 0.3
+    },
+    "aug_factor_benign": {
+      "value": 13
+    },
+    "aug_factor_normal": {
+      "value": 3
+    },
+    "aug_factor_malignant": {
+      "value": 2
+    }
+  }
+}

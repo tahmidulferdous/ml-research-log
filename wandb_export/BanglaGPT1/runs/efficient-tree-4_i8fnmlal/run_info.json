@@ -1,0 +1,92 @@
+{
+  "id": "UnVuOnYxOmk4Zm5tbGFsOkJhbmdsYUdQVDE6dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "i8fnmlal",
+  "displayName": "efficient-tree-4",
+  "state": "finished",
+  "createdAt": "2025-03-09T18:35:30Z",
+  "computeSeconds": 4851,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 29,
+    "_wandb": {
+      "runtime": 4851
+    },
+    "_runtime": 4790.814783631,
+    "val_loss": 1.692825436592102,
+    "iteration": 7000,
+    "_timestamp": 1741550115.43181,
+    "best_epoch": 5000,
+    "train_loss": 1.2982401847839355,
+    "best_val_loss": 1.688315749168396,
+    "learning_rate": 0.0004,
+    "training_loss": 1.4329118728637695
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            55,
+            105
+          ],
+          "2": [
+            1,
+            55,
+            105
+          ],
+          "3": [
+            3,
+            16,
+            23,
+            55,
+            62
+          ],
+          "4": "3.10.12",
+          "5": "0.19.1",
+          "8": [
+            1,
+            2,
+            5,
+            12
+          ],
+          "12": "0.19.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.19.1",
+        "python_version": "3.10.12"
+      }
+    },
+    "n_embd": {
+      "value": 384
+    },
+    "n_head": {
+      "value": 6
+    },
+    "dropout": {
+      "value": 0.2
+    },
+    "n_layer": {
+      "value": 6
+    },
+    "max_iters": {
+      "value": 10000
+    },
+    "batch_size": {
+      "value": 128
+    },
+    "block_size": {
+      "value": 256
+    },
+    "eval_iters": {
+      "value": 200
+    },
+    "eval_interval": {
+      "value": 500
+    },
+    "learning_rate": {
+      "value": 0.0004
+    }
+  }
+}

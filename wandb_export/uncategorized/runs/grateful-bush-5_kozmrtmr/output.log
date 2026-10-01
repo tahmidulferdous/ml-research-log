@@ -1,0 +1,5 @@
+[34m[1mwandb[0m: Downloading large artifact wgan-checkpoints:v0, 58.87MB. 2 files...
+[34m[1mwandb[0m:   2 of 2 files downloaded.  
+Done. 0:0:0.2
+Artifact downloaded to: /content/artifacts/wgan-checkpoints:v0
+Files in artifact directory: ['wgan_gen1.pth', 'wgan-critic1.pth']

@@ -1,0 +1,51 @@
+{
+  "id": "UnVuOnYxOnV4dThxNzM1OnVuY2F0ZWdvcml6ZWQ6dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "uxu8q735",
+  "displayName": "noble-blaze-2",
+  "state": "finished",
+  "createdAt": "2024-11-23T07:03:41Z",
+  "computeSeconds": 3,
+  "tags": [],
+  "summaryMetrics": {
+    "_wandb": {
+      "runtime": 3
+    }
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            41,
+            55,
+            105
+          ],
+          "2": [
+            1,
+            41,
+            55,
+            105
+          ],
+          "3": [
+            2,
+            23,
+            55
+          ],
+          "4": "3.10.12",
+          "5": "0.18.7",
+          "8": [
+            1,
+            5,
+            12
+          ],
+          "12": "0.18.7",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.18.7",
+        "python_version": "3.10.12"
+      }
+    }
+  }
+}

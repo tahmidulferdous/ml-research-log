@@ -1,0 +1,97 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            wb6g0rqvkdjdx50qeqprm2ua67u2ojmp:
+                args:
+                    - -f
+                    - /tmp/tmpz987xari.json
+                    - '--HistoryManager.hist_file=:memory:'
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "8656922775552"
+                        used: "7165034004480"
+                email: <redacted>
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-7682f3ab-f44f-0199-e018-6241bb911cc0
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-2b5cb703-ab8f-01cf-8af2-0510875d424e
+                host: cde33ba745e4
+                memory:
+                    total: "33662472192"
+                os: Linux-6.6.113+-x86_64-with-glibc2.35
+                program: <python with no main file>
+                python: CPython 3.12.12
+                root: /kaggle/working
+                startedAt: "2026-02-26T13:24:20.696700Z"
+                writerId: wb6g0rqvkdjdx50qeqprm2ua67u2ojmp
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 49
+                - 53
+                - 80
+                - 105
+            "2":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 80
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.25.0
+            "8":
+                - 2
+                - 13
+            "12": 0.25.0
+            "13": linux-x86_64
+batch_size_per_gpu:
+    value: 12
+cfg_scale:
+    value: 3
+effective_batch_size:
+    value: 12
+ema_decay:
+    value: 0.9999
+epochs:
+    value: 3000
+euler_steps:
+    value: 30
+gpu:
+    value: Tesla T4
+img_size:
+    value: 224
+learning_rate:
+    value: 0.00015
+method:
+    value: Rectified Flow
+model:
+    value: ConditionalUNet
+num_gpus:
+    value: 1
+precision:
+    value: fp16
+timestep_sampling:
+    value: logit_normal

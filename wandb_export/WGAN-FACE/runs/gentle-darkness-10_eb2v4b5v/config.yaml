@@ -1,0 +1,54 @@
+_wandb:
+    value:
+        cli_version: 0.18.7
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 41
+                - 55
+                - 105
+            "2":
+                - 1
+                - 41
+                - 55
+                - 105
+            "3":
+                - 1
+                - 2
+                - 16
+                - 23
+                - 55
+            "4": 3.10.12
+            "5": 0.18.7
+            "8":
+                - 1
+                - 5
+                - 12
+            "12": 0.18.7
+            "13": linux-x86_64
+BATCH_SIZE:
+    value: 64
+BETA_1:
+    value: 0
+BETA_2:
+    value: 0.9
+CHANNELS_IMG:
+    value: 3
+CRITIC_ITERATIONS:
+    value: 5
+FEATURES_CRITIC:
+    value: 64
+FEATURES_GEN:
+    value: 64
+IMAGE_SIZE:
+    value: 64
+LAMBDA_GP:
+    value: 10
+LEARNING_RATE:
+    value: 0.0001
+NOISE_DIM:
+    value: 100
+NUM_EPOCHS:
+    value: 5000

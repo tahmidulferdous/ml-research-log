@@ -1,0 +1,68 @@
+Creating CCAL model...
+Model Parameters: 703,331
+Trainable Parameters: 703,331
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Starting training...
+Training Epoch 1: 100%|██████████| 17/17 [00:05<00:00,  2.90it/s]
+✓ New best model saved! Val Acc: 82.48%
+Epoch  1: Train Loss: 1.2781, Train Acc: 30.70% | Val Loss: 1.0694, Val Acc: 82.48%
+Training Epoch 2: 100%|██████████| 17/17 [00:04<00:00,  3.68it/s]
+Epoch  2: Train Loss: 1.2684, Train Acc: 31.25% | Val Loss: 1.0707, Val Acc: 72.99%
+Training Epoch 3: 100%|██████████| 17/17 [00:04<00:00,  3.52it/s]
+Epoch  3: Train Loss: 1.2378, Train Acc: 31.62% | Val Loss: 1.0686, Val Acc: 34.31%
+Training Epoch 4: 100%|██████████| 17/17 [00:04<00:00,  3.61it/s]
+Epoch  4: Train Loss: 1.2781, Train Acc: 31.99% | Val Loss: 1.0649, Val Acc: 39.42%
+Training Epoch 5: 100%|██████████| 17/17 [00:04<00:00,  3.63it/s]
+Epoch  5: Train Loss: 1.2594, Train Acc: 32.17% | Val Loss: 1.0550, Val Acc: 44.53%
+Training Epoch 6: 100%|██████████| 17/17 [00:04<00:00,  3.52it/s]
+Epoch  6: Train Loss: 1.2262, Train Acc: 31.80% | Val Loss: 1.0371, Val Acc: 53.28%
+Training Epoch 7: 100%|██████████| 17/17 [00:04<00:00,  3.67it/s]
+Epoch  7: Train Loss: 1.1706, Train Acc: 36.40% | Val Loss: 1.0519, Val Acc: 43.80%
+Training Epoch 8: 100%|██████████| 17/17 [00:04<00:00,  3.66it/s]
+Epoch  8: Train Loss: 1.1940, Train Acc: 35.85% | Val Loss: 1.0782, Val Acc: 29.20%
+Training Epoch 9: 100%|██████████| 17/17 [00:04<00:00,  3.53it/s]
+Epoch  9: Train Loss: 1.2210, Train Acc: 33.82% | Val Loss: 1.1248, Val Acc: 14.60%
+Training Epoch 10: 100%|██████████| 17/17 [00:04<00:00,  3.64it/s]
+Epoch 10: Train Loss: 1.2011, Train Acc: 32.54% | Val Loss: 1.1139, Val Acc: 17.52%
+Training Epoch 11: 100%|██████████| 17/17 [00:04<00:00,  3.66it/s]
+Epoch 11: Train Loss: 1.1791, Train Acc: 33.82% | Val Loss: 1.0867, Val Acc: 29.93%
+Training Epoch 12: 100%|██████████| 17/17 [00:04<00:00,  3.53it/s]
+Epoch 12: Train Loss: 1.2061, Train Acc: 34.56% | Val Loss: 1.0857, Val Acc: 30.66%
+Training Epoch 13: 100%|██████████| 17/17 [00:04<00:00,  3.64it/s]
+Epoch 13: Train Loss: 1.1646, Train Acc: 37.13% | Val Loss: 1.1496, Val Acc: 15.33%
+Training Epoch 14: 100%|██████████| 17/17 [00:04<00:00,  3.67it/s]
+Epoch 14: Train Loss: 1.1734, Train Acc: 34.01% | Val Loss: 1.1178, Val Acc: 18.98%
+Training Epoch 15: 100%|██████████| 17/17 [00:04<00:00,  3.64it/s]
+Epoch 15: Train Loss: 1.1489, Train Acc: 38.24% | Val Loss: 1.1347, Val Acc: 20.44%
+Training Epoch 16: 100%|██████████| 17/17 [00:04<00:00,  3.69it/s]
+Epoch 16: Train Loss: 1.1577, Train Acc: 39.34% | Val Loss: 1.1016, Val Acc: 28.47%
+Training Epoch 17: 100%|██████████| 17/17 [00:04<00:00,  3.66it/s]
+Epoch 17: Train Loss: 1.1763, Train Acc: 33.82% | Val Loss: 1.0884, Val Acc: 31.39%
+Training Epoch 18: 100%|██████████| 17/17 [00:04<00:00,  3.50it/s]
+Epoch 18: Train Loss: 1.1345, Train Acc: 40.62% | Val Loss: 1.1055, Val Acc: 29.20%
+Training Epoch 19: 100%|██████████| 17/17 [00:04<00:00,  3.63it/s]
+Epoch 19: Train Loss: 1.1402, Train Acc: 39.52% | Val Loss: 1.1173, Val Acc: 24.82%
+Training Epoch 20: 100%|██████████| 17/17 [00:04<00:00,  3.82it/s]
+Epoch 20: Train Loss: 1.1329, Train Acc: 38.42% | Val Loss: 1.1033, Val Acc: 27.01%
+Training Epoch 21: 100%|██████████| 17/17 [00:04<00:00,  3.65it/s]
+Epoch 21: Train Loss: 1.1673, Train Acc: 37.87% | Val Loss: 1.0664, Val Acc: 37.23%
+Training Epoch 22: 100%|██████████| 17/17 [00:04<00:00,  3.87it/s]
+Epoch 22: Train Loss: 1.1587, Train Acc: 33.46% | Val Loss: 1.1053, Val Acc: 21.17%
+Training Epoch 23: 100%|██████████| 17/17 [00:04<00:00,  3.68it/s]
+Epoch 23: Train Loss: 1.1351, Train Acc: 37.68% | Val Loss: 1.1269, Val Acc: 24.09%
+Training Epoch 24: 100%|██████████| 17/17 [00:04<00:00,  3.76it/s]
+Epoch 24: Train Loss: 1.1801, Train Acc: 37.87% | Val Loss: 1.1873, Val Acc: 24.09%
+Training Epoch 25: 100%|██████████| 17/17 [00:04<00:00,  3.76it/s]
+Epoch 25: Train Loss: 1.1258, Train Acc: 38.24% | Val Loss: 1.1693, Val Acc: 24.09%
+Training Epoch 26: 100%|██████████| 17/17 [00:04<00:00,  3.69it/s]
+Epoch 26: Train Loss: 1.1200, Train Acc: 39.89% | Val Loss: 1.1797, Val Acc: 24.09%
+Training Epoch 27: 100%|██████████| 17/17 [00:04<00:00,  3.80it/s]
+Epoch 27: Train Loss: 1.1735, Train Acc: 35.85% | Val Loss: 1.1332, Val Acc: 24.09%
+Training Epoch 28: 100%|██████████| 17/17 [00:04<00:00,  3.63it/s]
+Epoch 28: Train Loss: 1.1405, Train Acc: 38.05% | Val Loss: 1.1291, Val Acc: 27.01%
+Training Epoch 29: 100%|██████████| 17/17 [00:04<00:00,  3.69it/s]
+Epoch 29: Train Loss: 1.1521, Train Acc: 36.21% | Val Loss: 1.1500, Val Acc: 24.82%
+Training Epoch 30: 100%|██████████| 17/17 [00:04<00:00,  3.70it/s]
+Epoch 30: Train Loss: 1.1077, Train Acc: 39.89% | Val Loss: 1.1944, Val Acc: 24.09%
+Training Epoch 31:   0%|          | 0/17 [00:01<?, ?it/s]
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

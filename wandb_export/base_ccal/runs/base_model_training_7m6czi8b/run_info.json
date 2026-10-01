@@ -1,0 +1,204 @@
+{
+  "id": "UnVuOnYxOjdtNmN6aThiOmJhc2VfY2NhbDp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "7m6czi8b",
+  "displayName": "base_model_training",
+  "state": "finished",
+  "createdAt": "2025-09-26T06:20:42Z",
+  "computeSeconds": 33,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 24,
+    "batch": 10,
+    "epoch": 8,
+    "_wandb": {
+      "runtime": 41
+    },
+    "_runtime": 40.859069955,
+    "val_loss": 1.2291007041931152,
+    "test_size": 220,
+    "_timestamp": 1758867674.9743888,
+    "train_loss": 0.5478004921566356,
+    "train_size": 702,
+    "dataset_size": 1097,
+    "val_accuracy": 57.142857142857146,
+    "learning_rate": 0.001,
+    "train_accuracy": 80.1994301994302,
+    "batch_train_acc": 80.1994301994302,
+    "batch_train_loss": 0.6617251634597778,
+    "total_parameters": 703331,
+    "trainable_parameters": 703331,
+    "parameters/graph_4ffn.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4ffn.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4dense1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4dense1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv3.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv6.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn2.conv1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn2.conv2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4batch_norm1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4batch_norm2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv4.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.conv6.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn2.conv1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn2.conv2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4batch_norm1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4batch_norm2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4feature_projection.weight": {
+      "_type": "histogram"
+    }
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            1,
+            13,
+            16,
+            55
+          ],
+          "4": "3.11.13",
+          "5": "0.20.1",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.20.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.20.1",
+        "python_version": "3.11.13"
+      }
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dataset": {
+      "value": "IQ-OTH/NCCD"
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "optimizer": {
+      "value": "Adam"
+    },
+    "batch_size": {
+      "value": 64
+    },
+    "learning_rate": {
+      "value": 0.001
+    },
+    "loss_function": {
+      "value": "CrossEntropyLoss"
+    },
+    "model_architecture": {
+      "value": "CCAL"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+Epoch [0/5000] Batch 2/3                   Loss D: -44.1454, loss G: 39.3191
+Epoch [1/5000], Loss D: -44.1454, Loss G: 39.3191
+Epoch [2/5000], Loss D: -58.9466, Loss G: 48.0708
+Epoch [3/5000], Loss D: -70.8681, Loss G: 54.9925
+Epoch [4/5000], Loss D: -74.7954, Loss G: 59.3158
+Epoch [5/5000], Loss D: -79.2938, Loss G: 64.5317
+Epoch [6/5000], Loss D: -91.4764, Loss G: 68.9888
+Epoch [7/5000], Loss D: -92.3091, Loss G: 73.7030
+Epoch [8/5000], Loss D: -95.7313, Loss G: 76.8362
+Epoch [9/5000], Loss D: -102.9942, Loss G: 80.3256
+Epoch [10/5000], Loss D: -93.7594, Loss G: 81.5595
+Epoch [11/5000], Loss D: -99.4852, Loss G: 86.1554
+Epoch [12/5000], Loss D: -101.8779, Loss G: 87.6715
+Epoch [13/5000], Loss D: -103.7917, Loss G: 90.6124
+Epoch [14/5000], Loss D: -103.6715, Loss G: 92.2839
+Epoch [15/5000], Loss D: -109.0519, Loss G: 97.9882
+Epoch [16/5000], Loss D: -101.2070, Loss G: 96.5457
+Epoch [17/5000], Loss D: -110.5780, Loss G: 104.3130

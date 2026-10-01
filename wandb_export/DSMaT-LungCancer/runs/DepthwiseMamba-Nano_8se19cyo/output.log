@@ -1,0 +1,40 @@
+✅ W&B run initialised
+
+🚀 Starting training for DepthwiseMamba-Nano...
+  Ep   1/25 | Tr 0.5518/0.7150 | Val 0.7214/0.6823 | 25.2s ★ saved
+  Ep   2/25 | Tr 0.3848/0.8037 | Val 0.5316/0.7240 | 21.0s ★ saved
+  Ep   3/25 | Tr 0.3283/0.8383 | Val 0.6096/0.7240 | 20.2s
+  Ep   4/25 | Tr 0.2852/0.8669 | Val 0.4712/0.7500 | 20.4s ★ saved
+  Ep   5/25 | Tr 0.2464/0.8908 | Val 0.7074/0.7135 | 20.8s
+  Ep   6/25 | Tr 0.2184/0.9070 | Val 0.4960/0.7604 | 20.5s ★ saved
+  Ep   7/25 | Tr 0.1896/0.9188 | Val 0.6919/0.7552 | 20.2s
+  Ep   8/25 | Tr 0.1821/0.9238 | Val 0.5399/0.7760 | 20.7s ★ saved
+  Ep   9/25 | Tr 0.1636/0.9318 | Val 0.5325/0.7552 | 20.7s
+  Ep  10/25 | Tr 0.1513/0.9391 | Val 0.5312/0.8177 | 20.8s ★ saved
+  Ep  11/25 | Tr 0.1394/0.9444 | Val 0.5941/0.8281 | 20.7s ★ saved
+  Ep  12/25 | Tr 0.1325/0.9479 | Val 0.5552/0.8073 | 20.2s
+  Ep  13/25 | Tr 0.1218/0.9516 | Val 0.7736/0.7969 | 21.1s
+  Ep  14/25 | Tr 0.1196/0.9540 | Val 0.9378/0.7240 | 20.8s
+  Ep  15/25 | Tr 0.1082/0.9586 | Val 0.7167/0.8073 | 20.6s
+  Ep  16/25 | Tr 0.1051/0.9577 | Val 0.5260/0.8385 | 20.6s ★ saved
+  Ep  17/25 | Tr 0.0993/0.9596 | Val 0.7530/0.7812 | 20.1s
+  Ep  18/25 | Tr 0.0914/0.9647 | Val 0.6602/0.8333 | 21.0s
+  Ep  19/25 | Tr 0.0889/0.9647 | Val 0.5489/0.8281 | 20.2s
+  Ep  20/25 | Tr 0.0839/0.9676 | Val 0.7439/0.8073 | 20.7s
+  Ep  21/25 | Tr 0.0835/0.9684 | Val 0.6671/0.8021 | 20.4s
+  Ep  22/25 | Tr 0.0774/0.9716 | Val 0.5038/0.8073 | 20.4s
+  Ep  23/25 | Tr 0.0895/0.9669 | Val 0.6453/0.8021 | 20.7s
+✅ CONFIG loaded
+   Model : DepthWiseMamba-Pico
+   Epochs: 10
+   Optim : Adam  lr=1e-05
+   Sched : None
+   W&B   : ON
+
+📦 Train loader: 9999 samples, 20 batches
+📦 Val loader:   192 samples, 1 batches
+📦 Test loader:  389 samples, 1 batches
+✅ DSMaT architecture defined
+🏗️  DepthWiseMamba-Pico | Params: 837,166 (0.84M)
+✅ Training utilities defined
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

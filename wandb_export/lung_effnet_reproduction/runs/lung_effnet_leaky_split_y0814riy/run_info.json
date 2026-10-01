@@ -1,0 +1,142 @@
+{
+  "id": "UnVuOnYxOnkwODE0cml5Omx1bmdfZWZmbmV0X3JlcHJvZHVjdGlvbjp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "y0814riy",
+  "displayName": "lung_effnet_leaky_split",
+  "state": "finished",
+  "createdAt": "2026-04-27T08:54:46Z",
+  "computeSeconds": 2104,
+  "tags": [
+    "80-20",
+    "effnet",
+    "image-level-split",
+    "leaky",
+    "paper-method"
+  ],
+  "summaryMetrics": {
+    "_step": 94,
+    "epoch": 42,
+    "_wandb": {
+      "runtime": 2104
+    },
+    "val/f1": 100,
+    "val/acc": 100,
+    "_runtime": 2104,
+    "val/loss": 4.582292240229435e-05,
+    "train/acc": 99.96448863636364,
+    "_timestamp": 1777282177.9040413,
+    "train/loss": 0.0006721990796165755,
+    "best_val_acc": 100,
+    "learning_rate": 7.289999999999998e-07,
+    "test/EffNet-B0_acc": 99.54545454545456,
+    "test/EffNet-B0_auc": 99.9899823984353,
+    "confusion/EffNet-B0": {
+      "path": "media/images/confusion/EffNet-B0_51_9c81aedc492f9078c5ac.png",
+      "size": 24909,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 600,
+      "sha256": "9c81aedc492f9078c5ac5cf762293f141e3eca04ab154bf4e8babd356f9d6f2c"
+    },
+    "dataset/val_samples": 88,
+    "dataset/split_method": "image-level random (paper method)",
+    "dataset/test_samples": 220,
+    "dataset/train_samples": 2824
+  },
+  "config": {
+    "seed": {
+      "value": 42
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "3": [
+            2,
+            13,
+            15,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.26.1",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.26.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.26.1",
+        "python_version": "3.12.12"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "data_dir": {
+      "value": "/kaggle/input/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "variants": {
+      "value": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ]
+    },
+    "test_size": {
+      "value": 0.2
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "image_size": {
+      "value": 240
+    },
+    "class_names": {
+      "value": [
+        "Benign",
+        "Malignant",
+        "Normal"
+      ]
+    },
+    "lr_patience": {
+      "value": 5
+    },
+    "learning_rate": {
+      "value": 0.001
+    },
+    "lr_decay_factor": {
+      "value": 0.3
+    },
+    "aug_factor_benign": {
+      "value": 13
+    },
+    "aug_factor_normal": {
+      "value": 3
+    },
+    "aug_factor_malignant": {
+      "value": 2
+    }
+  }
+}

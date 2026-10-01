@@ -1,0 +1,162 @@
+{
+  "id": "UnVuOnYxOnhsOHlxbzZmOmN0LXJlY3RpZmllZC1mbG93OnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "xl8yqo6f",
+  "displayName": "rf-JAX-8xTPUv5e",
+  "state": "crashed",
+  "createdAt": "2026-03-01T12:45:58Z",
+  "computeSeconds": 4304,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 614,
+    "_wandb": {
+      "runtime": 4304
+    },
+    "_runtime": 4304.831406322,
+    "_timestamp": 1772373463.4929793,
+    "train/loss": 0.17464559405080737,
+    "train/epoch": 600,
+    "samples/Benign": {
+      "path": "media/images/samples/Benign_512_259c40a1e677f277661e.png",
+      "size": 1021015,
+      "_type": "image-file",
+      "width": 1717,
+      "format": "png",
+      "height": 448,
+      "sha256": "259c40a1e677f277661e7ca18ebff85120e36c6086d2677a3c3309231e181449"
+    },
+    "samples/Normal": {
+      "path": "media/images/samples/Normal_514_194681b0ea2e0bb8997e.png",
+      "size": 1046165,
+      "_type": "image-file",
+      "width": 1717,
+      "format": "png",
+      "height": 448,
+      "sha256": "194681b0ea2e0bb8997e8264734e6feb2fb0899a7d5c42ea8bc4af0bebee5bb5"
+    },
+    "train/best_loss": 0.16707945831360357,
+    "train/elapsed_h": 1.2285129170285332,
+    "samples/Malignant": {
+      "path": "media/images/samples/Malignant_513_c870a32946bde31d4633.png",
+      "size": 1067522,
+      "_type": "image-file",
+      "width": 1717,
+      "format": "png",
+      "height": 448,
+      "sha256": "c870a32946bde31d4633d9f80ca2fcd6c9a54574215460e6d3995b1d98e46808"
+    },
+    "train/epoch_time_s": 2.655816078186035
+  },
+  "config": {
+    "lr": {
+      "value": 0.00015
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "i0dfg3il43phof2mu78ubty5uexjr04n": {
+            "os": "Linux-6.1.42+-x86_64-with-glibc2.41",
+            "tpu": {
+              "name": "v5e",
+              "count": 8,
+              "hbmGib": 16,
+              "devicesPerChip": 1
+            },
+            "args": [
+              "-f",
+              "/tmp/tmpkx4aji0i.json",
+              "--HistoryManager.hist_file=:memory:"
+            ],
+            "disk": {
+              "/": {
+                "used": "7169019068416",
+                "total": "8656922775552"
+              }
+            },
+            "host": "f78f7e2dc0d4",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "405703245824"
+            },
+            "python": "CPython 3.12.12",
+            "program": "<python with no main file>",
+            "writerId": "i0dfg3il43phof2mu78ubty5uexjr04n",
+            "cpu_count": 112,
+            "startedAt": "2026-03-01T12:45:57.389739Z",
+            "executable": "/usr/local/bin/python",
+            "cpu_count_logical": 224
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            45,
+            49,
+            53,
+            80
+          ],
+          "2": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            45,
+            49,
+            53,
+            80
+          ],
+          "3": [
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            2,
+            13
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 3000
+    },
+    "method": {
+      "value": "Rectified Flow"
+    },
+    "params": {
+      "value": 73459585
+    },
+    "img_size": {
+      "value": 224
+    },
+    "framework": {
+      "value": "JAX/Flax"
+    },
+    "accelerator": {
+      "value": "TPU v5e \u00d7 8"
+    },
+    "lr_schedule": {
+      "value": "cosine_decay"
+    },
+    "base_channels": {
+      "value": 128
+    },
+    "effective_batch": {
+      "value": 24
+    },
+    "per_device_batch": {
+      "value": 3
+    }
+  }
+}

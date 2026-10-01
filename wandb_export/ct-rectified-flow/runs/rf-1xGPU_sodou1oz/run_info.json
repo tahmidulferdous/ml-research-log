@@ -1,0 +1,193 @@
+{
+  "id": "UnVuOnYxOnNvZG91MW96OmN0LXJlY3RpZmllZC1mbG93OnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "sodou1oz",
+  "displayName": "rf-1xGPU",
+  "state": "finished",
+  "createdAt": "2026-02-26T13:24:21Z",
+  "computeSeconds": 6327,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 284,
+    "_wandb": {
+      "runtime": 6327
+    },
+    "_runtime": 6327,
+    "_timestamp": 1772118589.3536928,
+    "loss_curve": {
+      "path": "media/images/loss_curve_284_d7a249f0702f77cb3e58.png",
+      "size": 91755,
+      "_type": "image-file",
+      "width": 1500,
+      "format": "png",
+      "height": 750,
+      "sha256": "d7a249f0702f77cb3e58505073093a42189497abb42a9eee0d3d2cffdfc4f5d9"
+    },
+    "train/loss": 0.21978181746921369,
+    "train/epoch": 254,
+    "samples/Benign": {
+      "path": "media/images/samples/Benign_277_48e2a1c4f8dc8b0e6ac0.png",
+      "size": 380688,
+      "_type": "image-file",
+      "width": 906,
+      "format": "png",
+      "height": 228,
+      "sha256": "48e2a1c4f8dc8b0e6ac03f9905fc665947d85de76e3ba4ccdb1c3e27afcbed69"
+    },
+    "samples/Normal": {
+      "path": "media/images/samples/Normal_279_a154e6c405ed68879aa5.png",
+      "size": 482424,
+      "_type": "image-file",
+      "width": 906,
+      "format": "png",
+      "height": 228,
+      "sha256": "a154e6c405ed68879aa543cb987347ab7e3c0420ec22de00366a50e64e925e50"
+    },
+    "train/best_loss": 0.17399847793525883,
+    "samples/Malignant": {
+      "path": "media/images/samples/Malignant_278_7b0d510b1b669574e8c9.png",
+      "size": 499408,
+      "_type": "image-file",
+      "width": 906,
+      "format": "png",
+      "height": 228,
+      "sha256": "7b0d510b1b669574e8c94c496a99b6528d56399d587778b00f3f48fec5b8f982"
+    },
+    "train/eta_minutes": 1090.251449103587,
+    "train/epoch_time_s": 23.67547345161438,
+    "train/elapsed_hours": 1.7579182397656972,
+    "train/learning_rate": 0.00014736249125559794,
+    "gpu/memory_reserved_gb": 11.697265625,
+    "gpu/memory_allocated_gb": 0.3065338134765625
+  },
+  "config": {
+    "gpu": {
+      "value": "Tesla T4"
+    },
+    "model": {
+      "value": "ConditionalUNet"
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "wb6g0rqvkdjdx50qeqprm2ua67u2ojmp": {
+            "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+            "gpu": "Tesla T4",
+            "args": [
+              "-f",
+              "/tmp/tmpz987xari.json",
+              "--HistoryManager.hist_file=:memory:"
+            ],
+            "disk": {
+              "/": {
+                "used": "7165034004480",
+                "total": "8656922775552"
+              }
+            },
+            "host": "cde33ba745e4",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "33662472192"
+            },
+            "python": "CPython 3.12.12",
+            "program": "<python with no main file>",
+            "writerId": "wb6g0rqvkdjdx50qeqprm2ua67u2ojmp",
+            "cpu_count": 2,
+            "gpu_count": 2,
+            "startedAt": "2026-02-26T13:24:20.696700Z",
+            "executable": "/usr/bin/python3",
+            "gpu_nvidia": [
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-7682f3ab-f44f-0199-e018-6241bb911cc0",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              },
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-2b5cb703-ab8f-01cf-8af2-0510875d424e",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              }
+            ],
+            "cudaVersion": "13.0",
+            "cpu_count_logical": 4
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            2,
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            2,
+            13
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 3000
+    },
+    "method": {
+      "value": "Rectified Flow"
+    },
+    "img_size": {
+      "value": 224
+    },
+    "num_gpus": {
+      "value": 1
+    },
+    "cfg_scale": {
+      "value": 3
+    },
+    "ema_decay": {
+      "value": 0.9999
+    },
+    "precision": {
+      "value": "fp16"
+    },
+    "euler_steps": {
+      "value": 30
+    },
+    "learning_rate": {
+      "value": 0.00015
+    },
+    "timestep_sampling": {
+      "value": "logit_normal"
+    },
+    "batch_size_per_gpu": {
+      "value": 12
+    },
+    "effective_batch_size": {
+      "value": 12
+    }
+  }
+}

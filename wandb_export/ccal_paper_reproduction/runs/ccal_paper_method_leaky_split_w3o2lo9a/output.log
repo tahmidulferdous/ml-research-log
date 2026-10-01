@@ -1,0 +1,27 @@
+============================================================
+CCAL Paper Reproduction - Image-Level 80/20 Split
+============================================================
+Total images found: 1097
+  Bengin cases: 120
+  Malignant cases: 561
+  Normal cases: 416
+
+After 80/20 split:
+  Train: 877
+  Test:  220
+  Train after augmentation: 9999
+
+Creating CCAL model...
+Total Parameters: 703,331
+Trainable Parameters: 703,331
+
+Starting training...
+Epoch 1/50 [Train]:   0%|          | 0/313 [00:00<?, ?it/s]W0425 10:35:47.114000 55 torch/_inductor/utils.py:1679] [0/0] Not enough SMs to use max_autotune_gemm mode
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/lowering.py:7627: UserWarning:
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+Epoch 1/50 [Train]: 100%|█████████▉| 312/313 [01:36<00:00,  3.25it/s]

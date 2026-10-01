@@ -1,0 +1,119 @@
+============================================================
+CCAL — Sequential Split (No Shuffle) 70/20/10
+============================================================
+Total images found: 1097
+
+After sequential 70/20/10 split:
+  Train: 876 (first 70%)
+  Val:   0 (next 20%)
+  Test:  221 (last 10%)
+    Bengin cases: train=96, val=0, test=24
+    Malignant cases: train=448, val=0, test=113
+    Normal cases: train=332, val=0, test=84
+  Train after augmentation: 9998
+  Caching 9998 images in RAM...
+  Cached 876 unique images.
+  Caching 0 images in RAM...
+  Cached 0 unique images.
+  Caching 221 images in RAM...
+  Cached 221 unique images.
+  [v2.1] val split empty — aliasing val_loader = test_loader for monitoring.
+
+Creating CCAL model...
+Total Parameters: 666,403
+Trainable Parameters: 666,403
+
+Starting training...
+  ✓ New best model! Val Acc: 51.13%
+Epoch  1/50: TrL=0.6352 TrA=74.48% | VL=4.6710 VA=51.13% | LR=0.001000 | 34.2s ✓
+Epoch  2/50: TrL=0.4479 TrA=83.41% | VL=14.5048 VA=51.13% | LR=0.001000 | 32.4s ✓
+Epoch  3/50: TrL=0.4308 TrA=83.68% | VL=4.7527 VA=38.01% | LR=0.001000 | 32.6s
+Epoch  4/50: TrL=0.3725 TrA=85.36% | VL=4.9797 VA=51.13% | LR=0.001000 | 32.5s ✓
+  ↓ LR reduced: 0.001000 → 0.000500
+Epoch  5/50: TrL=0.3367 TrA=86.85% | VL=7.2965 VA=51.13% | LR=0.000500 | 32.8s ✓
+Epoch  6/50: TrL=0.2537 TrA=89.98% | VL=10.3994 VA=51.13% | LR=0.000500 | 32.5s ✓
+Epoch  7/50: TrL=0.2269 TrA=90.86% | VL=2.6523 VA=33.94% | LR=0.000500 | 32.2s
+  ✓ New best model! Val Acc: 55.66%
+Epoch  8/50: TrL=0.2113 TrA=91.94% | VL=3.4035 VA=55.66% | LR=0.000500 | 32.6s ✓
+Epoch  9/50: TrL=0.1879 TrA=93.14% | VL=2.7130 VA=55.20% | LR=0.000500 | 31.8s
+  ✓ New best model! Val Acc: 69.23%
+Epoch 10/50: TrL=0.1629 TrA=93.88% | VL=0.8748 VA=69.23% | LR=0.000500 | 32.8s ✓
+Epoch 11/50: TrL=0.1664 TrA=93.67% | VL=10.8627 VA=38.01% | LR=0.000500 | 32.4s
+Epoch 12/50: TrL=0.1606 TrA=93.83% | VL=1.9051 VA=61.54% | LR=0.000500 | 32.0s
+Epoch 13/50: TrL=0.1386 TrA=94.92% | VL=5.2037 VA=22.17% | LR=0.000500 | 32.2s
+  ↓ LR reduced: 0.000500 → 0.000250
+Epoch 14/50: TrL=0.1231 TrA=95.36% | VL=2.5910 VA=52.04% | LR=0.000250 | 32.6s
+  ✓ New best model! Val Acc: 87.78%
+Epoch 15/50: TrL=0.0922 TrA=96.58% | VL=0.6303 VA=87.78% | LR=0.000250 | 32.1s ✓
+Epoch 16/50: TrL=0.0875 TrA=96.87% | VL=1.5178 VA=73.76% | LR=0.000250 | 31.8s
+Epoch 17/50: TrL=0.0870 TrA=96.71% | VL=6.8845 VA=22.17% | LR=0.000250 | 32.2s
+Epoch 18/50: TrL=0.0772 TrA=97.45% | VL=1.4471 VA=70.14% | LR=0.000250 | 32.1s
+  ↓ LR reduced: 0.000250 → 0.000125
+Epoch 19/50: TrL=0.0793 TrA=97.30% | VL=2.2931 VA=66.06% | LR=0.000125 | 32.1s
+Epoch 20/50: TrL=0.0627 TrA=97.84% | VL=0.6405 VA=84.62% | LR=0.000125 | 31.8s
+Epoch 21/50: TrL=0.0636 TrA=98.02% | VL=0.7958 VA=80.09% | LR=0.000125 | 31.7s
+Epoch 22/50: TrL=0.0620 TrA=97.89% | VL=0.9117 VA=83.26% | LR=0.000125 | 32.2s
+  ↓ LR reduced: 0.000125 → 0.000063
+Epoch 23/50: TrL=0.0528 TrA=98.28% | VL=1.1555 VA=80.09% | LR=0.000063 | 31.9s
+Epoch 24/50: TrL=0.0517 TrA=98.35% | VL=0.5866 VA=85.07% | LR=0.000063 | 32.3s
+Epoch 25/50: TrL=0.0476 TrA=98.48% | VL=0.6159 VA=85.52% | LR=0.000063 | 32.6s
+Epoch 26/50: TrL=0.0423 TrA=98.61% | VL=0.9379 VA=83.26% | LR=0.000063 | 32.1s
+Epoch 27/50: TrL=0.0493 TrA=98.42% | VL=0.6312 VA=85.07% | LR=0.000063 | 32.9s
+  ↓ LR reduced: 0.000063 → 0.000031
+Epoch 28/50: TrL=0.0478 TrA=98.43% | VL=1.2009 VA=83.71% | LR=0.000031 | 31.5s
+Epoch 29/50: TrL=0.0519 TrA=98.36% | VL=0.7735 VA=84.62% | LR=0.000031 | 32.4s
+Epoch 30/50: TrL=0.0433 TrA=98.62% | VL=0.8190 VA=84.62% | LR=0.000031 | 31.9s
+Epoch 31/50: TrL=0.0398 TrA=98.75% | VL=0.8151 VA=84.16% | LR=0.000031 | 32.1s
+  ↓ LR reduced: 0.000031 → 0.000016
+Epoch 32/50: TrL=0.0445 TrA=98.62% | VL=0.6477 VA=85.97% | LR=0.000016 | 32.1s
+Epoch 33/50: TrL=0.0361 TrA=98.82% | VL=0.7937 VA=83.26% | LR=0.000016 | 33.0s
+Epoch 34/50: TrL=0.0364 TrA=98.82% | VL=0.9846 VA=82.35% | LR=0.000016 | 32.5s
+Epoch 35/50: TrL=0.0395 TrA=98.72% | VL=0.7643 VA=85.07% | LR=0.000016 | 33.0s
+  ↓ LR reduced: 0.000016 → 0.000008
+Epoch 36/50: TrL=0.0328 TrA=98.88% | VL=1.1041 VA=82.35% | LR=0.000008 | 32.3s
+Epoch 37/50: TrL=0.0367 TrA=98.84% | VL=1.0375 VA=83.26% | LR=0.000008 | 32.8s
+Epoch 38/50: TrL=0.0352 TrA=98.83% | VL=0.8978 VA=83.71% | LR=0.000008 | 32.1s
+Epoch 39/50: TrL=0.0399 TrA=98.73% | VL=1.0596 VA=83.71% | LR=0.000008 | 32.5s
+  ↓ LR reduced: 0.000008 → 0.000004
+Epoch 40/50: TrL=0.0297 TrA=98.94% | VL=0.8743 VA=83.71% | LR=0.000004 | 33.1s
+Epoch 41/50: TrL=0.0409 TrA=98.78% | VL=0.9514 VA=83.71% | LR=0.000004 | 31.9s
+Epoch 42/50: TrL=0.0409 TrA=98.74% | VL=0.9862 VA=82.81% | LR=0.000004 | 32.1s
+Epoch 43/50: TrL=0.0320 TrA=98.84% | VL=0.9995 VA=84.16% | LR=0.000004 | 32.1s
+  ↓ LR reduced: 0.000004 → 0.000002
+Epoch 44/50: TrL=0.0313 TrA=98.95% | VL=0.9657 VA=83.26% | LR=0.000002 | 32.3s
+Epoch 45/50: TrL=0.0367 TrA=98.89% | VL=0.9379 VA=82.81% | LR=0.000002 | 32.1s
+Epoch 46/50: TrL=0.0359 TrA=98.87% | VL=0.9486 VA=82.81% | LR=0.000002 | 32.2s
+Epoch 47/50: TrL=0.0394 TrA=98.79% | VL=0.9103 VA=83.71% | LR=0.000002 | 32.0s
+  ↓ LR reduced: 0.000002 → 0.000001
+Epoch 48/50: TrL=0.0419 TrA=98.72% | VL=0.9926 VA=83.26% | LR=0.000001 | 31.9s
+Epoch 49/50: TrL=0.0356 TrA=98.81% | VL=0.9420 VA=83.26% | LR=0.000001 | 32.0s
+Epoch 50/50: TrL=0.0380 TrA=98.90% | VL=1.0496 VA=83.26% | LR=0.000001 | 32.2s
+
+Training complete! Best: epoch 15, val acc 87.78%
+
+Loading best model for evaluation...
+Loaded best model from epoch 15, val acc: 87.78%
+
+==================================================
+TEST RESULTS (Sequential Split - No Shuffle)
+==================================================
+Accuracy:  87.78%
+Precision: 90.75%
+Recall:    87.78%
+F1-Score:  84.39%
+AUC:       96.76%
+
+              precision    recall  f1-score   support
+
+      Benign       1.00      0.08      0.15        24
+   Malignant       1.00      0.96      0.98       113
+      Normal       0.76      1.00      0.86        84
+
+    accuracy                           0.88       221
+   macro avg       0.92      0.68      0.66       221
+weighted avg       0.91      0.88      0.84       221
+
+
+Generating XAI visualizations...
+
+✅ XAI visualizations generated.

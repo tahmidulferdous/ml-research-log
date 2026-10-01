@@ -1,0 +1,33 @@
+<ipython-input-12-17666e1911e1>:19: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  gen.load_state_dict(torch.load(gen_checkpoint_path))
+<ipython-input-12-17666e1911e1>:20: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  critic.load_state_dict(torch.load(critic_checkpoint_path))
+Loaded generator and critic weights from the last local checkpoint.
+Epoch [1/5000], Loss D: -65.4865, Loss G: 212.2117
+Saved and logged model checkpoint at epoch 0.
+Epoch [2/5000], Loss D: -87.3629, Loss G: 209.4740
+Epoch [3/5000], Loss D: -70.8195, Loss G: 210.6055
+Epoch [4/5000], Loss D: -73.0623, Loss G: 212.9897
+Epoch [5/5000], Loss D: -74.8687, Loss G: 212.0955
+Epoch [6/5000], Loss D: -77.0755, Loss G: 211.5753
+Epoch [7/5000], Loss D: -76.5131, Loss G: 213.0046
+Epoch [8/5000], Loss D: -81.1493, Loss G: 212.0088
+Epoch [9/5000], Loss D: -78.0155, Loss G: 207.1138
+Epoch [10/5000], Loss D: -66.8852, Loss G: 206.7514
+Epoch [11/5000], Loss D: -80.3239, Loss G: 211.9269
+Epoch [12/5000], Loss D: -76.2912, Loss G: 214.2135
+Epoch [13/5000], Loss D: -83.3297, Loss G: 208.1400
+Epoch [14/5000], Loss D: -79.1838, Loss G: 206.6674
+Epoch [15/5000], Loss D: -73.4843, Loss G: 208.9890
+Epoch [16/5000], Loss D: -79.8944, Loss G: 211.7529
+Epoch [17/5000], Loss D: -80.2641, Loss G: 210.7204
+Epoch [18/5000], Loss D: -77.1893, Loss G: 213.6033
+Epoch [19/5000], Loss D: -82.6753, Loss G: 209.1004
+Epoch [20/5000], Loss D: -77.0522, Loss G: 212.4120
+Epoch [21/5000], Loss D: -78.4455, Loss G: 205.6718
+Epoch [22/5000], Loss D: -78.4442, Loss G: 208.8562
+Epoch [23/5000], Loss D: -81.4657, Loss G: 211.9142
+Epoch [24/5000], Loss D: -80.8256, Loss G: 210.2662
+Epoch [25/5000], Loss D: -89.5072, Loss G: 212.6323
+Epoch [26/5000], Loss D: -74.1639, Loss G: 203.2934
+Epoch [27/5000], Loss D: -81.9818, Loss G: 202.6195

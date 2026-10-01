@@ -1,0 +1,55 @@
+============================================================
+CCAL Paper Reproduction - Image-Level 80/20 Split
+============================================================
+Total images found: 1097
+  Bengin cases: 120
+  Malignant cases: 561
+  Normal cases: 416
+
+After 80/20 split:
+  Train: 877
+  Test:  220
+  Train after augmentation: 9999
+  Caching 9999 images in RAM...
+  Cached 877 unique images.
+  Caching 220 images in RAM...
+  Cached 220 unique images.
+
+Creating CCAL model...
+Total Parameters: 703,331
+Trainable Parameters: 703,331
+
+Starting training...
+Epoch 1/50 [Train]: 100%|██████████| 313/313 [00:45<00:00,  6.84it/s]
+  ✓ New best model! Val Acc: 37.73%
+Epoch  1: Train Loss=0.5998 Acc=76.85% | Val Loss=3.9192 Acc=37.73% | LR=0.001000 | 48.0s
+Epoch 2/50 [Train]: 100%|██████████| 313/313 [00:44<00:00,  7.11it/s]
+  ✓ New best model! Val Acc: 67.27%
+Epoch  2: Train Loss=0.5240 Acc=80.89% | Val Loss=0.7883 Acc=67.27% | LR=0.001000 | 45.6s
+Epoch 3/50 [Train]: 100%|██████████| 313/313 [00:43<00:00,  7.17it/s]
+Epoch  3: Train Loss=0.5348 Acc=80.15% | Val Loss=1.3813 Acc=51.36% | LR=0.001000 | 45.2s
+Epoch 4/50 [Train]: 100%|██████████| 313/313 [00:43<00:00,  7.14it/s]
+Epoch  4: Train Loss=0.5583 Acc=78.85% | Val Loss=3.1976 Acc=51.36% | LR=0.001000 | 45.4s
+Epoch 5/50 [Train]: 100%|██████████| 313/313 [00:44<00:00,  7.10it/s]
+  ✓ New best model! Val Acc: 70.45%
+Epoch  5: Train Loss=0.4601 Acc=81.88% | Val Loss=0.8839 Acc=70.45% | LR=0.001000 | 45.7s
+Epoch 6/50 [Train]: 100%|██████████| 313/313 [00:43<00:00,  7.13it/s]
+  ✓ New best model! Val Acc: 87.27%
+Epoch  6: Train Loss=0.4056 Acc=83.78% | Val Loss=0.3161 Acc=87.27% | LR=0.001000 | 45.5s
+Epoch 7/50 [Train]: 100%|██████████| 313/313 [00:43<00:00,  7.15it/s]
+Epoch  7: Train Loss=0.3912 Acc=84.86% | Val Loss=0.8714 Acc=67.73% | LR=0.001000 | 45.4s
+Epoch 8/50 [Train]: 100%|██████████| 313/313 [00:43<00:00,  7.15it/s]
+Epoch  8: Train Loss=0.3518 Acc=85.69% | Val Loss=0.4363 Acc=73.64% | LR=0.001000 | 45.4s
+Epoch 9/50 [Train]: 100%|██████████| 313/313 [00:43<00:00,  7.13it/s]
+  ✓ New best model! Val Acc: 89.55%
+Epoch  9: Train Loss=0.3208 Acc=86.82% | Val Loss=0.2476 Acc=89.55% | LR=0.001000 | 45.5s
+Epoch 10/50 [Train]: 100%|██████████| 313/313 [00:44<00:00,  7.05it/s]
+Epoch 10: Train Loss=0.3107 Acc=87.29% | Val Loss=0.2155 Acc=89.55% | LR=0.001000 | 46.1s
+Epoch 11/50 [Train]: 100%|██████████| 313/313 [00:43<00:00,  7.15it/s]
+Epoch 11: Train Loss=0.3083 Acc=87.66% | Val Loss=0.7959 Acc=60.45% | LR=0.001000 | 45.4s
+Epoch 12/50 [Train]: 100%|██████████| 313/313 [00:43<00:00,  7.19it/s]
+Epoch 12: Train Loss=0.2923 Acc=88.38% | Val Loss=0.5574 Acc=71.36% | LR=0.001000 | 45.1s
+Epoch 13/50 [Train]: 100%|██████████| 313/313 [00:44<00:00,  7.02it/s]
+  ✓ New best model! Val Acc: 95.00%
+Epoch 13: Train Loss=0.2721 Acc=89.26% | Val Loss=0.1590 Acc=95.00% | LR=0.001000 | 46.1s
+Epoch 14/50 [Train]:   7%|▋         | 22/313 [00:03<00:39,  7.39it/s]

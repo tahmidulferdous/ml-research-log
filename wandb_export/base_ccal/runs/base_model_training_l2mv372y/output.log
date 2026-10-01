@@ -1,0 +1,76 @@
+Creating CCAL model...
+Model Parameters: 703,331
+Trainable Parameters: 703,331
+Starting training...
+Training Epoch 1:   0%|          | 0/28 [00:00<?, ?it/s]
+MainModel(
+  (cnn1): CNN_Model1(
+    (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (relu): ReLU()
+    (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (conv3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (conv4): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (conv5): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (conv6): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (global_max_pool): AdaptiveMaxPool2d(output_size=1)
+  )
+  (cnn2): CNN_Model2(
+    (conv1): Conv2d(3, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (relu): ReLU()
+    (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (conv2): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (global_max_pool): AdaptiveMaxPool2d(output_size=1)
+  )
+  (feature_projection): Linear(in_features=288, out_features=256, bias=True)
+  (mha1): MultiheadAttention(
+    (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+  )
+  (mha2): MultiheadAttention(
+    (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+  )
+  (global_avg_pool): AdaptiveAvgPool1d(output_size=1)
+  (batch_norm1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (dense1): Linear(in_features=64, out_features=256, bias=True)
+  (gelu): GELU(approximate='none')
+  (batch_norm2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (ffn): Linear(in_features=256, out_features=3, bias=True)
+)
+Total params: 703,331
+Model size (params only): 2.68 MB
+cnn1.conv1.weight              | dtype=torch.float32 | shape=(32, 3, 3, 3) | size=3.38 KB
+cnn1.conv1.bias                | dtype=torch.float32 | shape=(32,) | size=0.12 KB
+cnn1.conv2.weight              | dtype=torch.float32 | shape=(64, 32, 3, 3) | size=72.00 KB
+cnn1.conv2.bias                | dtype=torch.float32 | shape=(64,) | size=0.25 KB
+cnn1.conv3.weight              | dtype=torch.float32 | shape=(64, 64, 3, 3) | size=144.00 KB
+cnn1.conv3.bias                | dtype=torch.float32 | shape=(64,) | size=0.25 KB
+cnn1.conv4.weight              | dtype=torch.float32 | shape=(128, 64, 3, 3) | size=288.00 KB
+cnn1.conv4.bias                | dtype=torch.float32 | shape=(128,) | size=0.50 KB
+cnn1.conv5.weight              | dtype=torch.float32 | shape=(128, 128, 3, 3) | size=576.00 KB
+cnn1.conv5.bias                | dtype=torch.float32 | shape=(128,) | size=0.50 KB
+cnn1.conv6.weight              | dtype=torch.float32 | shape=(256, 128, 3, 3) | size=1152.00 KB
+cnn1.conv6.bias                | dtype=torch.float32 | shape=(256,) | size=1.00 KB
+cnn2.conv1.weight              | dtype=torch.float32 | shape=(16, 3, 3, 3) | size=1.69 KB
+cnn2.conv1.bias                | dtype=torch.float32 | shape=(16,) | size=0.06 KB
+cnn2.conv2.weight              | dtype=torch.float32 | shape=(32, 16, 3, 3) | size=18.00 KB
+cnn2.conv2.bias                | dtype=torch.float32 | shape=(32,) | size=0.12 KB
+feature_projection.weight      | dtype=torch.float32 | shape=(256, 288) | size=288.00 KB
+feature_projection.bias        | dtype=torch.float32 | shape=(256,) | size=1.00 KB
+mha1.in_proj_weight            | dtype=torch.float32 | shape=(192, 64) | size=48.00 KB
+mha1.in_proj_bias              | dtype=torch.float32 | shape=(192,) | size=0.75 KB
+mha1.out_proj.weight           | dtype=torch.float32 | shape=(64, 64) | size=16.00 KB
+mha1.out_proj.bias             | dtype=torch.float32 | shape=(64,) | size=0.25 KB
+mha2.in_proj_weight            | dtype=torch.float32 | shape=(192, 64) | size=48.00 KB
+mha2.in_proj_bias              | dtype=torch.float32 | shape=(192,) | size=0.75 KB
+mha2.out_proj.weight           | dtype=torch.float32 | shape=(64, 64) | size=16.00 KB
+mha2.out_proj.bias             | dtype=torch.float32 | shape=(64,) | size=0.25 KB
+batch_norm1.weight             | dtype=torch.float32 | shape=(64,) | size=0.25 KB
+batch_norm1.bias               | dtype=torch.float32 | shape=(64,) | size=0.25 KB
+dense1.weight                  | dtype=torch.float32 | shape=(256, 64) | size=64.00 KB
+dense1.bias                    | dtype=torch.float32 | shape=(256,) | size=1.00 KB
+batch_norm2.weight             | dtype=torch.float32 | shape=(256,) | size=1.00 KB
+batch_norm2.bias               | dtype=torch.float32 | shape=(256,) | size=1.00 KB
+ffn.weight                     | dtype=torch.float32 | shape=(3, 256) | size=3.00 KB
+ffn.bias                       | dtype=torch.float32 | shape=(3,) | size=0.01 KB
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

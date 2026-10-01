@@ -1,0 +1,191 @@
+{
+  "id": "UnVuOnYxOmtrb3RlMnQ0OkRTTWFULUx1bmdDYW5jZXI6dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "kkote2t4",
+  "displayName": "DepthWiseMamba-Pico",
+  "state": "finished",
+  "createdAt": "2026-02-10T17:25:09Z",
+  "computeSeconds": 1469,
+  "tags": [],
+  "summaryMetrics": {
+    "lr": 1e-05,
+    "_step": 67,
+    "epoch": 68,
+    "_wandb": {
+      "runtime": 1469
+    },
+    "val_acc": 0.6822916666666666,
+    "_runtime": 1469,
+    "val_loss": 0.4587734937667846,
+    "train_acc": 0.7922792279227923,
+    "_timestamp": 1770745716.9141288,
+    "train_loss": 0.40289189784464113
+  },
+  "config": {
+    "model": {
+      "value": {
+        "DepthWiseMamba-Pico": {
+          "dropout": 0.2,
+          "sa_heads": [
+            4,
+            4
+          ],
+          "mlp_expand": 2,
+          "stage_depths": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "stem_channels": [
+            16,
+            32
+          ],
+          "stage_channels": [
+            48,
+            96,
+            128,
+            192
+          ]
+        },
+        "DepthwiseMamba-Nano": {
+          "dropout": 0.4,
+          "sa_heads": [
+            4,
+            4
+          ],
+          "mlp_expand": 3,
+          "stage_depths": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "stem_channels": [
+            24,
+            48
+          ],
+          "stage_channels": [
+            64,
+            128,
+            192,
+            256
+          ]
+        }
+      }
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "5hp7xv2fd7wuimpu03bbpkwzcifp1io4": {
+            "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+            "gpu": "Tesla T4",
+            "disk": {
+              "/": {
+                "used": "7125030289408",
+                "total": "8656922775552"
+              }
+            },
+            "host": "83028ea2b374",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "33662472192"
+            },
+            "python": "CPython 3.12.12",
+            "program": "kaggle.ipynb",
+            "codePath": "kaggle.ipynb",
+            "writerId": "5hp7xv2fd7wuimpu03bbpkwzcifp1io4",
+            "cpu_count": 2,
+            "gpu_count": 2,
+            "startedAt": "2026-02-10T17:25:03.322784Z",
+            "executable": "/usr/bin/python3",
+            "gpu_nvidia": [
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-f1210d1d-7d6c-7ee3-931f-d5f4403986a0",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              },
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-588db133-7add-5dd3-d0a5-48daf78fc7d7",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              }
+            ],
+            "cudaVersion": "13.0",
+            "cpu_count_logical": 4
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            53,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            53,
+            105
+          ],
+          "3": [
+            2,
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.24.2",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.24.2",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.24.2",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 100
+    },
+    "optimizer": {
+      "value": "Adam"
+    },
+    "scheduler": {
+      "value": null
+    },
+    "batch_size": {
+      "value": 1024
+    },
+    "model_name": {
+      "value": "DepthWiseMamba-Pico"
+    },
+    "num_workers": {
+      "value": 4
+    },
+    "wandb_enabled": {
+      "value": true
+    },
+    "wandb_project": {
+      "value": "DSMaT-LungCancer"
+    },
+    "optimizer_params": {
+      "value": {
+        "lr": 1e-05,
+        "weight_decay": 0.0005
+      }
+    },
+    "grad_clip_max_norm": {
+      "value": 1
+    }
+  }
+}

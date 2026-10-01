@@ -1,0 +1,6 @@
+Creating CCAL model...
+Model Parameters: 698,430
+Trainable Parameters: 698,430
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Starting training...
+Training Epoch 1:   0%|          | 0/28 [00:02<?, ?it/s]

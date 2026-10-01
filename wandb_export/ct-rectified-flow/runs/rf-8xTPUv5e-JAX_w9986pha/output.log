@@ -1,0 +1,388 @@
+
+============================================================
+RECTIFIED FLOW — JAX on 8× TPU v5e
+============================================================
+  Batch:  24 × 8 = 192
+  LR:     0.001200
+  Images: 767 train
+  Guard:  7.5h
+============================================================
+
+🚀 Training 1023→3000
+  ⏳ First epoch will be slow (JIT compilation)...
+E1023/3000 | Loss: 5.2241 | Best: 0.1519 | 71.7s | 0.1h | ETA: 2363m
+E1024/3000 | Loss: 3.0268 | Best: 0.1519 | 0.8s | 0.1h | ETA: 1194m
+E1025/3000 | Loss: 1.5720 | Best: 0.1519 | 0.8s | 0.1h | ETA: 805m
+E1026/3000 | Loss: 1.3090 | Best: 0.1519 | 0.8s | 0.1h | ETA: 610m
+E1027/3000 | Loss: 1.2944 | Best: 0.1519 | 0.8s | 0.1h | ETA: 493m
+E1028/3000 | Loss: 1.1917 | Best: 0.1519 | 0.8s | 0.1h | ETA: 415m
+E1029/3000 | Loss: 1.2022 | Best: 0.1519 | 0.8s | 0.1h | ETA: 360m
+E1030/3000 | Loss: 1.1622 | Best: 0.1519 | 0.8s | 0.1h | ETA: 318m
+E1031/3000 | Loss: 1.1546 | Best: 0.1519 | 0.8s | 0.1h | ETA: 285m
+E1032/3000 | Loss: 1.1489 | Best: 0.1519 | 0.8s | 0.1h | ETA: 259m
+E1033/3000 | Loss: 1.1425 | Best: 0.1519 | 0.8s | 0.1h | ETA: 238m
+E1034/3000 | Loss: 1.1453 | Best: 0.1519 | 0.8s | 0.1h | ETA: 220m
+E1035/3000 | Loss: 1.1416 | Best: 0.1519 | 0.8s | 0.1h | ETA: 205m
+E1036/3000 | Loss: 1.1428 | Best: 0.1519 | 0.8s | 0.1h | ETA: 193m
+E1037/3000 | Loss: 1.1341 | Best: 0.1519 | 0.8s | 0.1h | ETA: 181m
+E1038/3000 | Loss: 1.1351 | Best: 0.1519 | 0.8s | 0.1h | ETA: 172m
+E1039/3000 | Loss: 1.1363 | Best: 0.1519 | 0.8s | 0.1h | ETA: 163m
+E1040/3000 | Loss: 1.1330 | Best: 0.1519 | 0.8s | 0.1h | ETA: 155m
+  💾 Checkpoint epoch 1040
+E1041/3000 | Loss: 1.1353 | Best: 0.1519 | 0.8s | 0.1h | ETA: 149m
+E1042/3000 | Loss: 1.1310 | Best: 0.1519 | 0.8s | 0.1h | ETA: 142m
+E1043/3000 | Loss: 1.1298 | Best: 0.1519 | 0.8s | 0.1h | ETA: 137m
+E1044/3000 | Loss: 1.1322 | Best: 0.1519 | 0.8s | 0.1h | ETA: 132m
+E1045/3000 | Loss: 1.1329 | Best: 0.1519 | 0.8s | 0.1h | ETA: 127m
+E1046/3000 | Loss: 1.1294 | Best: 0.1519 | 0.8s | 0.1h | ETA: 123m
+E1047/3000 | Loss: 1.1342 | Best: 0.1519 | 0.8s | 0.1h | ETA: 119m
+E1048/3000 | Loss: 1.1286 | Best: 0.1519 | 0.8s | 0.1h | ETA: 115m
+E1049/3000 | Loss: 1.1284 | Best: 0.1519 | 0.8s | 0.1h | ETA: 112m
+E1050/3000 | Loss: 1.1332 | Best: 0.1519 | 4.1s | 0.1h | ETA: 113m
+E1051/3000 | Loss: 1.1334 | Best: 0.1519 | 0.8s | 0.1h | ETA: 110m
+E1052/3000 | Loss: 1.1362 | Best: 0.1519 | 0.8s | 0.1h | ETA: 107m
+E1053/3000 | Loss: 1.1357 | Best: 0.1519 | 0.8s | 0.1h | ETA: 104m
+E1054/3000 | Loss: 1.1347 | Best: 0.1519 | 0.8s | 0.1h | ETA: 102m
+E1055/3000 | Loss: 1.1370 | Best: 0.1519 | 0.8s | 0.1h | ETA: 99m
+E1056/3000 | Loss: 1.1379 | Best: 0.1519 | 0.8s | 0.1h | ETA: 97m
+E1057/3000 | Loss: 1.1348 | Best: 0.1519 | 0.8s | 0.1h | ETA: 95m
+E1058/3000 | Loss: 1.1385 | Best: 0.1519 | 0.8s | 0.1h | ETA: 93m
+E1059/3000 | Loss: 1.1360 | Best: 0.1519 | 0.8s | 0.1h | ETA: 91m
+E1060/3000 | Loss: 1.1338 | Best: 0.1519 | 0.8s | 0.1h | ETA: 90m
+  💾 Checkpoint epoch 1060
+E1061/3000 | Loss: 1.1396 | Best: 0.1519 | 0.8s | 0.1h | ETA: 88m
+E1062/3000 | Loss: 1.1331 | Best: 0.1519 | 0.8s | 0.1h | ETA: 86m
+E1063/3000 | Loss: 1.1371 | Best: 0.1519 | 0.8s | 0.1h | ETA: 85m
+E1064/3000 | Loss: 1.1344 | Best: 0.1519 | 0.8s | 0.1h | ETA: 83m
+E1065/3000 | Loss: 1.1369 | Best: 0.1519 | 0.8s | 0.1h | ETA: 82m
+E1066/3000 | Loss: 1.1302 | Best: 0.1519 | 0.8s | 0.1h | ETA: 81m
+E1067/3000 | Loss: 1.1270 | Best: 0.1519 | 0.8s | 0.1h | ETA: 79m
+E1068/3000 | Loss: 1.1277 | Best: 0.1519 | 0.8s | 0.1h | ETA: 78m
+E1069/3000 | Loss: 1.1302 | Best: 0.1519 | 0.8s | 0.1h | ETA: 77m
+E1070/3000 | Loss: 1.1248 | Best: 0.1519 | 0.8s | 0.1h | ETA: 76m
+E1071/3000 | Loss: 1.1247 | Best: 0.1519 | 0.8s | 0.1h | ETA: 75m
+E1072/3000 | Loss: 1.1305 | Best: 0.1519 | 0.8s | 0.1h | ETA: 74m
+E1073/3000 | Loss: 1.1318 | Best: 0.1519 | 0.8s | 0.1h | ETA: 73m
+E1074/3000 | Loss: 1.1307 | Best: 0.1519 | 0.8s | 0.1h | ETA: 72m
+E1075/3000 | Loss: 1.1346 | Best: 0.1519 | 0.8s | 0.1h | ETA: 71m
+E1076/3000 | Loss: 1.1431 | Best: 0.1519 | 0.8s | 0.1h | ETA: 70m
+E1077/3000 | Loss: 1.1453 | Best: 0.1519 | 0.8s | 0.1h | ETA: 69m
+E1078/3000 | Loss: 1.1397 | Best: 0.1519 | 0.8s | 0.1h | ETA: 69m
+E1079/3000 | Loss: 1.1309 | Best: 0.1519 | 0.8s | 0.1h | ETA: 68m
+E1080/3000 | Loss: 1.1327 | Best: 0.1519 | 0.8s | 0.1h | ETA: 67m
+  💾 Checkpoint epoch 1080
+E1081/3000 | Loss: 1.1328 | Best: 0.1519 | 0.8s | 0.2h | ETA: 66m
+E1082/3000 | Loss: 1.1370 | Best: 0.1519 | 0.8s | 0.2h | ETA: 66m
+E1083/3000 | Loss: 1.1412 | Best: 0.1519 | 0.8s | 0.2h | ETA: 65m
+E1084/3000 | Loss: 1.1340 | Best: 0.1519 | 0.8s | 0.2h | ETA: 64m
+E1085/3000 | Loss: 1.1351 | Best: 0.1519 | 0.8s | 0.2h | ETA: 64m
+E1086/3000 | Loss: 1.1324 | Best: 0.1519 | 0.8s | 0.2h | ETA: 63m
+E1087/3000 | Loss: 1.1346 | Best: 0.1519 | 0.8s | 0.2h | ETA: 62m
+E1088/3000 | Loss: 1.1271 | Best: 0.1519 | 0.8s | 0.2h | ETA: 62m
+E1089/3000 | Loss: 1.1297 | Best: 0.1519 | 0.8s | 0.2h | ETA: 61m
+E1090/3000 | Loss: 1.1339 | Best: 0.1519 | 0.8s | 0.2h | ETA: 61m
+E1091/3000 | Loss: 1.1328 | Best: 0.1519 | 0.8s | 0.2h | ETA: 60m
+E1092/3000 | Loss: 1.1275 | Best: 0.1519 | 0.8s | 0.2h | ETA: 60m
+E1093/3000 | Loss: 1.1304 | Best: 0.1519 | 0.8s | 0.2h | ETA: 59m
+E1094/3000 | Loss: 1.1264 | Best: 0.1519 | 0.8s | 0.2h | ETA: 59m
+E1095/3000 | Loss: 1.1266 | Best: 0.1519 | 0.8s | 0.2h | ETA: 58m
+E1096/3000 | Loss: 1.1246 | Best: 0.1519 | 0.8s | 0.2h | ETA: 58m
+E1097/3000 | Loss: 1.1197 | Best: 0.1519 | 0.8s | 0.2h | ETA: 57m
+E1098/3000 | Loss: 1.1268 | Best: 0.1519 | 0.8s | 0.2h | ETA: 57m
+E1099/3000 | Loss: 1.1223 | Best: 0.1519 | 0.8s | 0.2h | ETA: 56m
+E1100/3000 | Loss: 1.1354 | Best: 0.1519 | 4.3s | 0.2h | ETA: 57m
+ERROR:asyncio:Exception in callback Task.__step()
+handle: <Handle Task.__step()>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: cannot enter context: <_contextvars.Context object at 0x7f8752e34140> is already entered
+ERROR:asyncio:Exception in callback Task.__step()
+handle: <Handle Task.__step()>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: cannot enter context: <_contextvars.Context object at 0x7f8752e34140> is already entered
+ERROR:asyncio:Exception in callback Task.__step()
+handle: <Handle Task.__step()>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: cannot enter context: <_contextvars.Context object at 0x7f8752e34140> is already entered
+ERROR:asyncio:Exception in callback Task.__step()
+handle: <Handle Task.__step()>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: cannot enter context: <_contextvars.Context object at 0x7f8752e34140> is already entered
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-4835' coro=<_async_in_context.<locals>.run_in_context() done, defined at /usr/local/lib/python3.12/site-packages/ipykernel/utils.py:57> wait_for=<Task pending name='Task-4836' coro=<Kernel.shell_main() running at /usr/local/lib/python3.12/site-packages/ipykernel/kernelbase.py:597> cb=[Task.__wakeup()]> cb=[ZMQStream._run_callback.<locals>._log_error() at /usr/local/lib/python3.12/site-packages/zmq/eventloop/zmqstream.py:563]>
+<string>:2: RuntimeWarning: coroutine 'Kernel.shell_main' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-4836' coro=<Kernel.shell_main() running at /usr/local/lib/python3.12/site-packages/ipykernel/kernelbase.py:597> cb=[Task.__wakeup()]>
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-4837' coro=<_async_in_context.<locals>.run_in_context() done, defined at /usr/local/lib/python3.12/site-packages/ipykernel/utils.py:57> wait_for=<Task pending name='Task-4839' coro=<Kernel.shell_main() running at /usr/local/lib/python3.12/site-packages/ipykernel/kernelbase.py:597> cb=[Task.__wakeup()]> cb=[ZMQStream._run_callback.<locals>._log_error() at /usr/local/lib/python3.12/site-packages/zmq/eventloop/zmqstream.py:563]>
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-4839' coro=<Kernel.shell_main() running at /usr/local/lib/python3.12/site-packages/ipykernel/kernelbase.py:597> cb=[Task.__wakeup()]>
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-4840' coro=<_async_in_context.<locals>.run_in_context() done, defined at /usr/local/lib/python3.12/site-packages/ipykernel/utils.py:57> wait_for=<Task pending name='Task-4842' coro=<Kernel.shell_main() running at /usr/local/lib/python3.12/site-packages/ipykernel/kernelbase.py:597> cb=[Task.__wakeup()]> cb=[ZMQStream._run_callback.<locals>._log_error() at /usr/local/lib/python3.12/site-packages/zmq/eventloop/zmqstream.py:563]>
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-4842' coro=<Kernel.shell_main() running at /usr/local/lib/python3.12/site-packages/ipykernel/kernelbase.py:597> cb=[Task.__wakeup()]>
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-4843' coro=<_async_in_context.<locals>.run_in_context() done, defined at /usr/local/lib/python3.12/site-packages/ipykernel/utils.py:57> wait_for=<Task pending name='Task-4845' coro=<Kernel.shell_main() running at /usr/local/lib/python3.12/site-packages/ipykernel/kernelbase.py:597> cb=[Task.__wakeup()]> cb=[ZMQStream._run_callback.<locals>._log_error() at /usr/local/lib/python3.12/site-packages/zmq/eventloop/zmqstream.py:563]>
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-4845' coro=<Kernel.shell_main() running at /usr/local/lib/python3.12/site-packages/ipykernel/kernelbase.py:597> cb=[Task.__wakeup()]>
+  💾 Checkpoint epoch 1100
+E1101/3000 | Loss: 1.1367 | Best: 0.1519 | 0.8s | 0.2h | ETA: 57m
+E1102/3000 | Loss: 1.1397 | Best: 0.1519 | 0.8s | 0.2h | ETA: 57m
+E1103/3000 | Loss: 1.1414 | Best: 0.1519 | 0.8s | 0.2h | ETA: 56m
+E1104/3000 | Loss: 1.1442 | Best: 0.1519 | 0.8s | 0.2h | ETA: 56m
+E1105/3000 | Loss: 1.1429 | Best: 0.1519 | 0.8s | 0.2h | ETA: 55m
+E1106/3000 | Loss: 1.1390 | Best: 0.1519 | 0.8s | 0.2h | ETA: 55m
+E1107/3000 | Loss: 1.1423 | Best: 0.1519 | 0.8s | 0.2h | ETA: 55m
+E1108/3000 | Loss: 1.1359 | Best: 0.1519 | 0.8s | 0.2h | ETA: 54m
+E1109/3000 | Loss: 1.1332 | Best: 0.1519 | 0.8s | 0.2h | ETA: 54m
+E1110/3000 | Loss: 1.1421 | Best: 0.1519 | 0.8s | 0.2h | ETA: 54m
+E1111/3000 | Loss: 1.1410 | Best: 0.1519 | 0.8s | 0.2h | ETA: 53m
+E1112/3000 | Loss: 1.1398 | Best: 0.1519 | 0.8s | 0.2h | ETA: 53m
+E1113/3000 | Loss: 1.1332 | Best: 0.1519 | 0.8s | 0.2h | ETA: 53m
+E1114/3000 | Loss: 1.1316 | Best: 0.1519 | 0.8s | 0.2h | ETA: 52m
+E1115/3000 | Loss: 1.1312 | Best: 0.1519 | 1.2s | 0.2h | ETA: 52m
+E1116/3000 | Loss: 1.1303 | Best: 0.1519 | 0.8s | 0.2h | ETA: 52m
+E1117/3000 | Loss: 1.1311 | Best: 0.1519 | 0.8s | 0.2h | ETA: 52m
+E1118/3000 | Loss: 1.1288 | Best: 0.1519 | 0.8s | 0.2h | ETA: 51m
+E1119/3000 | Loss: 1.1275 | Best: 0.1519 | 0.8s | 0.2h | ETA: 51m
+E1120/3000 | Loss: 1.1263 | Best: 0.1519 | 0.8s | 0.2h | ETA: 51m
+  💾 Checkpoint epoch 1120
+E1121/3000 | Loss: 1.1225 | Best: 0.1519 | 0.8s | 0.2h | ETA: 50m
+E1122/3000 | Loss: 1.1207 | Best: 0.1519 | 0.8s | 0.2h | ETA: 50m
+E1123/3000 | Loss: 1.1326 | Best: 0.1519 | 0.8s | 0.2h | ETA: 50m
+E1124/3000 | Loss: 1.1305 | Best: 0.1519 | 0.8s | 0.2h | ETA: 50m
+E1125/3000 | Loss: 1.1337 | Best: 0.1519 | 0.8s | 0.2h | ETA: 49m
+E1126/3000 | Loss: 1.1316 | Best: 0.1519 | 0.8s | 0.2h | ETA: 49m
+E1127/3000 | Loss: 1.1272 | Best: 0.1519 | 0.8s | 0.2h | ETA: 49m
+E1128/3000 | Loss: 1.1262 | Best: 0.1519 | 0.8s | 0.2h | ETA: 49m
+E1129/3000 | Loss: 1.1226 | Best: 0.1519 | 0.8s | 0.2h | ETA: 48m
+E1130/3000 | Loss: 1.1243 | Best: 0.1519 | 0.8s | 0.2h | ETA: 48m
+E1131/3000 | Loss: 1.1207 | Best: 0.1519 | 0.8s | 0.2h | ETA: 48m
+E1132/3000 | Loss: 1.1211 | Best: 0.1519 | 0.8s | 0.2h | ETA: 48m
+E1133/3000 | Loss: 1.1238 | Best: 0.1519 | 0.8s | 0.2h | ETA: 47m
+E1134/3000 | Loss: 1.1253 | Best: 0.1519 | 0.8s | 0.2h | ETA: 47m
+E1135/3000 | Loss: 1.1244 | Best: 0.1519 | 0.8s | 0.2h | ETA: 47m
+E1136/3000 | Loss: 1.1182 | Best: 0.1519 | 0.8s | 0.2h | ETA: 47m
+E1137/3000 | Loss: 1.1191 | Best: 0.1519 | 0.8s | 0.2h | ETA: 47m
+E1138/3000 | Loss: 1.1162 | Best: 0.1519 | 0.8s | 0.2h | ETA: 46m
+E1139/3000 | Loss: 1.1195 | Best: 0.1519 | 0.8s | 0.2h | ETA: 46m
+E1140/3000 | Loss: 1.1164 | Best: 0.1519 | 0.8s | 0.2h | ETA: 46m
+  💾 Checkpoint epoch 1140
+E1141/3000 | Loss: 1.1143 | Best: 0.1519 | 0.8s | 0.3h | ETA: 46m
+E1142/3000 | Loss: 1.1224 | Best: 0.1519 | 0.8s | 0.3h | ETA: 46m
+E1143/3000 | Loss: 1.1238 | Best: 0.1519 | 0.8s | 0.3h | ETA: 45m
+E1144/3000 | Loss: 1.1220 | Best: 0.1519 | 0.8s | 0.3h | ETA: 45m
+E1145/3000 | Loss: 1.1149 | Best: 0.1519 | 0.8s | 0.3h | ETA: 45m
+E1146/3000 | Loss: 1.1171 | Best: 0.1519 | 0.8s | 0.3h | ETA: 45m
+E1147/3000 | Loss: 1.1215 | Best: 0.1519 | 0.8s | 0.3h | ETA: 45m
+E1148/3000 | Loss: 1.1145 | Best: 0.1519 | 0.8s | 0.3h | ETA: 44m
+E1149/3000 | Loss: 1.1173 | Best: 0.1519 | 0.8s | 0.3h | ETA: 44m
+E1150/3000 | Loss: 1.1070 | Best: 0.1519 | 5.1s | 0.3h | ETA: 45m
+E1151/3000 | Loss: 1.1108 | Best: 0.1519 | 0.8s | 0.3h | ETA: 45m
+E1152/3000 | Loss: 1.1110 | Best: 0.1519 | 0.8s | 0.3h | ETA: 45m
+E1153/3000 | Loss: 1.1098 | Best: 0.1519 | 0.8s | 0.3h | ETA: 45m
+E1154/3000 | Loss: 1.1112 | Best: 0.1519 | 0.8s | 0.3h | ETA: 44m
+E1155/3000 | Loss: 1.1069 | Best: 0.1519 | 0.8s | 0.3h | ETA: 44m
+E1156/3000 | Loss: 1.1088 | Best: 0.1519 | 0.8s | 0.3h | ETA: 44m
+E1157/3000 | Loss: 1.1081 | Best: 0.1519 | 0.8s | 0.3h | ETA: 44m
+E1158/3000 | Loss: 1.1303 | Best: 0.1519 | 0.8s | 0.3h | ETA: 44m
+E1159/3000 | Loss: 1.1242 | Best: 0.1519 | 0.8s | 0.3h | ETA: 44m
+E1160/3000 | Loss: 1.1247 | Best: 0.1519 | 0.8s | 0.3h | ETA: 43m
+  💾 Checkpoint epoch 1160
+E1161/3000 | Loss: 1.1308 | Best: 0.1519 | 0.8s | 0.3h | ETA: 43m
+E1162/3000 | Loss: 1.1255 | Best: 0.1519 | 0.8s | 0.3h | ETA: 43m
+E1163/3000 | Loss: 1.1255 | Best: 0.1519 | 0.8s | 0.3h | ETA: 43m
+E1164/3000 | Loss: 1.1199 | Best: 0.1519 | 0.8s | 0.3h | ETA: 43m
+E1165/3000 | Loss: 1.1188 | Best: 0.1519 | 0.8s | 0.3h | ETA: 43m
+E1166/3000 | Loss: 1.1201 | Best: 0.1519 | 0.8s | 0.3h | ETA: 43m
+E1167/3000 | Loss: 1.1189 | Best: 0.1519 | 0.8s | 0.3h | ETA: 42m
+E1168/3000 | Loss: 1.1137 | Best: 0.1519 | 0.8s | 0.3h | ETA: 42m
+E1169/3000 | Loss: 1.1189 | Best: 0.1519 | 0.8s | 0.3h | ETA: 42m
+E1170/3000 | Loss: 1.1127 | Best: 0.1519 | 0.8s | 0.3h | ETA: 42m
+E1171/3000 | Loss: 1.1110 | Best: 0.1519 | 0.8s | 0.3h | ETA: 42m
+E1172/3000 | Loss: 1.1108 | Best: 0.1519 | 0.8s | 0.3h | ETA: 42m
+E1173/3000 | Loss: 1.1097 | Best: 0.1519 | 0.8s | 0.3h | ETA: 42m
+E1174/3000 | Loss: 1.1155 | Best: 0.1519 | 0.8s | 0.3h | ETA: 41m
+E1175/3000 | Loss: 1.1129 | Best: 0.1519 | 0.8s | 0.3h | ETA: 41m
+E1176/3000 | Loss: 1.1108 | Best: 0.1519 | 0.8s | 0.3h | ETA: 41m
+E1177/3000 | Loss: 1.1144 | Best: 0.1519 | 0.8s | 0.3h | ETA: 41m
+E1178/3000 | Loss: 1.1142 | Best: 0.1519 | 0.8s | 0.3h | ETA: 41m
+E1179/3000 | Loss: 1.1122 | Best: 0.1519 | 0.8s | 0.3h | ETA: 41m
+E1180/3000 | Loss: 1.1108 | Best: 0.1519 | 0.8s | 0.3h | ETA: 41m
+  💾 Checkpoint epoch 1180
+E1181/3000 | Loss: 1.1109 | Best: 0.1519 | 0.8s | 0.3h | ETA: 41m
+E1182/3000 | Loss: 1.1076 | Best: 0.1519 | 0.8s | 0.3h | ETA: 40m
+E1183/3000 | Loss: 1.1083 | Best: 0.1519 | 0.8s | 0.3h | ETA: 40m
+E1184/3000 | Loss: 1.1108 | Best: 0.1519 | 0.8s | 0.3h | ETA: 40m
+E1185/3000 | Loss: 1.1098 | Best: 0.1519 | 0.8s | 0.3h | ETA: 40m
+E1186/3000 | Loss: 1.1105 | Best: 0.1519 | 0.8s | 0.3h | ETA: 40m
+E1187/3000 | Loss: 1.1137 | Best: 0.1519 | 0.8s | 0.3h | ETA: 40m
+E1188/3000 | Loss: 1.1108 | Best: 0.1519 | 0.8s | 0.3h | ETA: 40m
+E1189/3000 | Loss: 1.1108 | Best: 0.1519 | 0.8s | 0.3h | ETA: 40m
+E1190/3000 | Loss: 1.1083 | Best: 0.1519 | 0.8s | 0.3h | ETA: 40m
+E1191/3000 | Loss: 1.1088 | Best: 0.1519 | 0.8s | 0.3h | ETA: 39m
+E1192/3000 | Loss: 1.1135 | Best: 0.1519 | 0.8s | 0.3h | ETA: 39m
+E1193/3000 | Loss: 1.1106 | Best: 0.1519 | 0.8s | 0.3h | ETA: 39m
+E1194/3000 | Loss: 1.1081 | Best: 0.1519 | 0.8s | 0.3h | ETA: 39m
+E1195/3000 | Loss: 1.1049 | Best: 0.1519 | 0.8s | 0.3h | ETA: 39m
+E1196/3000 | Loss: 1.1095 | Best: 0.1519 | 0.8s | 0.3h | ETA: 39m
+E1197/3000 | Loss: 1.1077 | Best: 0.1519 | 0.8s | 0.3h | ETA: 39m
+E1198/3000 | Loss: 1.1066 | Best: 0.1519 | 0.8s | 0.3h | ETA: 39m
+E1199/3000 | Loss: 1.1065 | Best: 0.1519 | 0.8s | 0.3h | ETA: 39m
+E1200/3000 | Loss: 1.0946 | Best: 0.1519 | 4.1s | 0.3h | ETA: 39m
+  💾 Checkpoint epoch 1200
+E1201/3000 | Loss: 1.1005 | Best: 0.1519 | 0.8s | 0.4h | ETA: 39m
+E1202/3000 | Loss: 1.0994 | Best: 0.1519 | 0.8s | 0.4h | ETA: 39m
+E1203/3000 | Loss: 1.0991 | Best: 0.1519 | 0.8s | 0.4h | ETA: 39m
+E1204/3000 | Loss: 1.1027 | Best: 0.1519 | 0.8s | 0.4h | ETA: 39m
+E1205/3000 | Loss: 1.0984 | Best: 0.1519 | 0.8s | 0.4h | ETA: 39m
+E1206/3000 | Loss: 1.0982 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1207/3000 | Loss: 1.0992 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1208/3000 | Loss: 1.1012 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1209/3000 | Loss: 1.1036 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1210/3000 | Loss: 1.0965 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1211/3000 | Loss: 1.1016 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1212/3000 | Loss: 1.0980 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1213/3000 | Loss: 1.0972 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1214/3000 | Loss: 1.1007 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1215/3000 | Loss: 1.1021 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1216/3000 | Loss: 1.1027 | Best: 0.1519 | 0.8s | 0.4h | ETA: 38m
+E1217/3000 | Loss: 1.0945 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1218/3000 | Loss: 1.0933 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1219/3000 | Loss: 1.0949 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1220/3000 | Loss: 1.0960 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+  💾 Checkpoint epoch 1220
+E1221/3000 | Loss: 1.0927 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1222/3000 | Loss: 1.0955 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1223/3000 | Loss: 1.0952 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1224/3000 | Loss: 1.0936 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1225/3000 | Loss: 1.0959 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1226/3000 | Loss: 1.0928 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1227/3000 | Loss: 1.0910 | Best: 0.1519 | 0.8s | 0.4h | ETA: 37m
+E1228/3000 | Loss: 1.0954 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1229/3000 | Loss: 1.0942 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1230/3000 | Loss: 1.0961 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1231/3000 | Loss: 1.0936 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1232/3000 | Loss: 1.0948 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1233/3000 | Loss: 1.0980 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1234/3000 | Loss: 1.0960 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1235/3000 | Loss: 1.0976 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1236/3000 | Loss: 1.0931 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1237/3000 | Loss: 1.0940 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1238/3000 | Loss: 1.0950 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1239/3000 | Loss: 1.0927 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1240/3000 | Loss: 1.0890 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+  💾 Checkpoint epoch 1240
+E1241/3000 | Loss: 1.0972 | Best: 0.1519 | 0.8s | 0.4h | ETA: 36m
+E1242/3000 | Loss: 1.0904 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1243/3000 | Loss: 1.0938 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1244/3000 | Loss: 1.0884 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1245/3000 | Loss: 1.0873 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1246/3000 | Loss: 1.0877 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1247/3000 | Loss: 1.0932 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1248/3000 | Loss: 1.0883 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1249/3000 | Loss: 1.0868 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1250/3000 | Loss: 1.0984 | Best: 0.1519 | 4.2s | 0.4h | ETA: 35m
+E1251/3000 | Loss: 1.0914 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1252/3000 | Loss: 1.0979 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1253/3000 | Loss: 1.0998 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1254/3000 | Loss: 1.0982 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1255/3000 | Loss: 1.1003 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1256/3000 | Loss: 1.1010 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1257/3000 | Loss: 1.0986 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1258/3000 | Loss: 1.0958 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1259/3000 | Loss: 1.0964 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+E1260/3000 | Loss: 1.0924 | Best: 0.1519 | 0.8s | 0.4h | ETA: 35m
+  💾 Checkpoint epoch 1260
+E1261/3000 | Loss: 1.0930 | Best: 0.1519 | 0.8s | 0.5h | ETA: 35m
+E1262/3000 | Loss: 1.0957 | Best: 0.1519 | 0.8s | 0.5h | ETA: 35m
+E1263/3000 | Loss: 1.0903 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1264/3000 | Loss: 1.0947 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1265/3000 | Loss: 1.0932 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1266/3000 | Loss: 1.0943 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1267/3000 | Loss: 1.0927 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1268/3000 | Loss: 1.0932 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1269/3000 | Loss: 1.0943 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1270/3000 | Loss: 1.0904 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1271/3000 | Loss: 1.0901 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1272/3000 | Loss: 1.0923 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1273/3000 | Loss: 1.0919 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1274/3000 | Loss: 1.0967 | Best: 0.1519 | 0.9s | 0.5h | ETA: 34m
+E1275/3000 | Loss: 1.0924 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1276/3000 | Loss: 1.0987 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1277/3000 | Loss: 1.0981 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1278/3000 | Loss: 1.0885 | Best: 0.1519 | 0.8s | 0.5h | ETA: 34m
+E1279/3000 | Loss: 1.0931 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1280/3000 | Loss: 1.0943 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+  💾 Checkpoint epoch 1280
+E1281/3000 | Loss: 1.0965 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1282/3000 | Loss: 1.0900 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1283/3000 | Loss: 1.0948 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1284/3000 | Loss: 1.0875 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1285/3000 | Loss: 1.0902 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1286/3000 | Loss: 1.0919 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1287/3000 | Loss: 1.0828 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1288/3000 | Loss: 1.0887 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1289/3000 | Loss: 1.0850 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1290/3000 | Loss: 1.0842 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1291/3000 | Loss: 1.0905 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1292/3000 | Loss: 1.0922 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1293/3000 | Loss: 1.0874 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1294/3000 | Loss: 1.0867 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1295/3000 | Loss: 1.0868 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1296/3000 | Loss: 1.0850 | Best: 0.1519 | 0.8s | 0.5h | ETA: 33m
+E1297/3000 | Loss: 1.0883 | Best: 0.1519 | 0.8s | 0.5h | ETA: 32m
+E1298/3000 | Loss: 1.0851 | Best: 0.1519 | 0.8s | 0.5h | ETA: 32m
+E1299/3000 | Loss: 1.0867 | Best: 0.1519 | 0.8s | 0.5h | ETA: 32m
+E1300/3000 | Loss: 1.0834 | Best: 0.1519 | 4.3s | 0.5h | ETA: 33m
+  💾 Checkpoint epoch 1300
+E1301/3000 | Loss: 1.0751 | Best: 0.1519 | 0.8s | 0.6h | ETA: 33m
+E1302/3000 | Loss: 1.0812 | Best: 0.1519 | 0.8s | 0.6h | ETA: 33m
+E1303/3000 | Loss: 1.0826 | Best: 0.1519 | 0.8s | 0.6h | ETA: 33m
+E1304/3000 | Loss: 1.0812 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1305/3000 | Loss: 1.0839 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1306/3000 | Loss: 1.0827 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1307/3000 | Loss: 1.0837 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1308/3000 | Loss: 1.0822 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1309/3000 | Loss: 1.0791 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1310/3000 | Loss: 1.0813 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1311/3000 | Loss: 1.0741 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1312/3000 | Loss: 1.0813 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1313/3000 | Loss: 1.0778 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1314/3000 | Loss: 1.0798 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1315/3000 | Loss: 1.0786 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1316/3000 | Loss: 1.0797 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1317/3000 | Loss: 1.0775 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1318/3000 | Loss: 1.0732 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1319/3000 | Loss: 1.0767 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1320/3000 | Loss: 1.0757 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+  💾 Checkpoint epoch 1320
+E1321/3000 | Loss: 1.0857 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1322/3000 | Loss: 1.0778 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1323/3000 | Loss: 1.0786 | Best: 0.1519 | 0.8s | 0.6h | ETA: 32m
+E1324/3000 | Loss: 1.0736 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1325/3000 | Loss: 1.0798 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1326/3000 | Loss: 1.0773 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1327/3000 | Loss: 1.0779 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1328/3000 | Loss: 1.0804 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1329/3000 | Loss: 1.0784 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1330/3000 | Loss: 1.0769 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1331/3000 | Loss: 1.0811 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1332/3000 | Loss: 1.0738 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1333/3000 | Loss: 1.0772 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1334/3000 | Loss: 1.0752 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1335/3000 | Loss: 1.0726 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1336/3000 | Loss: 1.0752 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1337/3000 | Loss: 1.0741 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1338/3000 | Loss: 1.0687 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1339/3000 | Loss: 1.0692 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+E1340/3000 | Loss: 1.0730 | Best: 0.1519 | 0.8s | 0.6h | ETA: 31m
+  💾 Checkpoint epoch 1340

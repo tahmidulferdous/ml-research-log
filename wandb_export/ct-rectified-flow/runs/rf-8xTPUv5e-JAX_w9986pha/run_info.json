@@ -1,0 +1,134 @@
+{
+  "id": "UnVuOnYxOnc5OTg2cGhhOmN0LXJlY3RpZmllZC1mbG93OnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "w9986pha",
+  "displayName": "rf-8xTPUv5e-JAX",
+  "state": "finished",
+  "createdAt": "2026-02-27T19:42:13Z",
+  "computeSeconds": 2021,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 332,
+    "_wandb": {
+      "runtime": 2021
+    },
+    "_runtime": 2021.490452956,
+    "_timestamp": 1772223355.5172093,
+    "train/loss": 1.07295827070872,
+    "train/epoch": 1340,
+    "tpu/num_devices": 8,
+    "train/best_loss": 0.1518542958656326,
+    "train/elapsed_h": 0.595458805428611,
+    "tpu/images_per_sec": 576,
+    "train/epoch_time_s": 0.8247861862182617,
+    "samples/all_classes": {
+      "path": "media/images/samples/all_classes_312_6edc8af3d0bc9905b068.png",
+      "size": 3525271,
+      "_type": "image-file",
+      "width": 1677,
+      "format": "png",
+      "height": 1330,
+      "sha256": "6edc8af3d0bc9905b0681a8a8941a38fbe1cef9efcd2183099d487e7f3545efc"
+    }
+  },
+  "config": {
+    "lr": {
+      "value": 0.0012
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "j2to290djqec8js3iek0qmxd3fhb3pwq": {
+            "os": "Linux-6.1.42+-x86_64-with-glibc2.41",
+            "tpu": {
+              "name": "v5e",
+              "count": 8,
+              "hbmGib": 16,
+              "devicesPerChip": 1
+            },
+            "disk": {
+              "/": {
+                "used": "7169048481792",
+                "total": "8656922775552"
+              }
+            },
+            "host": "8ff357f6b389",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "405703245824"
+            },
+            "python": "CPython 3.12.12",
+            "program": "kaggle.ipynb",
+            "codePath": "kaggle.ipynb",
+            "writerId": "j2to290djqec8js3iek0qmxd3fhb3pwq",
+            "cpu_count": 112,
+            "startedAt": "2026-02-27T19:42:12.339262Z",
+            "executable": "/usr/local/bin/python",
+            "cpu_count_logical": 224
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            45,
+            49,
+            53,
+            80
+          ],
+          "2": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            45,
+            49,
+            53,
+            80
+          ],
+          "3": [
+            2,
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            1,
+            2
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 3000
+    },
+    "method": {
+      "value": "Rectified Flow"
+    },
+    "framework": {
+      "value": "JAX/Flax"
+    },
+    "precision": {
+      "value": "bfloat16"
+    },
+    "accelerator": {
+      "value": "TPU v5e \u00d7 8"
+    },
+    "effective_batch_size": {
+      "value": 192
+    },
+    "batch_size_per_device": {
+      "value": 24
+    }
+  }
+}

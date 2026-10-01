@@ -1,0 +1,168 @@
+{
+  "id": "UnVuOnYxOjVhZnZxY3hrOmN0LXJlY3RpZmllZC1mbG93OnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "5afvqcxk",
+  "displayName": "rf-JAX-8xTPUv5e",
+  "state": "finished",
+  "createdAt": "2026-03-01T22:23:51Z",
+  "computeSeconds": 1551,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 404,
+    "_wandb": {
+      "runtime": 1551
+    },
+    "_runtime": 1551,
+    "_timestamp": 1772405278.7302885,
+    "loss_curve": {
+      "path": "media/images/loss_curve_404_b16a750cd5568e495be2.png",
+      "size": 111140,
+      "_type": "image-file",
+      "width": 1500,
+      "format": "png",
+      "height": 750,
+      "sha256": "b16a750cd5568e495be2a03a7d16d4f744aea554469993054687af4e51dfcac2"
+    },
+    "train/loss": 0.17247746067662392,
+    "train/epoch": 3000,
+    "samples/Benign": {
+      "path": "media/images/samples/Benign_403_63d5cdf2e04a75cbfbce.png",
+      "size": 699448,
+      "_type": "image-file",
+      "width": 1717,
+      "format": "png",
+      "height": 448,
+      "sha256": "63d5cdf2e04a75cbfbce2e21e504eeedc93ace17389936397caf1fbebe99fa2a"
+    },
+    "samples/Normal": {
+      "path": "media/images/samples/Normal_403_817e7ab77c99f7bd6012.png",
+      "size": 462509,
+      "_type": "image-file",
+      "width": 1717,
+      "format": "png",
+      "height": 448,
+      "sha256": "817e7ab77c99f7bd6012807275e57e13767a5ba61030b3329a331bdd302fdd4d"
+    },
+    "train/best_loss": 0.09227316610274776,
+    "train/elapsed_h": 0.36088010132312776,
+    "samples/Malignant": {
+      "path": "media/images/samples/Malignant_403_9b16a02ce9021e469a0e.png",
+      "size": 774833,
+      "_type": "image-file",
+      "width": 1717,
+      "format": "png",
+      "height": 448,
+      "sha256": "9b16a02ce9021e469a0effa85f507d38530ef96cd2c417ac875ea0c8170e49c3"
+    },
+    "train/epoch_time_s": 2.5028183460235596
+  },
+  "config": {
+    "lr": {
+      "value": 0.00015
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "u30gntxsnglmx8p6qboboewhinxbvvb0": {
+            "os": "Linux-6.1.42+-x86_64-with-glibc2.41",
+            "tpu": {
+              "name": "v5e",
+              "count": 8,
+              "hbmGib": 16,
+              "devicesPerChip": 1
+            },
+            "disk": {
+              "/": {
+                "used": "7169067466752",
+                "total": "8656922775552"
+              }
+            },
+            "host": "ddff5d159392",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "405703245824"
+            },
+            "python": "CPython 3.12.12",
+            "program": "kaggle.ipynb",
+            "codePath": "kaggle.ipynb",
+            "writerId": "u30gntxsnglmx8p6qboboewhinxbvvb0",
+            "cpu_count": 112,
+            "startedAt": "2026-03-01T22:23:50.161960Z",
+            "executable": "/usr/local/bin/python",
+            "cpu_count_logical": 224
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            45,
+            49,
+            53,
+            80
+          ],
+          "2": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            45,
+            49,
+            53,
+            80
+          ],
+          "3": [
+            2,
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            1,
+            2
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 3000
+    },
+    "method": {
+      "value": "Rectified Flow"
+    },
+    "params": {
+      "value": 73459585
+    },
+    "img_size": {
+      "value": 224
+    },
+    "framework": {
+      "value": "JAX/Flax"
+    },
+    "accelerator": {
+      "value": "TPU v5e \u00d7 8"
+    },
+    "lr_schedule": {
+      "value": "cosine_decay"
+    },
+    "base_channels": {
+      "value": 128
+    },
+    "effective_batch": {
+      "value": 24
+    },
+    "per_device_batch": {
+      "value": 3
+    }
+  }
+}

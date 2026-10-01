@@ -1,0 +1,1108 @@
+{
+  "id": "UnVuOnYxOjN1NXU1YTgyOmdhbi1iZW5nYWxpLWRpZ2l0LWdlbmVyYXRpb246dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "3u5u5a82",
+  "displayName": "zesty-night-28",
+  "state": "finished",
+  "createdAt": "2024-11-18T13:40:19Z",
+  "computeSeconds": 242,
+  "tags": [],
+  "summaryMetrics": {
+    "Batch": 2,
+    "Epoch": 0,
+    "_step": 17,
+    "_wandb": {
+      "runtime": 242
+    },
+    "_runtime": 242.743845193,
+    "_timestamp": 1731937375.144268,
+    "Fake Images": {
+      "_type": "images/separated",
+      "count": 1,
+      "width": 530,
+      "format": "png",
+      "height": 266,
+      "captions": [
+        "Fake"
+      ],
+      "filenames": [
+        "media/images/Fake Images_0_ae11e1ba2fb7091a432e.png"
+      ]
+    },
+    "Real Images": {
+      "_type": "images/separated",
+      "count": 1,
+      "width": 530,
+      "format": "png",
+      "height": 266,
+      "captions": [
+        "Real"
+      ],
+      "filenames": [
+        "media/images/Real Images_0_dc1d1fed5586ed18ff5f.png"
+      ]
+    },
+    "Generator Loss": 39.319091796875,
+    "Generated Images": {
+      "_type": "images/separated",
+      "count": 1,
+      "width": 332,
+      "format": "png",
+      "height": 332,
+      "captions": [
+        "Epoch 16"
+      ],
+      "filenames": [
+        "media/images/Generated Images_16_0ff74a181e9483750306.png"
+      ]
+    },
+    "Discriminator Loss": -44.14544677734375,
+    "gradients/graph_14gen.4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.4.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.4.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.4.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.4.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.4.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_16gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_18gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_20gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_22gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_24gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_16gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_18gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_20gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_22gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_24gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_17critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_19critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_21critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_23critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_25critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_17critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_19critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_21critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_23critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_25critic.4.1.weight": {
+      "_type": "histogram"
+    }
+  },
+  "config": {
+    "BETA_1": {
+      "value": 0
+    },
+    "BETA_2": {
+      "value": 0.9
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            41,
+            55,
+            105
+          ],
+          "2": [
+            1,
+            41,
+            55,
+            105
+          ],
+          "3": [
+            1,
+            2,
+            16,
+            23,
+            55,
+            61
+          ],
+          "4": "3.10.12",
+          "5": "0.18.6",
+          "8": [
+            1,
+            5,
+            12
+          ],
+          "12": "0.18.6",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.18.6",
+        "python_version": "3.10.12"
+      }
+    },
+    "LAMBDA_GP": {
+      "value": 10
+    },
+    "NOISE_DIM": {
+      "value": 100
+    },
+    "BATCH_SIZE": {
+      "value": 64
+    },
+    "IMAGE_SIZE": {
+      "value": 64
+    },
+    "NUM_EPOCHS": {
+      "value": 5000
+    },
+    "CHANNELS_IMG": {
+      "value": 3
+    },
+    "FEATURES_GEN": {
+      "value": 64
+    },
+    "LEARNING_RATE": {
+      "value": 0.0001
+    },
+    "FEATURES_CRITIC": {
+      "value": 64
+    },
+    "CRITIC_ITERATIONS": {
+      "value": 5
+    }
+  }
+}

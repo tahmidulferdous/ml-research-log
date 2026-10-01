@@ -1,0 +1,103 @@
+{
+  "id": "UnVuOnYxOnU2dzNyb3U5OmNjYWxfcGFwZXJfcmVwcm9kdWN0aW9uOnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "u6w3rou9",
+  "displayName": "ccal_paper_method_leaky_split",
+  "state": "finished",
+  "createdAt": "2026-04-25T09:45:30Z",
+  "computeSeconds": 27,
+  "tags": [
+    "80-20",
+    "fp16",
+    "image-level-split",
+    "leaky",
+    "paper-method"
+  ],
+  "summaryMetrics": {
+    "_step": 1,
+    "_wandb": {
+      "runtime": 27
+    },
+    "_runtime": 27,
+    "_timestamp": 1777110331.9410665,
+    "dataset/split_method": "image-level random (paper method)",
+    "dataset/test_samples": 220,
+    "dataset/train_samples": 9999,
+    "model/total_parameters": 703331,
+    "model/trainable_parameters": 703331
+  },
+  "config": {
+    "seed": {
+      "value": 42
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "3": [
+            1,
+            2,
+            13,
+            15,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.26.1",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.26.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.26.1",
+        "python_version": "3.12.12"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "test_size": {
+      "value": 0.2
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "image_size": {
+      "value": 224
+    },
+    "learning_rate": {
+      "value": 0.001
+    },
+    "target_total_images": {
+      "value": 10000
+    }
+  }
+}

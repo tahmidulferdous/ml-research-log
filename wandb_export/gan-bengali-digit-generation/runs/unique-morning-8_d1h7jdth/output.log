@@ -1,0 +1,5 @@
+torch.Size([128, 3, 64, 64]) tensor(2)
+torch.Size([128, 3, 64, 64]) tensor(3)
+torch.Size([128, 3, 64, 64]) tensor(9)
+torch.Size([128, 1, 64, 64]) tensor(3)
+torch.Size([128, 1, 64, 64]) tensor(4)

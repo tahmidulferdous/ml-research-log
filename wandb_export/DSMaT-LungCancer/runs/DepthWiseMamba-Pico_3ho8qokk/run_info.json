@@ -1,0 +1,217 @@
+{
+  "id": "UnVuOnYxOjNobzhxb2trOkRTTWFULUx1bmdDYW5jZXI6dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "3ho8qokk",
+  "displayName": "DepthWiseMamba-Pico",
+  "state": "finished",
+  "createdAt": "2026-02-10T17:24:18Z",
+  "computeSeconds": 5,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 3,
+    "_wandb": {
+      "runtime": 5
+    },
+    "_runtime": 5,
+    "test_acc": 0.7326478149100257,
+    "test_loss": 0.5435922145843506,
+    "_timestamp": 1770744264.0487978,
+    "roc_curves": {
+      "path": "media/images/roc_curves_2_5cd1c4a06ab66a8186b8.png",
+      "size": 36171,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 500,
+      "sha256": "5cd1c4a06ab66a8186b8659d4073f357121c1641519b701f7e41cf804850a9c7"
+    },
+    "test_f1_macro": 0.696461446826944,
+    "confusion_matrix": {
+      "path": "media/images/confusion_matrix_1_102722bb5fe6f7f3a15c.png",
+      "size": 26516,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 500,
+      "sha256": "102722bb5fe6f7f3a15c61a640732888926a7b3f37a0be5e3e1010f9dfc3c215"
+    },
+    "per_class_metrics": {
+      "path": "media/table/per_class_metrics_3_7b86a56b1593ad7ac1f5.table.json",
+      "size": 342,
+      "_type": "table-file",
+      "ncols": 5,
+      "nrows": 3,
+      "sha256": "7b86a56b1593ad7ac1f5aa814cf68dfc0dc56963b506dee0d19373fba83d2fc7",
+      "log_mode": "IMMUTABLE",
+      "artifact_path": "wandb-client-artifact://bb43wa01vqq663z26nw9704lt12468g6jxks2zu1bhh3g8uhs3s6mmvt7g7umpuhz7goyx812a9pn69p0mgvbdebvwrx157qfmpn2hm3edwpqk1pws9dxygpsl2ms6gh/per_class_metrics.table.json",
+      "_latest_artifact_path": "wandb-client-artifact://jyk8oqtr1tmjh3585sgjmoo3j69izep2hfs9mvv0jchctvrx3hsxggd1ohp1nynkbyb17cs8iqs6f5v0p3i5cvtff5qw1vmoalcqw2bp4s2epzm9lt300icoqx2ttsm3:latest/per_class_metrics.table.json"
+    }
+  },
+  "config": {
+    "model": {
+      "value": {
+        "DepthWiseMamba-Pico": {
+          "dropout": 0.2,
+          "sa_heads": [
+            4,
+            4
+          ],
+          "mlp_expand": 2,
+          "stage_depths": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "stem_channels": [
+            16,
+            32
+          ],
+          "stage_channels": [
+            48,
+            96,
+            128,
+            192
+          ]
+        },
+        "DepthwiseMamba-Nano": {
+          "dropout": 0.4,
+          "sa_heads": [
+            4,
+            4
+          ],
+          "mlp_expand": 3,
+          "stage_depths": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "stem_channels": [
+            24,
+            48
+          ],
+          "stage_channels": [
+            64,
+            128,
+            192,
+            256
+          ]
+        }
+      }
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "4gtc95nbli48pzh3ug9ziukiwj9wk9m3": {
+            "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+            "gpu": "Tesla T4",
+            "disk": {
+              "/": {
+                "used": "7125030215680",
+                "total": "8656922775552"
+              }
+            },
+            "host": "83028ea2b374",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "33662472192"
+            },
+            "python": "CPython 3.12.12",
+            "program": "kaggle.ipynb",
+            "codePath": "kaggle.ipynb",
+            "writerId": "4gtc95nbli48pzh3ug9ziukiwj9wk9m3",
+            "cpu_count": 2,
+            "gpu_count": 2,
+            "startedAt": "2026-02-10T17:24:12.603844Z",
+            "executable": "/usr/bin/python3",
+            "gpu_nvidia": [
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-f1210d1d-7d6c-7ee3-931f-d5f4403986a0",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              },
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-588db133-7add-5dd3-d0a5-48daf78fc7d7",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              }
+            ],
+            "cudaVersion": "13.0",
+            "cpu_count_logical": 4
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            53,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            53,
+            105
+          ],
+          "3": [
+            2,
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.24.2",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.24.2",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.24.2",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 100
+    },
+    "optimizer": {
+      "value": "Adam"
+    },
+    "scheduler": {
+      "value": null
+    },
+    "batch_size": {
+      "value": 1024
+    },
+    "model_name": {
+      "value": "DepthWiseMamba-Pico"
+    },
+    "num_workers": {
+      "value": 4
+    },
+    "wandb_enabled": {
+      "value": true
+    },
+    "wandb_project": {
+      "value": "DSMaT-LungCancer"
+    },
+    "optimizer_params": {
+      "value": {
+        "lr": 1e-05,
+        "weight_decay": 0.0005
+      }
+    },
+    "grad_clip_max_norm": {
+      "value": 1
+    }
+  }
+}

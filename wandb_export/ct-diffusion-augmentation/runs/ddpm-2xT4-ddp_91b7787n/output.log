@@ -1,0 +1,191 @@
+✅ W&B initialized!
+Compiling model with torch.compile (this takes ~1-2 min first time)...
+✅ Model compiled!
+✅ Model wrapped with DDP (2 GPUs)
+Total parameters: 18,986,689
+Trainable parameters: 18,986,689
+Model size: 72.4 MB (fp32 weights)
+
+Starting training for 200 epochs...
+  AMP: torch.float16
+  GradScaler: Enabled (FP16)
+  Classifier-Free Guidance dropout: 10.0%
+  W&B: ✅ Logging
+Epoch 1/200:   0%|                                       | 0/24 [00:00<?, ?it/s][rank0]:W0222 18:46:33.292000 115 torch/_inductor/utils.py:1558] [0/0] Not enough SMs to use max_autotune_gemm mode
+/usr/local/lib/python3.12/dist-packages/torch/autograd/graph.py:841: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [512, 512, 1, 1], strides() = [512, 1, 512, 512]
+bucket_view.sizes() = [512, 512, 1, 1], strides() = [512, 1, 1, 1] (Triggered internally at /pytorch/torch/csrc/distributed/c10d/reducer.cpp:334.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 1/200: 100%|█████████████████| 24/24 [02:15<00:00,  5.63s/it, loss=0.1368]
+Epoch 1/200 | Loss: 0.3015 | Best: inf | Time: 135.1s | Elapsed: 0.0h | ETA: 448m | LR: 0.000200 | Patience: 0/20
+/usr/local/lib/python3.12/dist-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+Epoch 2/200: 100%|█████████████████| 24/24 [00:03<00:00,  7.07it/s, loss=0.1115]
+Epoch 2/200 | Loss: 0.1513 | Best: 0.3015 | Time: 3.4s | Elapsed: 0.0h | ETA: 229m | LR: 0.000200 | Patience: 0/20
+Epoch 3/200: 100%|█████████████████| 24/24 [00:03<00:00,  6.99it/s, loss=0.0480]
+Epoch 3/200 | Loss: 0.1123 | Best: 0.1513 | Time: 3.4s | Elapsed: 0.0h | ETA: 155m | LR: 0.000200 | Patience: 0/20
+Epoch 4/200: 100%|█████████████████| 24/24 [00:03<00:00,  7.03it/s, loss=0.0355]
+Epoch 4/200 | Loss: 0.1027 | Best: 0.1123 | Time: 3.4s | Elapsed: 0.0h | ETA: 119m | LR: 0.000200 | Patience: 0/20
+Epoch 5/200: 100%|█████████████████| 24/24 [00:03<00:00,  6.96it/s, loss=0.0298]
+Epoch 5/200 | Loss: 0.1062 | Best: 0.1027 | Time: 3.4s | Elapsed: 0.0h | ETA: 97m | LR: 0.000200 | Patience: 1/20
+Epoch 6/200: 100%|█████████████████| 24/24 [00:03<00:00,  6.90it/s, loss=0.0629]
+Epoch 6/200 | Loss: 0.0988 | Best: 0.1027 | Time: 3.5s | Elapsed: 0.0h | ETA: 82m | LR: 0.000200 | Patience: 0/20
+Epoch 7/200: 100%|█████████████████| 24/24 [00:03<00:00,  6.90it/s, loss=0.0361]
+Epoch 7/200 | Loss: 0.0768 | Best: 0.0988 | Time: 3.5s | Elapsed: 0.0h | ETA: 72m | LR: 0.000199 | Patience: 0/20
+Epoch 8/200: 100%|█████████████████| 24/24 [00:03<00:00,  6.97it/s, loss=0.0349]
+Epoch 8/200 | Loss: 0.0791 | Best: 0.0768 | Time: 3.4s | Elapsed: 0.0h | ETA: 64m | LR: 0.000199 | Patience: 1/20
+Epoch 9/200: 100%|█████████████████| 24/24 [00:03<00:00,  6.82it/s, loss=0.0258]
+Epoch 9/200 | Loss: 0.0848 | Best: 0.0768 | Time: 3.5s | Elapsed: 0.0h | ETA: 58m | LR: 0.000199 | Patience: 2/20
+Epoch 10/200: 100%|████████████████| 24/24 [00:03<00:00,  6.87it/s, loss=0.1028]
+Epoch 10/200 | Loss: 0.0859 | Best: 0.0768 | Time: 3.5s | Elapsed: 0.0h | ETA: 53m | LR: 0.000199 | Patience: 3/20
+  Generating samples at epoch 10...
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:02<00:00, 21.97it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 26.82it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 26.76it/s]
+Epoch 11/200: 100%|████████████████| 24/24 [00:03<00:00,  6.83it/s, loss=0.0443]
+Epoch 11/200 | Loss: 0.0864 | Best: 0.0768 | Time: 3.5s | Elapsed: 0.1h | ETA: 49m | LR: 0.000199 | Patience: 4/20
+Epoch 12/200: 100%|████████████████| 24/24 [00:03<00:00,  6.76it/s, loss=0.0965]
+Epoch 12/200 | Loss: 0.0798 | Best: 0.0768 | Time: 3.5s | Elapsed: 0.1h | ETA: 45m | LR: 0.000198 | Patience: 5/20
+Epoch 13/200: 100%|████████████████| 24/24 [00:03<00:00,  6.76it/s, loss=0.0359]
+Epoch 13/200 | Loss: 0.0790 | Best: 0.0768 | Time: 3.5s | Elapsed: 0.1h | ETA: 42m | LR: 0.000198 | Patience: 6/20
+Epoch 14/200: 100%|████████████████| 24/24 [00:03<00:00,  6.70it/s, loss=0.0472]
+Epoch 14/200 | Loss: 0.0696 | Best: 0.0768 | Time: 3.6s | Elapsed: 0.1h | ETA: 40m | LR: 0.000198 | Patience: 0/20
+Epoch 15/200: 100%|████████████████| 24/24 [00:03<00:00,  6.66it/s, loss=0.0250]
+Epoch 15/200 | Loss: 0.0848 | Best: 0.0696 | Time: 3.6s | Elapsed: 0.1h | ETA: 38m | LR: 0.000197 | Patience: 1/20
+Epoch 16/200: 100%|████████████████| 24/24 [00:03<00:00,  6.68it/s, loss=0.0685]
+Epoch 16/200 | Loss: 0.0728 | Best: 0.0696 | Time: 3.6s | Elapsed: 0.1h | ETA: 36m | LR: 0.000197 | Patience: 2/20
+Epoch 17/200: 100%|████████████████| 24/24 [00:03<00:00,  6.66it/s, loss=0.1580]
+Epoch 17/200 | Loss: 0.0903 | Best: 0.0696 | Time: 3.6s | Elapsed: 0.1h | ETA: 34m | LR: 0.000196 | Patience: 3/20
+Epoch 18/200: 100%|████████████████| 24/24 [00:03<00:00,  6.59it/s, loss=0.0557]
+Epoch 18/200 | Loss: 0.0686 | Best: 0.0696 | Time: 3.6s | Elapsed: 0.1h | ETA: 33m | LR: 0.000196 | Patience: 4/20
+Epoch 19/200: 100%|████████████████| 24/24 [00:03<00:00,  6.52it/s, loss=0.0996]
+Epoch 19/200 | Loss: 0.0731 | Best: 0.0686 | Time: 3.7s | Elapsed: 0.1h | ETA: 32m | LR: 0.000196 | Patience: 5/20
+Epoch 20/200: 100%|████████████████| 24/24 [00:03<00:00,  6.45it/s, loss=0.0762]
+Epoch 20/200 | Loss: 0.0643 | Best: 0.0686 | Time: 3.7s | Elapsed: 0.1h | ETA: 30m | LR: 0.000195 | Patience: 0/20
+  Generating samples at epoch 20...
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 25.72it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 25.65it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 25.65it/s]
+Epoch 21/200: 100%|████████████████| 24/24 [00:03<00:00,  6.47it/s, loss=0.0290]
+Epoch 21/200 | Loss: 0.0831 | Best: 0.0643 | Time: 3.7s | Elapsed: 0.1h | ETA: 29m | LR: 0.000195 | Patience: 1/20
+Epoch 22/200: 100%|████████████████| 24/24 [00:03<00:00,  6.46it/s, loss=0.0119]
+Epoch 22/200 | Loss: 0.0573 | Best: 0.0643 | Time: 3.7s | Elapsed: 0.1h | ETA: 28m | LR: 0.000194 | Patience: 0/20
+Epoch 23/200: 100%|████████████████| 24/24 [00:03<00:00,  6.57it/s, loss=0.0153]
+Epoch 23/200 | Loss: 0.0680 | Best: 0.0573 | Time: 3.7s | Elapsed: 0.1h | ETA: 27m | LR: 0.000194 | Patience: 1/20
+Epoch 24/200: 100%|████████████████| 24/24 [00:03<00:00,  6.57it/s, loss=0.1192]
+Epoch 24/200 | Loss: 0.0656 | Best: 0.0573 | Time: 3.7s | Elapsed: 0.1h | ETA: 27m | LR: 0.000193 | Patience: 2/20
+Epoch 25/200: 100%|████████████████| 24/24 [00:03<00:00,  6.57it/s, loss=0.0732]
+Epoch 25/200 | Loss: 0.0740 | Best: 0.0573 | Time: 3.7s | Elapsed: 0.1h | ETA: 26m | LR: 0.000192 | Patience: 3/20
+Epoch 26/200: 100%|████████████████| 24/24 [00:03<00:00,  6.53it/s, loss=0.1561]
+Epoch 26/200 | Loss: 0.0660 | Best: 0.0573 | Time: 3.7s | Elapsed: 0.1h | ETA: 25m | LR: 0.000192 | Patience: 4/20
+Epoch 27/200: 100%|████████████████| 24/24 [00:03<00:00,  6.52it/s, loss=0.0300]
+Epoch 27/200 | Loss: 0.0623 | Best: 0.0573 | Time: 3.7s | Elapsed: 0.1h | ETA: 24m | LR: 0.000191 | Patience: 5/20
+Epoch 28/200: 100%|████████████████| 24/24 [00:03<00:00,  6.50it/s, loss=0.0962]
+Epoch 28/200 | Loss: 0.0668 | Best: 0.0573 | Time: 3.7s | Elapsed: 0.1h | ETA: 24m | LR: 0.000190 | Patience: 6/20
+Epoch 29/200: 100%|████████████████| 24/24 [00:03<00:00,  6.47it/s, loss=0.1174]
+Epoch 29/200 | Loss: 0.0673 | Best: 0.0573 | Time: 3.7s | Elapsed: 0.1h | ETA: 23m | LR: 0.000190 | Patience: 7/20
+Epoch 30/200: 100%|████████████████| 24/24 [00:03<00:00,  6.40it/s, loss=0.1043]
+Epoch 30/200 | Loss: 0.0626 | Best: 0.0573 | Time: 3.7s | Elapsed: 0.1h | ETA: 23m | LR: 0.000189 | Patience: 8/20
+  Generating samples at epoch 30...
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 26.23it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 26.15it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 26.34it/s]
+Epoch 31/200: 100%|████████████████| 24/24 [00:03<00:00,  6.44it/s, loss=0.0318]
+Epoch 31/200 | Loss: 0.0589 | Best: 0.0573 | Time: 3.7s | Elapsed: 0.1h | ETA: 22m | LR: 0.000188 | Patience: 9/20
+Epoch 32/200: 100%|████████████████| 24/24 [00:03<00:00,  6.39it/s, loss=0.1059]
+Epoch 32/200 | Loss: 0.0631 | Best: 0.0573 | Time: 3.8s | Elapsed: 0.1h | ETA: 22m | LR: 0.000188 | Patience: 10/20
+Epoch 33/200: 100%|████████████████| 24/24 [00:03<00:00,  6.36it/s, loss=0.0324]
+Epoch 33/200 | Loss: 0.0507 | Best: 0.0573 | Time: 3.8s | Elapsed: 0.1h | ETA: 21m | LR: 0.000187 | Patience: 0/20
+Epoch 34/200: 100%|████████████████| 24/24 [00:03<00:00,  6.44it/s, loss=0.0649]
+Epoch 34/200 | Loss: 0.0650 | Best: 0.0507 | Time: 3.7s | Elapsed: 0.1h | ETA: 21m | LR: 0.000186 | Patience: 1/20
+Epoch 35/200: 100%|████████████████| 24/24 [00:03<00:00,  6.41it/s, loss=0.0318]
+Epoch 35/200 | Loss: 0.0764 | Best: 0.0507 | Time: 3.7s | Elapsed: 0.1h | ETA: 20m | LR: 0.000185 | Patience: 2/20
+Epoch 36/200: 100%|████████████████| 24/24 [00:03<00:00,  6.46it/s, loss=0.0201]
+Epoch 36/200 | Loss: 0.0608 | Best: 0.0507 | Time: 3.7s | Elapsed: 0.1h | ETA: 20m | LR: 0.000184 | Patience: 3/20
+Epoch 37/200: 100%|████████████████| 24/24 [00:03<00:00,  6.42it/s, loss=0.1262]
+Epoch 37/200 | Loss: 0.0590 | Best: 0.0507 | Time: 3.7s | Elapsed: 0.1h | ETA: 19m | LR: 0.000184 | Patience: 4/20
+Epoch 38/200: 100%|████████████████| 24/24 [00:03<00:00,  6.50it/s, loss=0.0549]
+Epoch 38/200 | Loss: 0.0589 | Best: 0.0507 | Time: 3.7s | Elapsed: 0.1h | ETA: 19m | LR: 0.000183 | Patience: 5/20
+Epoch 39/200: 100%|████████████████| 24/24 [00:03<00:00,  6.57it/s, loss=0.0078]
+Epoch 39/200 | Loss: 0.0614 | Best: 0.0507 | Time: 3.7s | Elapsed: 0.1h | ETA: 19m | LR: 0.000182 | Patience: 6/20
+Epoch 40/200: 100%|████████████████| 24/24 [00:03<00:00,  6.48it/s, loss=0.0455]
+Epoch 40/200 | Loss: 0.0627 | Best: 0.0507 | Time: 3.7s | Elapsed: 0.1h | ETA: 18m | LR: 0.000181 | Patience: 7/20
+  Generating samples at epoch 40...
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 25.88it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 25.90it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 25.85it/s]
+Epoch 41/200: 100%|████████████████| 24/24 [00:03<00:00,  6.60it/s, loss=0.0798]
+Epoch 41/200 | Loss: 0.0738 | Best: 0.0507 | Time: 3.6s | Elapsed: 0.1h | ETA: 18m | LR: 0.000180 | Patience: 8/20
+Epoch 42/200: 100%|████████████████| 24/24 [00:03<00:00,  6.47it/s, loss=0.0523]
+Epoch 42/200 | Loss: 0.0589 | Best: 0.0507 | Time: 3.7s | Elapsed: 0.1h | ETA: 18m | LR: 0.000179 | Patience: 9/20
+Epoch 43/200: 100%|████████████████| 24/24 [00:03<00:00,  6.55it/s, loss=0.0121]
+Epoch 43/200 | Loss: 0.0496 | Best: 0.0507 | Time: 3.7s | Elapsed: 0.1h | ETA: 17m | LR: 0.000178 | Patience: 0/20
+Epoch 44/200: 100%|████████████████| 24/24 [00:03<00:00,  6.49it/s, loss=0.0261]
+Epoch 44/200 | Loss: 0.0694 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 17m | LR: 0.000177 | Patience: 1/20
+Epoch 45/200: 100%|████████████████| 24/24 [00:03<00:00,  6.54it/s, loss=0.0303]
+Epoch 45/200 | Loss: 0.0637 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 17m | LR: 0.000176 | Patience: 2/20
+Epoch 46/200: 100%|████████████████| 24/24 [00:03<00:00,  6.47it/s, loss=0.1413]
+Epoch 46/200 | Loss: 0.0610 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 17m | LR: 0.000175 | Patience: 3/20
+Epoch 47/200: 100%|████████████████| 24/24 [00:03<00:00,  6.45it/s, loss=0.1090]
+Epoch 47/200 | Loss: 0.0609 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 16m | LR: 0.000174 | Patience: 4/20
+Epoch 48/200: 100%|████████████████| 24/24 [00:03<00:00,  6.52it/s, loss=0.0366]
+Epoch 48/200 | Loss: 0.0513 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 16m | LR: 0.000173 | Patience: 5/20
+Epoch 49/200: 100%|████████████████| 24/24 [00:03<00:00,  6.42it/s, loss=0.0842]
+Epoch 49/200 | Loss: 0.0515 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 16m | LR: 0.000172 | Patience: 6/20
+Epoch 50/200: 100%|████████████████| 24/24 [00:03<00:00,  6.45it/s, loss=0.0329]
+Epoch 50/200 | Loss: 0.0505 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 16m | LR: 0.000171 | Patience: 7/20
+  Generating samples at epoch 50...
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 26.14it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 26.17it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 26.15it/s]
+Epoch 51/200: 100%|████████████████| 24/24 [00:03<00:00,  6.54it/s, loss=0.1143]
+Epoch 51/200 | Loss: 0.0573 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 15m | LR: 0.000170 | Patience: 8/20
+Epoch 52/200: 100%|████████████████| 24/24 [00:03<00:00,  6.50it/s, loss=0.0086]
+Epoch 52/200 | Loss: 0.0565 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 15m | LR: 0.000168 | Patience: 9/20
+Epoch 53/200: 100%|████████████████| 24/24 [00:03<00:00,  6.53it/s, loss=0.1265]
+Epoch 53/200 | Loss: 0.0662 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 15m | LR: 0.000167 | Patience: 10/20
+Epoch 54/200: 100%|████████████████| 24/24 [00:03<00:00,  6.48it/s, loss=0.0309]
+Epoch 54/200 | Loss: 0.0550 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 15m | LR: 0.000166 | Patience: 11/20
+Epoch 55/200: 100%|████████████████| 24/24 [00:03<00:00,  6.50it/s, loss=0.0852]
+Epoch 55/200 | Loss: 0.0583 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 15m | LR: 0.000165 | Patience: 12/20
+Epoch 56/200: 100%|████████████████| 24/24 [00:03<00:00,  6.52it/s, loss=0.0160]
+Epoch 56/200 | Loss: 0.0661 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 14m | LR: 0.000164 | Patience: 13/20
+Epoch 57/200: 100%|████████████████| 24/24 [00:03<00:00,  6.42it/s, loss=0.0410]
+Epoch 57/200 | Loss: 0.0490 | Best: 0.0496 | Time: 3.7s | Elapsed: 0.1h | ETA: 14m | LR: 0.000163 | Patience: 14/20
+Epoch 58/200: 100%|████████████████| 24/24 [00:03<00:00,  6.49it/s, loss=0.1026]
+Epoch 58/200 | Loss: 0.0627 | Best: 0.0490 | Time: 3.7s | Elapsed: 0.1h | ETA: 14m | LR: 0.000161 | Patience: 15/20
+Epoch 59/200: 100%|████████████████| 24/24 [00:03<00:00,  6.47it/s, loss=0.0711]
+Epoch 59/200 | Loss: 0.0530 | Best: 0.0490 | Time: 3.7s | Elapsed: 0.1h | ETA: 14m | LR: 0.000160 | Patience: 16/20
+Epoch 60/200: 100%|████████████████| 24/24 [00:03<00:00,  6.39it/s, loss=0.0634]
+Epoch 60/200 | Loss: 0.0668 | Best: 0.0490 | Time: 3.8s | Elapsed: 0.1h | ETA: 14m | LR: 0.000159 | Patience: 17/20
+  Generating samples at epoch 60...
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 25.95it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 25.83it/s]
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:01<00:00, 26.03it/s]
+Epoch 61/200: 100%|████████████████| 24/24 [00:03<00:00,  6.48it/s, loss=0.1289]
+Epoch 61/200 | Loss: 0.0494 | Best: 0.0490 | Time: 3.7s | Elapsed: 0.1h | ETA: 13m | LR: 0.000158 | Patience: 18/20
+Epoch 62/200: 100%|████████████████| 24/24 [00:03<00:00,  6.49it/s, loss=0.0964]
+Epoch 62/200 | Loss: 0.0480 | Best: 0.0490 | Time: 3.7s | Elapsed: 0.1h | ETA: 13m | LR: 0.000156 | Patience: 19/20
+Epoch 63/200: 100%|████████████████| 24/24 [00:03<00:00,  6.51it/s, loss=0.0324]
+Epoch 63/200 | Loss: 0.0621 | Best: 0.0480 | Time: 3.7s | Elapsed: 0.1h | ETA: 13m | LR: 0.000155 | Patience: 20/20
+
+📉 PLATEAU: No improvement for 20 epochs. Best loss: 0.0480. Stopping early.
+
+============================================================
+Training complete!
+  Stop reason: plateau (no improvement for 20 epochs, best=0.0480)
+  Epochs trained: 64
+  Best loss: 0.0480
+  Final loss: 0.0621
+  Total time: 6.0 minutes
+  Avg epoch: 5.7s
+  Precision: FP16
+  DDP: 2 GPU(s)
+============================================================
+
+============================================================
+PART 7: GENERATING SYNTHETIC IMAGES
+============================================================
+
+Generating 300 synthetic Bengin images...
+DDIM Sampling: 100%|████████████████████████████| 50/50 [00:16<00:00,  3.07it/s]

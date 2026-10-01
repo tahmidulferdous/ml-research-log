@@ -1,0 +1,27 @@
+✅ W&B run initialised
+
+🚀 Starting training for DepthWiseMamba-Pico...
+  Ep   1/10 | Tr 1.2037/0.3313 | Val 1.2191/0.2135 | 20.6s ★ saved
+  Ep   2/10 | Tr 1.0908/0.4152 | Val 1.7364/0.2135 | 18.3s
+  Ep   3/10 | Tr 1.0092/0.4801 | Val 1.3547/0.2344 | 18.8s ★ saved
+  Ep   4/10 | Tr 0.9309/0.5429 | Val 0.8263/0.6250 | 18.4s ★ saved
+  Ep   5/10 | Tr 0.8674/0.5826 | Val 0.7412/0.6979 | 18.2s ★ saved
+  Ep   6/10 | Tr 0.8097/0.6133 | Val 0.6974/0.7135 | 18.3s ★ saved
+  Ep   7/10 | Tr 0.7455/0.6496 | Val 0.6676/0.6979 | 18.1s
+  Ep   8/10 | Tr 0.7005/0.6662 | Val 0.6247/0.7292 | 18.3s ★ saved
+  Ep   9/10 | Tr 0.6516/0.6877 | Val 0.5987/0.7240 | 19.0s
+  Ep  10/10 | Tr 0.6180/0.7012 | Val 0.5777/0.7292 | 18.6s
+
+  💾 Best model loaded: Epoch 8 | Val Acc: 72.92%
+======================================================================
+  TEST EVALUATION: DepthWiseMamba-Pico | Test Acc: 67.87%
+======================================================================
+              precision    recall  f1-score   support
+
+      Benign       0.39      0.39      0.39        94
+   Malignant       0.73      0.68      0.70       211
+      Normal       0.87      0.99      0.93        84
+
+    accuracy                           0.68       389
+   macro avg       0.66      0.69      0.67       389
+weighted avg       0.68      0.68      0.68       389

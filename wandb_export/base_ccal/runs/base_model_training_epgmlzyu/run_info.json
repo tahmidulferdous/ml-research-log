@@ -1,0 +1,324 @@
+{
+  "id": "UnVuOnYxOmVwZ21senl1OmJhc2VfY2NhbDp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "epgmlzyu",
+  "displayName": "base_model_training",
+  "state": "finished",
+  "createdAt": "2025-10-04T10:13:07Z",
+  "computeSeconds": 368,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 53,
+    "epoch": 50,
+    "_wandb": {
+      "runtime": 373
+    },
+    "test_f1": 87.390934203496,
+    "val_acc": 87.96718322698268,
+    "_runtime": 373.4068637,
+    "test_auc": 97.70649873517117,
+    "val_loss": 0.30797107549650327,
+    "test_size": 220,
+    "train_acc": 86.05287146763902,
+    "_timestamp": 1759573153.8286872,
+    "train_loss": 0.38844985451017106,
+    "train_size": 877,
+    "test_recall": 87.96718322698268,
+    "best_val_acc": 88.6964448495898,
+    "dataset_size": 1097,
+    "test_accuracy": 87.96718322698268,
+    "test_precision": 87.00626240904519,
+    "training_curves": {
+      "path": "media/images/training_curves_51_bb68899714fb9719a9dc.png",
+      "size": 60573,
+      "_type": "image-file",
+      "width": 1200,
+      "format": "png",
+      "height": 400,
+      "sha256": "bb68899714fb9719a9dc505be020a1a853fb1e11872ead7ac5662da66b4db85c"
+    },
+    "confusion_matrix": {
+      "path": "media/images/confusion_matrix_53_95d58a668fee7e7e2ab2.png",
+      "size": 17438,
+      "_type": "image-file",
+      "width": 600,
+      "format": "png",
+      "height": 500,
+      "sha256": "95d58a668fee7e7e2ab2389efa6450b90168543416f365f4baad5605c27cbac4"
+    },
+    "total_parameters": 703331,
+    "trainable_parameters": 703331,
+    "gradients/graph_1ffn.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1ffn.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1ffn.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1dense1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1ffn.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1dense1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1dense1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1dense1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv3.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv6.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn2.conv1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn2.conv2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1batch_norm1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1batch_norm2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv3.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv6.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn2.conv1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn2.conv2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv3.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn1.conv6.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn2.conv1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1cnn2.conv2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1batch_norm1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1batch_norm2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1batch_norm1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1batch_norm2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv4.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn1.conv6.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn2.conv1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1cnn2.conv2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1batch_norm1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1batch_norm2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_1feature_projection.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_1feature_projection.weight": {
+      "_type": "histogram"
+    }
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            1,
+            2,
+            13,
+            16,
+            55
+          ],
+          "4": "3.11.13",
+          "5": "0.20.1",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.20.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.20.1",
+        "python_version": "3.11.13"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "learning_rate": {
+      "value": 1e-05
+    }
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "id": "UnVuOnYxOjV5eGxveDBuOldHQU4tRkFDRTp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "5yxlox0n",
+  "displayName": "elated-gorge-7",
+  "state": "crashed",
+  "createdAt": "2024-11-18T14:07:39Z",
+  "computeSeconds": 6118,
+  "tags": [],
+  "summaryMetrics": {
+    "Batch": 2,
+    "Epoch": 0,
+    "_step": 1318,
+    "_wandb": {
+      "runtime": 6118
+    },
+    "_runtime": 6118.868733161,
+    "_timestamp": 1731944975.800732,
+    "Fake Images": {
+      "_type": "images/separated",
+      "count": 1,
+      "width": 530,
+      "format": "png",
+      "height": 266,
+      "captions": [
+        "Fake"
+      ],
+      "filenames": [
+        "media/images/Fake Images_0_cea18b1a156bc24cebda.png"
+      ]
+    },
+    "Real Images": {
+      "_type": "images/separated",
+      "count": 1,
+      "width": 530,
+      "format": "png",
+      "height": 266,
+      "captions": [
+        "Real"
+      ],
+      "filenames": [
+        "media/images/Real Images_0_be0538b62c6017bdd0ae.png"
+      ]
+    },
+    "Generator Loss": 3.69368314743042,
+    "Generated Images": {
+      "_type": "images/separated",
+      "count": 1,
+      "width": 332,
+      "format": "png",
+      "height": 332,
+      "captions": [
+        "Epoch 1318"
+      ],
+      "filenames": [
+        "media/images/Generated Images_1318_94017a3bc54471d9d93d.png"
+      ]
+    },
+    "Discriminator Loss": 66.72317504882812,
+    "gradients/graph_36gen.4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_36gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_36gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_37critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_37critic.4.1.weight": {
+      "_type": "histogram"
+    }
+  },
+  "config": {
+    "BETA_1": {
+      "value": 0
+    },
+    "BETA_2": {
+      "value": 0.9
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            41,
+            55,
+            105
+          ],
+          "2": [
+            1,
+            41,
+            55,
+            105
+          ],
+          "3": [
+            1,
+            16,
+            23,
+            55,
+            61
+          ],
+          "4": "3.10.12",
+          "5": "0.18.6",
+          "8": [
+            1,
+            5,
+            12
+          ],
+          "12": "0.18.6",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.18.6",
+        "python_version": "3.10.12"
+      }
+    },
+    "LAMBDA_GP": {
+      "value": 10
+    },
+    "NOISE_DIM": {
+      "value": 100
+    },
+    "BATCH_SIZE": {
+      "value": 64
+    },
+    "IMAGE_SIZE": {
+      "value": 64
+    },
+    "NUM_EPOCHS": {
+      "value": 5000
+    },
+    "CHANNELS_IMG": {
+      "value": 3
+    },
+    "FEATURES_GEN": {
+      "value": 64
+    },
+    "LEARNING_RATE": {
+      "value": 0.0001
+    },
+    "FEATURES_CRITIC": {
+      "value": 64
+    },
+    "CRITIC_ITERATIONS": {
+      "value": 5
+    }
+  }
+}

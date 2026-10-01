@@ -1,0 +1,97 @@
+_wandb:
+    value:
+        cli_version: 0.28.0
+        e:
+            7qiqkapcher0ek1htkruud6asvs2uvro:
+                args:
+                    - -f
+                    - /tmp/tmpm6k_nloi.json
+                    - '--HistoryManager.hist_file=:memory:'
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "8656922775552"
+                        used: "7473626345472"
+                email: <redacted>
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-50e8cc55-be27-58de-9b9c-525077d28c61
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-6c2db215-ae0e-c03a-5eec-fe1b695f4f47
+                host: ba4fd15c4fd5
+                memory:
+                    total: "33659379712"
+                os: Linux-6.12.90+-x86_64-with-glibc2.35
+                program: <python with no main file>
+                python: CPython 3.12.13
+                root: /kaggle/working
+                startedAt: "2026-06-24T14:38:10.163656Z"
+                writerId: 7qiqkapcher0ek1htkruud6asvs2uvro
+        m: []
+        python_version: 3.12.13
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 1
+                - 2
+                - 13
+                - 15
+                - 16
+            "4": 3.12.13
+            "5": 0.28.0
+            "8":
+                - 2
+                - 13
+            "10":
+                - 20
+            "12": 0.28.0
+            "13": linux-x86_64
+batch_size:
+    value: 32
+data_dir:
+    value: /kaggle/input/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset
+device:
+    value: cuda
+dropout:
+    value: 0.5
+epochs:
+    value: 50
+image_size:
+    value: 224
+key_dim:
+    value: 16
+learning_rate:
+    value: 0.001
+num_heads:
+    value: 4
+seed:
+    value: 42
+split_mode:
+    value: sorted
+split_ratio:
+    value:
+        - 0.7
+        - 0.2
+        - 0.1
+target_total_images:
+    value: 10000

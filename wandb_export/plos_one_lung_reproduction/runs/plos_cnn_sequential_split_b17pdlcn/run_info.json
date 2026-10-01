@@ -1,0 +1,146 @@
+{
+  "id": "UnVuOnYxOmIxN3BkbGNuOnBsb3Nfb25lX2x1bmdfcmVwcm9kdWN0aW9uOnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "b17pdlcn",
+  "displayName": "plos_cnn_sequential_split",
+  "state": "finished",
+  "createdAt": "2026-04-28T06:58:53Z",
+  "computeSeconds": 307,
+  "tags": [
+    "70-20-10",
+    "honest",
+    "plos-one",
+    "sequential-split"
+  ],
+  "summaryMetrics": {
+    "_step": 18,
+    "epoch": 15,
+    "_wandb": {
+      "runtime": 307
+    },
+    "val/f1": 57.85211603366277,
+    "val/acc": 70.18348623853211,
+    "_runtime": 307,
+    "test/acc": 83.92857142857143,
+    "test/auc": 93.00250014535727,
+    "val/loss": 1.2796575027868289,
+    "train/acc": 91.3970588235294,
+    "_timestamp": 1777359841.0568247,
+    "train/loss": 0.19887800961732863,
+    "xai/gradcam": {
+      "path": "media/images/xai/gradcam_18_9f9b26953c65b1453265.png",
+      "size": 893436,
+      "_type": "image-file",
+      "width": 1400,
+      "format": "png",
+      "height": 1200,
+      "sha256": "9f9b26953c65b14532654996a7f30271ebcd26ea73ed9f6ced25528f96e3c26f"
+    },
+    "best_val_acc": 83.94495412844036,
+    "learning_rate": 0.0003,
+    "confusion_matrix": {
+      "path": "media/images/confusion_matrix_16_8f182467628f920ce978.png",
+      "size": 24423,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 600,
+      "sha256": "8f182467628f920ce9782c836f7ec0f0cf14c4fa6180ac12a69d9e215cacb2b3"
+    },
+    "dataset/val_samples": 218,
+    "dataset/split_method": "sequential 70/20/10 (no shuffle)",
+    "dataset/test_samples": 112,
+    "dataset/train_samples": 2749
+  },
+  "config": {
+    "seed": {
+      "value": 42
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "3": [
+            2,
+            13,
+            15,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.26.1",
+          "8": [
+            2,
+            13
+          ],
+          "12": "0.26.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.26.1",
+        "python_version": "3.12.12"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 30
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "data_dir": {
+      "value": "/kaggle/input/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "val_ratio": {
+      "value": 0.2
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "image_size": {
+      "value": 258
+    },
+    "test_ratio": {
+      "value": 0.1
+    },
+    "class_names": {
+      "value": [
+        "Benign",
+        "Malignant",
+        "Normal"
+      ]
+    },
+    "lr_patience": {
+      "value": 5
+    },
+    "train_ratio": {
+      "value": 0.7
+    },
+    "learning_rate": {
+      "value": 0.001
+    },
+    "lr_decay_factor": {
+      "value": 0.3
+    },
+    "aug_factor_benign": {
+      "value": 13
+    },
+    "aug_factor_normal": {
+      "value": 3
+    },
+    "aug_factor_malignant": {
+      "value": 2
+    }
+  }
+}

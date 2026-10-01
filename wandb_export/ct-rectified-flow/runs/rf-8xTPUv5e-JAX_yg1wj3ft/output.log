@@ -1,0 +1,201 @@
+
+============================================================
+RECTIFIED FLOW — JAX on 8× TPU v5e
+============================================================
+  Batch:  24 × 8 = 192
+  LR:     0.001200
+  Images: 767 train
+  Guard:  7.5h
+============================================================
+
+🚀 Training 1→3000
+  ⏳ First epoch will be slow (JIT compilation)...
+E1/3000 | Loss: 1.7051 | Best: inf | 73.0s | 0.1h | ETA: 3650m
+  ★ Best (loss=1.7051)
+E2/3000 | Loss: 1.3430 | Best: 1.7051 | 0.8s | 0.1h | ETA: 1845m
+  ★ Best (loss=1.3430)
+E3/3000 | Loss: 1.0943 | Best: 1.3430 | 0.8s | 0.1h | ETA: 1243m
+  ★ Best (loss=1.0943)
+E4/3000 | Loss: 0.9719 | Best: 1.0943 | 0.8s | 0.1h | ETA: 942m
+  ★ Best (loss=0.9719)
+E5/3000 | Loss: 0.8666 | Best: 0.9719 | 0.8s | 0.1h | ETA: 762m
+  ★ Best (loss=0.8666)
+E6/3000 | Loss: 0.8181 | Best: 0.8666 | 0.8s | 0.1h | ETA: 642m
+  ★ Best (loss=0.8181)
+E7/3000 | Loss: 0.8065 | Best: 0.8181 | 0.8s | 0.1h | ETA: 556m
+  ★ Best (loss=0.8065)
+E8/3000 | Loss: 0.6566 | Best: 0.8065 | 0.8s | 0.1h | ETA: 491m
+  ★ Best (loss=0.6566)
+E9/3000 | Loss: 0.5669 | Best: 0.6566 | 0.8s | 0.1h | ETA: 441m
+  ★ Best (loss=0.5669)
+E10/3000 | Loss: 0.6018 | Best: 0.5669 | 0.8s | 0.1h | ETA: 401m
+E11/3000 | Loss: 0.5205 | Best: 0.5669 | 0.8s | 0.1h | ETA: 368m
+  ★ Best (loss=0.5205)
+E12/3000 | Loss: 0.4856 | Best: 0.5205 | 0.8s | 0.1h | ETA: 341m
+  ★ Best (loss=0.4856)
+E13/3000 | Loss: 0.4741 | Best: 0.4856 | 0.8s | 0.1h | ETA: 317m
+  ★ Best (loss=0.4741)
+E14/3000 | Loss: 0.4410 | Best: 0.4741 | 0.8s | 0.1h | ETA: 298m
+  ★ Best (loss=0.4410)
+E15/3000 | Loss: 0.4264 | Best: 0.4410 | 0.8s | 0.1h | ETA: 280m
+  ★ Best (loss=0.4264)
+E16/3000 | Loss: 0.4546 | Best: 0.4264 | 0.8s | 0.1h | ETA: 265m
+E17/3000 | Loss: 0.4282 | Best: 0.4264 | 0.8s | 0.1h | ETA: 252m
+E18/3000 | Loss: 0.4074 | Best: 0.4264 | 0.8s | 0.1h | ETA: 240m
+  ★ Best (loss=0.4074)
+E19/3000 | Loss: 0.4293 | Best: 0.4074 | 0.8s | 0.1h | ETA: 230m
+E20/3000 | Loss: 0.4204 | Best: 0.4074 | 0.8s | 0.1h | ETA: 220m
+  💾 Checkpoint epoch 20
+E21/3000 | Loss: 0.4227 | Best: 0.4074 | 0.8s | 0.1h | ETA: 212m
+E22/3000 | Loss: 0.4091 | Best: 0.4074 | 0.8s | 0.1h | ETA: 204m
+E23/3000 | Loss: 0.3716 | Best: 0.4074 | 0.8s | 0.1h | ETA: 197m
+  ★ Best (loss=0.3716)
+E24/3000 | Loss: 0.3960 | Best: 0.3716 | 0.8s | 0.1h | ETA: 190m
+E25/3000 | Loss: 0.3755 | Best: 0.3716 | 0.8s | 0.1h | ETA: 184m
+E26/3000 | Loss: 0.4275 | Best: 0.3716 | 0.8s | 0.1h | ETA: 178m
+E27/3000 | Loss: 0.4000 | Best: 0.3716 | 0.8s | 0.1h | ETA: 173m
+E28/3000 | Loss: 0.3581 | Best: 0.3716 | 0.8s | 0.1h | ETA: 169m
+  ★ Best (loss=0.3581)
+E29/3000 | Loss: 0.3808 | Best: 0.3581 | 0.8s | 0.1h | ETA: 164m
+E30/3000 | Loss: 0.3666 | Best: 0.3581 | 0.8s | 0.1h | ETA: 160m
+E31/3000 | Loss: 0.3736 | Best: 0.3581 | 0.8s | 0.1h | ETA: 156m
+E32/3000 | Loss: 0.3588 | Best: 0.3581 | 0.8s | 0.1h | ETA: 152m
+E33/3000 | Loss: 0.3618 | Best: 0.3581 | 0.8s | 0.1h | ETA: 149m
+E34/3000 | Loss: 0.3385 | Best: 0.3581 | 0.8s | 0.1h | ETA: 146m
+  ★ Best (loss=0.3385)
+E35/3000 | Loss: 0.3324 | Best: 0.3385 | 0.8s | 0.1h | ETA: 143m
+  ★ Best (loss=0.3324)
+E36/3000 | Loss: 0.3070 | Best: 0.3324 | 0.8s | 0.1h | ETA: 140m
+  ★ Best (loss=0.3070)
+E37/3000 | Loss: 0.3568 | Best: 0.3070 | 0.8s | 0.2h | ETA: 137m
+E38/3000 | Loss: 0.3272 | Best: 0.3070 | 0.8s | 0.2h | ETA: 134m
+E39/3000 | Loss: 0.3112 | Best: 0.3070 | 0.8s | 0.2h | ETA: 132m
+E40/3000 | Loss: 0.3585 | Best: 0.3070 | 0.8s | 0.2h | ETA: 130m
+  💾 Checkpoint epoch 40
+E41/3000 | Loss: 0.3481 | Best: 0.3070 | 0.8s | 0.2h | ETA: 128m
+E42/3000 | Loss: 0.3539 | Best: 0.3070 | 0.8s | 0.2h | ETA: 125m
+E43/3000 | Loss: 0.3168 | Best: 0.3070 | 0.8s | 0.2h | ETA: 123m
+E44/3000 | Loss: 0.3433 | Best: 0.3070 | 0.8s | 0.2h | ETA: 121m
+E45/3000 | Loss: 0.3033 | Best: 0.3070 | 0.8s | 0.2h | ETA: 120m
+  ★ Best (loss=0.3033)
+E46/3000 | Loss: 0.3215 | Best: 0.3033 | 0.8s | 0.2h | ETA: 118m
+E47/3000 | Loss: 0.4001 | Best: 0.3033 | 0.8s | 0.2h | ETA: 116m
+E48/3000 | Loss: 0.3518 | Best: 0.3033 | 0.8s | 0.2h | ETA: 115m
+E49/3000 | Loss: 0.3224 | Best: 0.3033 | 0.8s | 0.2h | ETA: 113m
+E50/3000 | Loss: 0.3216 | Best: 0.3033 | 4.4s | 0.2h | ETA: 115m
+E51/3000 | Loss: 0.3268 | Best: 0.3033 | 0.8s | 0.2h | ETA: 114m
+E52/3000 | Loss: 0.3204 | Best: 0.3033 | 0.8s | 0.2h | ETA: 112m
+E53/3000 | Loss: 0.3309 | Best: 0.3033 | 0.8s | 0.2h | ETA: 111m
+E54/3000 | Loss: 0.3427 | Best: 0.3033 | 0.8s | 0.2h | ETA: 109m
+E55/3000 | Loss: 0.3529 | Best: 0.3033 | 0.8s | 0.2h | ETA: 108m
+E56/3000 | Loss: 0.3984 | Best: 0.3033 | 0.8s | 0.2h | ETA: 107m
+E57/3000 | Loss: 0.3700 | Best: 0.3033 | 0.8s | 0.2h | ETA: 106m
+E58/3000 | Loss: 0.4144 | Best: 0.3033 | 0.8s | 0.2h | ETA: 104m
+E59/3000 | Loss: 0.3614 | Best: 0.3033 | 0.8s | 0.2h | ETA: 103m
+E60/3000 | Loss: 0.3916 | Best: 0.3033 | 0.8s | 0.2h | ETA: 102m
+  💾 Checkpoint epoch 60
+E61/3000 | Loss: 0.4468 | Best: 0.3033 | 0.8s | 0.2h | ETA: 101m
+E62/3000 | Loss: 0.6986 | Best: 0.3033 | 0.8s | 0.2h | ETA: 100m
+E63/3000 | Loss: 1.5182 | Best: 0.3033 | 0.8s | 0.2h | ETA: 99m
+E64/3000 | Loss: 1.4245 | Best: 0.3033 | 0.8s | 0.2h | ETA: 98m
+E65/3000 | Loss: 1.3474 | Best: 0.3033 | 0.8s | 0.2h | ETA: 97m
+E66/3000 | Loss: 1.2174 | Best: 0.3033 | 0.8s | 0.2h | ETA: 96m
+E67/3000 | Loss: 1.1943 | Best: 0.3033 | 0.8s | 0.2h | ETA: 96m
+E68/3000 | Loss: 1.1945 | Best: 0.3033 | 0.8s | 0.2h | ETA: 95m
+E69/3000 | Loss: 1.1581 | Best: 0.3033 | 0.8s | 0.2h | ETA: 94m
+E70/3000 | Loss: 1.1541 | Best: 0.3033 | 0.8s | 0.2h | ETA: 93m
+E71/3000 | Loss: 1.1452 | Best: 0.3033 | 0.8s | 0.2h | ETA: 92m
+E72/3000 | Loss: 1.1429 | Best: 0.3033 | 0.8s | 0.2h | ETA: 92m
+E73/3000 | Loss: 1.1406 | Best: 0.3033 | 0.8s | 0.2h | ETA: 91m
+E74/3000 | Loss: 1.1382 | Best: 0.3033 | 0.8s | 0.2h | ETA: 90m
+E75/3000 | Loss: 1.1318 | Best: 0.3033 | 0.8s | 0.2h | ETA: 89m
+E76/3000 | Loss: 1.1305 | Best: 0.3033 | 0.8s | 0.2h | ETA: 89m
+E77/3000 | Loss: 1.1367 | Best: 0.3033 | 0.8s | 0.2h | ETA: 88m
+E78/3000 | Loss: 1.1480 | Best: 0.3033 | 0.8s | 0.2h | ETA: 87m
+E79/3000 | Loss: 1.1817 | Best: 0.3033 | 0.8s | 0.2h | ETA: 87m
+E80/3000 | Loss: 1.1889 | Best: 0.3033 | 0.8s | 0.2h | ETA: 86m
+  💾 Checkpoint epoch 80
+E81/3000 | Loss: 1.1429 | Best: 0.3033 | 0.8s | 0.3h | ETA: 86m
+E82/3000 | Loss: 1.1318 | Best: 0.3033 | 0.8s | 0.3h | ETA: 85m
+E83/3000 | Loss: 1.1357 | Best: 0.3033 | 0.8s | 0.3h | ETA: 84m
+E84/3000 | Loss: 1.1364 | Best: 0.3033 | 0.8s | 0.3h | ETA: 84m
+E85/3000 | Loss: 1.1434 | Best: 0.3033 | 0.8s | 0.3h | ETA: 83m
+E86/3000 | Loss: 1.1295 | Best: 0.3033 | 0.8s | 0.3h | ETA: 83m
+E87/3000 | Loss: 1.1332 | Best: 0.3033 | 0.8s | 0.3h | ETA: 82m
+E88/3000 | Loss: 1.1332 | Best: 0.3033 | 0.8s | 0.3h | ETA: 82m
+E89/3000 | Loss: 1.1272 | Best: 0.3033 | 0.8s | 0.3h | ETA: 81m
+E90/3000 | Loss: 1.1283 | Best: 0.3033 | 0.8s | 0.3h | ETA: 81m
+E91/3000 | Loss: 1.1300 | Best: 0.3033 | 0.8s | 0.3h | ETA: 80m
+E92/3000 | Loss: 1.1276 | Best: 0.3033 | 0.8s | 0.3h | ETA: 80m
+E93/3000 | Loss: 1.1463 | Best: 0.3033 | 0.8s | 0.3h | ETA: 79m
+E94/3000 | Loss: 1.1300 | Best: 0.3033 | 0.8s | 0.3h | ETA: 79m
+E95/3000 | Loss: 1.1444 | Best: 0.3033 | 0.8s | 0.3h | ETA: 79m
+E96/3000 | Loss: 1.1455 | Best: 0.3033 | 0.8s | 0.3h | ETA: 78m
+E97/3000 | Loss: 1.1652 | Best: 0.3033 | 0.8s | 0.3h | ETA: 78m
+E98/3000 | Loss: 1.1424 | Best: 0.3033 | 0.8s | 0.3h | ETA: 77m
+E99/3000 | Loss: 1.1418 | Best: 0.3033 | 0.8s | 0.3h | ETA: 77m
+E100/3000 | Loss: 1.1421 | Best: 0.3033 | 4.3s | 0.3h | ETA: 78m
+  💾 Checkpoint epoch 100
+E101/3000 | Loss: 1.1334 | Best: 0.3033 | 0.8s | 0.3h | ETA: 78m
+E102/3000 | Loss: 1.1302 | Best: 0.3033 | 0.8s | 0.3h | ETA: 77m
+E103/3000 | Loss: 1.1315 | Best: 0.3033 | 0.8s | 0.3h | ETA: 77m
+E104/3000 | Loss: 1.1289 | Best: 0.3033 | 0.8s | 0.3h | ETA: 77m
+E105/3000 | Loss: 1.1308 | Best: 0.3033 | 0.8s | 0.3h | ETA: 76m
+E106/3000 | Loss: 1.1270 | Best: 0.3033 | 0.8s | 0.3h | ETA: 76m
+E107/3000 | Loss: 1.1247 | Best: 0.3033 | 0.8s | 0.3h | ETA: 75m
+E108/3000 | Loss: 1.1228 | Best: 0.3033 | 0.8s | 0.3h | ETA: 75m
+E109/3000 | Loss: 1.1182 | Best: 0.3033 | 0.8s | 0.3h | ETA: 75m
+E110/3000 | Loss: 1.1239 | Best: 0.3033 | 0.8s | 0.3h | ETA: 74m
+E111/3000 | Loss: 1.1257 | Best: 0.3033 | 0.8s | 0.3h | ETA: 74m
+E112/3000 | Loss: 1.1268 | Best: 0.3033 | 0.8s | 0.3h | ETA: 74m
+E113/3000 | Loss: 1.1234 | Best: 0.3033 | 0.8s | 0.3h | ETA: 73m
+E114/3000 | Loss: 1.1265 | Best: 0.3033 | 0.8s | 0.3h | ETA: 73m
+E115/3000 | Loss: 1.1233 | Best: 0.3033 | 0.8s | 0.3h | ETA: 73m
+E116/3000 | Loss: 1.1184 | Best: 0.3033 | 0.8s | 0.3h | ETA: 72m
+E117/3000 | Loss: 1.1203 | Best: 0.3033 | 0.8s | 0.3h | ETA: 72m
+E118/3000 | Loss: 1.1216 | Best: 0.3033 | 0.8s | 0.3h | ETA: 72m
+E119/3000 | Loss: 1.1188 | Best: 0.3033 | 0.8s | 0.3h | ETA: 72m
+E120/3000 | Loss: 1.1214 | Best: 0.3033 | 0.8s | 0.3h | ETA: 71m
+  💾 Checkpoint epoch 120
+E121/3000 | Loss: 1.1223 | Best: 0.3033 | 0.8s | 0.3h | ETA: 71m
+E122/3000 | Loss: 1.1243 | Best: 0.3033 | 0.8s | 0.3h | ETA: 71m
+E123/3000 | Loss: 1.1177 | Best: 0.3033 | 0.8s | 0.3h | ETA: 70m
+E124/3000 | Loss: 1.1185 | Best: 0.3033 | 0.8s | 0.3h | ETA: 70m
+E125/3000 | Loss: 1.1160 | Best: 0.3033 | 0.8s | 0.3h | ETA: 70m
+E126/3000 | Loss: 1.1063 | Best: 0.3033 | 0.8s | 0.3h | ETA: 70m
+E127/3000 | Loss: 1.4938 | Best: 0.3033 | 0.8s | 0.3h | ETA: 69m
+E128/3000 | Loss: 1.4483 | Best: 0.3033 | 0.8s | 0.3h | ETA: 69m
+E129/3000 | Loss: 1.5749 | Best: 0.3033 | 0.8s | 0.3h | ETA: 69m
+E130/3000 | Loss: 1.2578 | Best: 0.3033 | 0.8s | 0.3h | ETA: 69m
+E131/3000 | Loss: 1.2811 | Best: 0.3033 | 0.8s | 0.3h | ETA: 68m
+E132/3000 | Loss: 1.1670 | Best: 0.3033 | 0.8s | 0.3h | ETA: 68m
+E133/3000 | Loss: 1.1667 | Best: 0.3033 | 0.8s | 0.3h | ETA: 68m
+E134/3000 | Loss: 1.1679 | Best: 0.3033 | 0.8s | 0.3h | ETA: 68m
+E135/3000 | Loss: 1.1573 | Best: 0.3033 | 0.8s | 0.3h | ETA: 67m
+E136/3000 | Loss: 1.1619 | Best: 0.3033 | 0.8s | 0.3h | ETA: 67m
+E137/3000 | Loss: 1.1537 | Best: 0.3033 | 0.8s | 0.3h | ETA: 67m
+E138/3000 | Loss: 1.1478 | Best: 0.3033 | 0.8s | 0.3h | ETA: 67m
+E139/3000 | Loss: 1.1494 | Best: 0.3033 | 0.8s | 0.3h | ETA: 66m
+E140/3000 | Loss: 1.1473 | Best: 0.3033 | 0.8s | 0.3h | ETA: 66m
+  💾 Checkpoint epoch 140
+E141/3000 | Loss: 1.1516 | Best: 0.3033 | 0.8s | 0.4h | ETA: 66m
+E142/3000 | Loss: 1.1595 | Best: 0.3033 | 0.8s | 0.4h | ETA: 66m
+E143/3000 | Loss: 1.1474 | Best: 0.3033 | 0.8s | 0.4h | ETA: 66m
+E144/3000 | Loss: 1.1508 | Best: 0.3033 | 0.8s | 0.4h | ETA: 65m
+E145/3000 | Loss: 1.1416 | Best: 0.3033 | 0.8s | 0.4h | ETA: 65m
+E146/3000 | Loss: 1.1369 | Best: 0.3033 | 0.8s | 0.4h | ETA: 65m
+E147/3000 | Loss: 1.1425 | Best: 0.3033 | 0.8s | 0.4h | ETA: 65m
+E148/3000 | Loss: 1.1417 | Best: 0.3033 | 0.8s | 0.4h | ETA: 65m
+E149/3000 | Loss: 1.1416 | Best: 0.3033 | 0.8s | 0.4h | ETA: 64m
+E150/3000 | Loss: 1.1388 | Best: 0.3033 | 4.4s | 0.4h | ETA: 65m
+E151/3000 | Loss: 1.1295 | Best: 0.3033 | 0.8s | 0.4h | ETA: 65m
+E152/3000 | Loss: 1.1313 | Best: 0.3033 | 0.8s | 0.4h | ETA: 65m
+E153/3000 | Loss: 1.1318 | Best: 0.3033 | 0.8s | 0.4h | ETA: 65m
+E154/3000 | Loss: 1.1308 | Best: 0.3033 | 0.8s | 0.4h | ETA: 65m
+E155/3000 | Loss: 1.1311 | Best: 0.3033 | 0.8s | 0.4h | ETA: 64m
+E156/3000 | Loss: 1.1307 | Best: 0.3033 | 0.8s | 0.4h | ETA: 64m
+E157/3000 | Loss: 1.1286 | Best: 0.3033 | 0.8s | 0.4h | ETA: 64m
+E158/3000 | Loss: 1.1257 | Best: 0.3033 | 0.8s | 0.4h | ETA: 64m
+E159/3000 | Loss: 1.1260 | Best: 0.3033 | 0.8s | 0.4h | ETA: 64m
+E160/3000 | Loss: 1.1297 | Best: 0.3033 | 0.8s | 0.4h | ETA: 63m
+  💾 Checkpoint epoch 160

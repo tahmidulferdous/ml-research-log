@@ -1,0 +1,33 @@
+{
+  "os":  "Linux-6.1.42+-x86_64-with-glibc2.41",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-03-01T12:45:57.389739Z",
+  "args":  [
+    "-f",
+    "/tmp/tmpkx4aji0i.json",
+    "--HistoryManager.hist_file=:memory:"
+  ],
+  "program":  "<python with no main file>",
+  "email":  "<redacted>",
+  "root":  "/kaggle/working",
+  "host":  "f78f7e2dc0d4",
+  "executable":  "/usr/local/bin/python",
+  "cpu_count":  112,
+  "cpu_count_logical":  224,
+  "disk":  {
+    "/":  {
+      "total":  "8656922775552",
+      "used":  "7169019068416"
+    }
+  },
+  "memory":  {
+    "total":  "405703245824"
+  },
+  "tpu":  {
+    "name":  "v5e",
+    "hbmGib":  16,
+    "devicesPerChip":  1,
+    "count":  8
+  },
+  "writerId":  "i0dfg3il43phof2mu78ubty5uexjr04n"
+}

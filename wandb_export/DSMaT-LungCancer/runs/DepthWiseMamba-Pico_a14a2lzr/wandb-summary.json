@@ -1,0 +1,1 @@
+{"cumulative_gflops":0,"_runtime":793,"val_loss":0.3024894447037668,"_timestamp":1.7708211229476185e+09,"train_acc":0.8224431818181818,"val_acc":0.9151515151515152,"lr":0.0001,"_step":49,"train_loss":0.43997256593270734,"epoch":50,"_wandb":{"runtime":793},"per_epoch_gflops":0}

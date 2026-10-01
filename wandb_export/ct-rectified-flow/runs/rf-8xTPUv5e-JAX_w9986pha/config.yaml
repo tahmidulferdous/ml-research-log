@@ -1,0 +1,78 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            j2to290djqec8js3iek0qmxd3fhb3pwq:
+                codePath: kaggle.ipynb
+                cpu_count: 112
+                cpu_count_logical: 224
+                disk:
+                    /:
+                        total: "8656922775552"
+                        used: "7169048481792"
+                email: <redacted>
+                executable: /usr/local/bin/python
+                host: 8ff357f6b389
+                memory:
+                    total: "405703245824"
+                os: Linux-6.1.42+-x86_64-with-glibc2.41
+                program: kaggle.ipynb
+                python: CPython 3.12.12
+                root: /kaggle/working
+                startedAt: "2026-02-27T19:42:12.339262Z"
+                tpu:
+                    count: 8
+                    devicesPerChip: 1
+                    hbmGib: 16
+                    name: v5e
+                writerId: j2to290djqec8js3iek0qmxd3fhb3pwq
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 12
+                - 45
+                - 49
+                - 53
+                - 80
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 12
+                - 45
+                - 49
+                - 53
+                - 80
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.25.0
+            "8":
+                - 1
+                - 2
+            "12": 0.25.0
+            "13": linux-x86_64
+accelerator:
+    value: TPU v5e × 8
+batch_size_per_device:
+    value: 24
+effective_batch_size:
+    value: 192
+epochs:
+    value: 3000
+framework:
+    value: JAX/Flax
+lr:
+    value: 0.0012
+method:
+    value: Rectified Flow
+precision:
+    value: bfloat16

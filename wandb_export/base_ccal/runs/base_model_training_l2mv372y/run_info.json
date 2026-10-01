@@ -1,0 +1,91 @@
+{
+  "id": "UnVuOnYxOmwybXYzNzJ5OmJhc2VfY2NhbDp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "l2mv372y",
+  "displayName": "base_model_training",
+  "state": "finished",
+  "createdAt": "2025-10-04T10:52:35Z",
+  "computeSeconds": 60,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 0,
+    "_wandb": {
+      "runtime": 69
+    },
+    "_runtime": 11.467822498,
+    "test_size": 220,
+    "_timestamp": 1759575156.392498,
+    "train_size": 877,
+    "dataset_size": 1097,
+    "total_parameters": 703331,
+    "trainable_parameters": 703331
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            1,
+            2,
+            13,
+            16,
+            55
+          ],
+          "4": "3.11.13",
+          "5": "0.20.1",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.20.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.20.1",
+        "python_version": "3.11.13"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "learning_rate": {
+      "value": 1e-05
+    }
+  }
+}

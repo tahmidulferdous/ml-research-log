@@ -1,0 +1,788 @@
+{
+  "id": "UnVuOnYxOjFvZGZwYXMzOlVsdHJhbHl0aWNzOnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "1odfpas3",
+  "displayName": "train2",
+  "state": "finished",
+  "createdAt": "2024-10-16T10:23:11Z",
+  "computeSeconds": 451,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 110,
+    "_wandb": {
+      "runtime": 451
+    },
+    "labels": {
+      "path": "media/images/labels_1_8bb703dff44dbfe4c101.jpg",
+      "size": 120663,
+      "_type": "image-file",
+      "width": 1600,
+      "format": "jpg",
+      "height": 1600,
+      "sha256": "8bb703dff44dbfe4c10180d0226eaf35ca8d199a4b8f42de09d3a52b52480459"
+    },
+    "lr/pg0": 0.0010673801000000002,
+    "lr/pg1": 0.0010673801000000002,
+    "lr/pg2": 0.0010673801000000002,
+    "P_curve": {
+      "path": "media/images/P_curve_110_1ba83ba985a74d8609bc.png",
+      "size": 141701,
+      "_type": "image-file",
+      "width": 2250,
+      "format": "png",
+      "height": 1500,
+      "sha256": "1ba83ba985a74d8609bc79e7ca5aeae3ee11bb6f8f8d5c39647d40481664b344"
+    },
+    "R_curve": {
+      "path": "media/images/R_curve_110_e2ce318e32e5795ea889.png",
+      "size": 135142,
+      "_type": "image-file",
+      "width": 2250,
+      "format": "png",
+      "height": 1500,
+      "sha256": "e2ce318e32e5795ea889de78840ecb6ecd2da00122858b1774e6fc7937fc1caa"
+    },
+    "results": {
+      "path": "media/images/results_110_d4044cb07b0a6a6b29d2.png",
+      "size": 414271,
+      "_type": "image-file",
+      "width": 2400,
+      "format": "png",
+      "height": 1200,
+      "sha256": "d4044cb07b0a6a6b29d2eb58c245d1aa79940bb39c859fc284518ecde9a2ac26"
+    },
+    "F1_curve": {
+      "path": "media/images/F1_curve_110_0bc245fa760bbeef4d09.png",
+      "size": 147183,
+      "_type": "image-file",
+      "width": 2250,
+      "format": "png",
+      "height": 1500,
+      "sha256": "0bc245fa760bbeef4d0912a5cba505531a950a06a7605a5d7dde8b9f37b1f0fa"
+    },
+    "PR_curve": {
+      "path": "media/images/PR_curve_110_030f5f06d8b402dc540e.png",
+      "size": 119291,
+      "_type": "image-file",
+      "width": 2250,
+      "format": "png",
+      "height": 1500,
+      "sha256": "030f5f06d8b402dc540ebd0268e509e64d41d7950455ad3f82fddc8a01f7cfce"
+    },
+    "_runtime": 451.57091446,
+    "_timestamp": 1729074640.5298378,
+    "model/GFLOPs": 68.193,
+    "train_batch0": {
+      "path": "media/images/train_batch0_1_f710b676a380ecc7beac.jpg",
+      "size": 682704,
+      "_type": "image-file",
+      "width": 1920,
+      "format": "jpg",
+      "height": 1920,
+      "sha256": "f710b676a380ecc7beac407bf28f854c5f821826d0f5627eb0f5d07b8169a205"
+    },
+    "train_batch1": {
+      "path": "media/images/train_batch1_1_97b71f33d8729bbe6d46.jpg",
+      "size": 726212,
+      "_type": "image-file",
+      "width": 1920,
+      "format": "jpg",
+      "height": 1920,
+      "sha256": "97b71f33d8729bbe6d46c3ee92b7c70fc9ba9f2058da59da9ecf7bc895bf9fa5"
+    },
+    "train_batch2": {
+      "path": "media/images/train_batch2_1_670221d201b773e210d0.jpg",
+      "size": 615030,
+      "_type": "image-file",
+      "width": 1920,
+      "format": "jpg",
+      "height": 1920,
+      "sha256": "670221d201b773e210d0d0c77e22c125fe2116271c494f1ccefabcae5013a956"
+    },
+    "val/box_loss": 1.95894,
+    "val/cls_loss": 1.1296,
+    "val/dfl_loss": 1.47192,
+    "train/box_loss": 0.71159,
+    "train/cls_loss": 0.42232,
+    "train/dfl_loss": 0.83279,
+    "val_batch0_pred": {
+      "path": "media/images/val_batch0_pred_110_2aeb92a83661f2c3d416.jpg",
+      "size": 535374,
+      "_type": "image-file",
+      "width": 1920,
+      "format": "jpg",
+      "height": 1920,
+      "sha256": "2aeb92a83661f2c3d416f54093d3e15d96b88cdc5e2e5308637beeb2e29dc9f0"
+    },
+    "confusion_matrix": {
+      "path": "media/images/confusion_matrix_110_96dff121a908bdc393bd.png",
+      "size": 109742,
+      "_type": "image-file",
+      "width": 3000,
+      "format": "png",
+      "height": 2250,
+      "sha256": "96dff121a908bdc393bd8a4b206b23b4247fadd23af5c9d45fbc716cb6722ff0"
+    },
+    "metrics/mAP50(B)": 0.7896039841181215,
+    "model/parameters": 20054550,
+    "metrics/recall(B)": 0.7839119440548222,
+    "val_batch0_labels": {
+      "path": "media/images/val_batch0_labels_110_a661bd8a365ce43dd669.jpg",
+      "size": 529687,
+      "_type": "image-file",
+      "width": 1920,
+      "format": "jpg",
+      "height": 1920,
+      "sha256": "a661bd8a365ce43dd669666acaeeca64396163a78941891adcfa34d064e023fb"
+    },
+    "metrics/mAP50-95(B)": 0.36783469437818306,
+    "metrics/precision(B)": 0.7693011061264547,
+    "model/speed_PyTorch(ms)": 16.793,
+    "confusion_matrix_normalized": {
+      "path": "media/images/confusion_matrix_normalized_110_5001f4464e751dc272ef.png",
+      "size": 129468,
+      "_type": "image-file",
+      "width": 3000,
+      "format": "png",
+      "height": 2250,
+      "sha256": "5001f4464e751dc272ef80554d94fb7bb26bbe66c514b688c374de528477458d"
+    },
+    "curves/F1-Confidence(B)_table": {
+      "path": "media/table/curves/F1-Confidence(B)_table_110_c48a14fd11f6c1d12cbb.table.json",
+      "size": 9530,
+      "_type": "table-file",
+      "ncols": 3,
+      "nrows": 300,
+      "sha256": "c48a14fd11f6c1d12cbbc0e46f30c4e0bbffc8f0a00a5cc8a8341562f1ab1089",
+      "artifact_path": "wandb-client-artifact://qu1r388h7l5celmmm80gbve4hztv5lej3uzjmeus1svgrhojrqqeeakk0j694scljc0hp866bjgk22x8kxdru7znz09ha07r3x6jdr54r4yy2zyjvt8wjg2cjl3vrekt/curves/F1-Confidence(B)_table.table.json",
+      "_latest_artifact_path": "wandb-client-artifact://c24bohdi1qipo3xjsbt2u6op1pxyxeqx1xwpkk7a80by3tcrd93x3wlibtcis38895p8moar96vykdum5dtg6o3yr7wicyt3t7r3abghqqc48nfiddcxsiwis6l4ia59:latest/curves/F1-Confidence(B)_table.table.json"
+    },
+    "curves/Precision-Recall(B)_table": {
+      "path": "media/table/curves/Precision-Recall(B)_table_110_224cf7750d7017f8384c.table.json",
+      "size": 9469,
+      "_type": "table-file",
+      "ncols": 3,
+      "nrows": 300,
+      "sha256": "224cf7750d7017f8384c6b47899d218314612a0ea48fd9cf870715db4ec2225b",
+      "artifact_path": "wandb-client-artifact://lf9ks0nf3klkz7w1y383ogjc5r0ui5d8qkk3m1ylha4lwy8gpymaj9oqu9vupu4xevygebx7nol95u00djp8m2nmqyc6jqif66fi8lzmulbsztwjgb0r4sg8mjoaes09/curves/Precision-Recall(B)_table.table.json",
+      "_latest_artifact_path": "wandb-client-artifact://cytp35yrk4zj1wu5jwjijon1jq4j0dimn9ml1zn93r3rfz4dyb42ogjiuph02pa7jsaq0dgioeq5d5dbmr3mf3df4ny2negtvqusaytcq9x6gadzvs8r5s276ip0s9i0:latest/curves/Precision-Recall(B)_table.table.json"
+    },
+    "curves/Recall-Confidence(B)_table": {
+      "path": "media/table/curves/Recall-Confidence(B)_table_110_3da4523b8ace9cae8b00.table.json",
+      "size": 9476,
+      "_type": "table-file",
+      "ncols": 3,
+      "nrows": 300,
+      "sha256": "3da4523b8ace9cae8b0098cb4d2dcd5ccfffc7d58732b4dc59593193b44f5498",
+      "artifact_path": "wandb-client-artifact://cnirgxc5wzndeiw5f0e6f4q38iopy6w60x46u6kd4yotm9khfotzyzqfqzjdv8hcy8fo1sbfusgfwoousaolzii4xjymiaoezi5f4evdbqsy8n6ibptweyph7nuwkgk5/curves/Recall-Confidence(B)_table.table.json",
+      "_latest_artifact_path": "wandb-client-artifact://e8wtyc8hpcbpirvcg4lwpo3lnusyh2ggvhynowlrvwqsmfjnn71i1pht3v96zw7wf53bctzvf6dogex8wehalzcdg8grdegw82e86c8ynx1g0q0qms5pjh2g57a4jgxz:latest/curves/Recall-Confidence(B)_table.table.json"
+    },
+    "curves/Precision-Confidence(B)_table": {
+      "path": "media/table/curves/Precision-Confidence(B)_table_110_732ee989022d49a6c276.table.json",
+      "size": 9510,
+      "_type": "table-file",
+      "ncols": 3,
+      "nrows": 300,
+      "sha256": "732ee989022d49a6c2761b7888d02e3859bf07a6aa6978517b8b282364298f88",
+      "artifact_path": "wandb-client-artifact://qgj36vxbyod0c2dvxsuxbe9vvzonujtpfz4sg755q1buxkri6yl4m0dmvxs4zhve0xkcawfcbw3fzylnqoqxonkufeno7dl8v08qqd64htsz6r80vgjl4qb9oia0jinz/curves/Precision-Confidence(B)_table.table.json",
+      "_latest_artifact_path": "wandb-client-artifact://4flgnej4ozwiugv0llvwuq8cdfxvs2qynhfqsn62hdzct1i9ldhwb7d4fg2aovoykq5yi1x2u62hpcirkqqjgrs77d3ezkop2pun4oiy9mof93vwpa2ymz7vq9bo38cz:latest/curves/Precision-Confidence(B)_table.table.json"
+    }
+  },
+  "config": {
+    "amp": {
+      "value": true
+    },
+    "bgr": {
+      "value": 0
+    },
+    "box": {
+      "value": 7.5
+    },
+    "cfg": {
+      "value": null
+    },
+    "cls": {
+      "value": 0.5
+    },
+    "dfl": {
+      "value": 1.5
+    },
+    "dnn": {
+      "value": false
+    },
+    "iou": {
+      "value": 0.7
+    },
+    "lr0": {
+      "value": 0.0005
+    },
+    "lrf": {
+      "value": 0.01
+    },
+    "nbs": {
+      "value": 64
+    },
+    "nms": {
+      "value": false
+    },
+    "val": {
+      "value": true
+    },
+    "conf": {
+      "value": null
+    },
+    "data": {
+      "value": "/kaggle/input/iiuc-idcard-data/data.yaml"
+    },
+    "half": {
+      "value": false
+    },
+    "int8": {
+      "value": false
+    },
+    "kobj": {
+      "value": 1
+    },
+    "mode": {
+      "value": "train"
+    },
+    "name": {
+      "value": "train2"
+    },
+    "pose": {
+      "value": 12
+    },
+    "rect": {
+      "value": false
+    },
+    "save": {
+      "value": true
+    },
+    "seed": {
+      "value": 0
+    },
+    "show": {
+      "value": false
+    },
+    "task": {
+      "value": "detect"
+    },
+    "time": {
+      "value": null
+    },
+    "batch": {
+      "value": 16
+    },
+    "cache": {
+      "value": false
+    },
+    "embed": {
+      "value": null
+    },
+    "hsv_h": {
+      "value": 0.015
+    },
+    "hsv_s": {
+      "value": 0.7
+    },
+    "hsv_v": {
+      "value": 0.4
+    },
+    "imgsz": {
+      "value": 640
+    },
+    "keras": {
+      "value": false
+    },
+    "mixup": {
+      "value": 0
+    },
+    "model": {
+      "value": "/kaggle/working/runs/detect/train/weights/last.pt"
+    },
+    "opset": {
+      "value": null
+    },
+    "plots": {
+      "value": true
+    },
+    "scale": {
+      "value": 0.5
+    },
+    "shear": {
+      "value": 0
+    },
+    "split": {
+      "value": "val"
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            2,
+            3,
+            12,
+            30,
+            49,
+            55,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            2,
+            3,
+            12,
+            30,
+            41,
+            49,
+            55,
+            80,
+            105
+          ],
+          "3": [
+            2,
+            13,
+            16,
+            23,
+            55,
+            61
+          ],
+          "4": "3.10.14",
+          "5": "0.18.3",
+          "8": [
+            1,
+            2,
+            5
+          ],
+          "12": "0.18.3",
+          "13": "linux-x86_64"
+        },
+        "visualize": {
+          "curves/F1-Confidence(B)": {
+            "panel_type": "Vega2",
+            "panel_config": {
+              "transform": {
+                "name": "tableWithLeafColNames"
+              },
+              "userQuery": {
+                "queryFields": [
+                  {
+                    "args": [
+                      {
+                        "name": "runSets",
+                        "value": "${runSets}"
+                      }
+                    ],
+                    "name": "runSets",
+                    "fields": [
+                      {
+                        "name": "id",
+                        "fields": []
+                      },
+                      {
+                        "name": "name",
+                        "fields": []
+                      },
+                      {
+                        "name": "_defaultColorIndex",
+                        "fields": []
+                      },
+                      {
+                        "args": [
+                          {
+                            "name": "tableKey",
+                            "value": "curves/F1-Confidence(B)_table"
+                          }
+                        ],
+                        "name": "summaryTable",
+                        "fields": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              "panelDefId": "wandb/area-under-curve/v0",
+              "fieldSettings": {
+                "x": "x",
+                "y": "y",
+                "class": "class"
+              },
+              "stringSettings": {
+                "title": "F1-Confidence(B)",
+                "x-axis-title": "Confidence",
+                "y-axis-title": "F1"
+              }
+            }
+          },
+          "curves/Precision-Recall(B)": {
+            "panel_type": "Vega2",
+            "panel_config": {
+              "transform": {
+                "name": "tableWithLeafColNames"
+              },
+              "userQuery": {
+                "queryFields": [
+                  {
+                    "args": [
+                      {
+                        "name": "runSets",
+                        "value": "${runSets}"
+                      }
+                    ],
+                    "name": "runSets",
+                    "fields": [
+                      {
+                        "name": "id",
+                        "fields": []
+                      },
+                      {
+                        "name": "name",
+                        "fields": []
+                      },
+                      {
+                        "name": "_defaultColorIndex",
+                        "fields": []
+                      },
+                      {
+                        "args": [
+                          {
+                            "name": "tableKey",
+                            "value": "curves/Precision-Recall(B)_table"
+                          }
+                        ],
+                        "name": "summaryTable",
+                        "fields": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              "panelDefId": "wandb/area-under-curve/v0",
+              "fieldSettings": {
+                "x": "x",
+                "y": "y",
+                "class": "class"
+              },
+              "stringSettings": {
+                "title": "Precision-Recall(B)",
+                "x-axis-title": "Recall",
+                "y-axis-title": "Precision"
+              }
+            }
+          },
+          "curves/Recall-Confidence(B)": {
+            "panel_type": "Vega2",
+            "panel_config": {
+              "transform": {
+                "name": "tableWithLeafColNames"
+              },
+              "userQuery": {
+                "queryFields": [
+                  {
+                    "args": [
+                      {
+                        "name": "runSets",
+                        "value": "${runSets}"
+                      }
+                    ],
+                    "name": "runSets",
+                    "fields": [
+                      {
+                        "name": "id",
+                        "fields": []
+                      },
+                      {
+                        "name": "name",
+                        "fields": []
+                      },
+                      {
+                        "name": "_defaultColorIndex",
+                        "fields": []
+                      },
+                      {
+                        "args": [
+                          {
+                            "name": "tableKey",
+                            "value": "curves/Recall-Confidence(B)_table"
+                          }
+                        ],
+                        "name": "summaryTable",
+                        "fields": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              "panelDefId": "wandb/area-under-curve/v0",
+              "fieldSettings": {
+                "x": "x",
+                "y": "y",
+                "class": "class"
+              },
+              "stringSettings": {
+                "title": "Recall-Confidence(B)",
+                "x-axis-title": "Confidence",
+                "y-axis-title": "Recall"
+              }
+            }
+          },
+          "curves/Precision-Confidence(B)": {
+            "panel_type": "Vega2",
+            "panel_config": {
+              "transform": {
+                "name": "tableWithLeafColNames"
+              },
+              "userQuery": {
+                "queryFields": [
+                  {
+                    "args": [
+                      {
+                        "name": "runSets",
+                        "value": "${runSets}"
+                      }
+                    ],
+                    "name": "runSets",
+                    "fields": [
+                      {
+                        "name": "id",
+                        "fields": []
+                      },
+                      {
+                        "name": "name",
+                        "fields": []
+                      },
+                      {
+                        "name": "_defaultColorIndex",
+                        "fields": []
+                      },
+                      {
+                        "args": [
+                          {
+                            "name": "tableKey",
+                            "value": "curves/Precision-Confidence(B)_table"
+                          }
+                        ],
+                        "name": "summaryTable",
+                        "fields": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              "panelDefId": "wandb/area-under-curve/v0",
+              "fieldSettings": {
+                "x": "x",
+                "y": "y",
+                "class": "class"
+              },
+              "stringSettings": {
+                "title": "Precision-Confidence(B)",
+                "x-axis-title": "Confidence",
+                "y-axis-title": "Precision"
+              }
+            }
+          }
+        },
+        "cli_version": "0.18.3",
+        "python_version": "3.10.14"
+      }
+    },
+    "cos_lr": {
+      "value": false
+    },
+    "device": {
+      "value": null
+    },
+    "epochs": {
+      "value": 300
+    },
+    "fliplr": {
+      "value": 0.5
+    },
+    "flipud": {
+      "value": 0
+    },
+    "format": {
+      "value": "torchscript"
+    },
+    "freeze": {
+      "value": null
+    },
+    "mosaic": {
+      "value": 1
+    },
+    "resume": {
+      "value": false
+    },
+    "source": {
+      "value": null
+    },
+    "augment": {
+      "value": false
+    },
+    "classes": {
+      "value": null
+    },
+    "degrees": {
+      "value": 0
+    },
+    "dropout": {
+      "value": 0
+    },
+    "dynamic": {
+      "value": false
+    },
+    "erasing": {
+      "value": 0.4
+    },
+    "max_det": {
+      "value": 300
+    },
+    "profile": {
+      "value": false
+    },
+    "project": {
+      "value": null
+    },
+    "tracker": {
+      "value": "botsort.yaml"
+    },
+    "verbose": {
+      "value": true
+    },
+    "workers": {
+      "value": 8
+    },
+    "exist_ok": {
+      "value": false
+    },
+    "fraction": {
+      "value": 1
+    },
+    "momentum": {
+      "value": 0.937
+    },
+    "optimize": {
+      "value": false
+    },
+    "patience": {
+      "value": 100
+    },
+    "save_dir": {
+      "value": "runs/detect/train2"
+    },
+    "save_txt": {
+      "value": false
+    },
+    "simplify": {
+      "value": true
+    },
+    "optimizer": {
+      "value": "auto"
+    },
+    "save_conf": {
+      "value": false
+    },
+    "save_crop": {
+      "value": false
+    },
+    "save_json": {
+      "value": false
+    },
+    "show_conf": {
+      "value": true
+    },
+    "translate": {
+      "value": 0.1
+    },
+    "visualize": {
+      "value": false
+    },
+    "workspace": {
+      "value": 4
+    },
+    "copy_paste": {
+      "value": 0
+    },
+    "line_width": {
+      "value": null
+    },
+    "mask_ratio": {
+      "value": 4
+    },
+    "pretrained": {
+      "value": true
+    },
+    "show_boxes": {
+      "value": true
+    },
+    "single_cls": {
+      "value": false
+    },
+    "vid_stride": {
+      "value": 1
+    },
+    "multi_scale": {
+      "value": false
+    },
+    "perspective": {
+      "value": 0
+    },
+    "save_frames": {
+      "value": false
+    },
+    "save_hybrid": {
+      "value": false
+    },
+    "save_period": {
+      "value": -1
+    },
+    "show_labels": {
+      "value": true
+    },
+    "agnostic_nms": {
+      "value": false
+    },
+    "auto_augment": {
+      "value": "randaugment"
+    },
+    "close_mosaic": {
+      "value": 10
+    },
+    "overlap_mask": {
+      "value": true
+    },
+    "retina_masks": {
+      "value": false
+    },
+    "weight_decay": {
+      "value": 0.0005
+    },
+    "crop_fraction": {
+      "value": 1
+    },
+    "deterministic": {
+      "value": true
+    },
+    "stream_buffer": {
+      "value": false
+    },
+    "warmup_epochs": {
+      "value": 3
+    },
+    "warmup_bias_lr": {
+      "value": 0.1
+    },
+    "copy_paste_mode": {
+      "value": "flip"
+    },
+    "label_smoothing": {
+      "value": 0
+    },
+    "warmup_momentum": {
+      "value": 0.8
+    }
+  }
+}

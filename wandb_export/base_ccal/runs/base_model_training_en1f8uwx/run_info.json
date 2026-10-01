@@ -1,0 +1,121 @@
+{
+  "id": "UnVuOnYxOmVuMWY4dXd4OmJhc2VfY2NhbDp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "en1f8uwx",
+  "displayName": "base_model_training",
+  "state": "finished",
+  "createdAt": "2025-10-31T05:58:49Z",
+  "computeSeconds": 101,
+  "tags": [],
+  "summaryMetrics": {
+    "_wandb": {
+      "runtime": 101
+    },
+    "_runtime": 101
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "e": {
+          "nrta9ui2heday379sba4993y9ysi9l59": {
+            "os": "Linux-6.6.56+-x86_64-with-glibc2.35",
+            "gpu": "Tesla P100-PCIE-16GB",
+            "disk": {
+              "/": {
+                "used": "6996234940416",
+                "total": "8656922775552"
+              }
+            },
+            "host": "13e7f0fa21e2",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "33662332928"
+            },
+            "python": "CPython 3.11.13",
+            "program": "kaggle.ipynb",
+            "writerId": "nrta9ui2heday379sba4993y9ysi9l59",
+            "cpu_count": 2,
+            "gpu_count": 1,
+            "startedAt": "2025-10-31T05:58:43.797487Z",
+            "executable": "/usr/bin/python3",
+            "gpu_nvidia": [
+              {
+                "name": "Tesla P100-PCIE-16GB",
+                "uuid": "GPU-127db76a-d166-d8e6-1544-eee233f627cf",
+                "cudaCores": 3584,
+                "memoryTotal": "17179869184",
+                "architecture": "Pascal"
+              }
+            ],
+            "cudaVersion": "12.6",
+            "cpu_count_logical": 4
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            2,
+            13,
+            16
+          ],
+          "4": "3.11.13",
+          "5": "0.21.0",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.21.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.21.0",
+        "python_version": "3.11.13"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/lung-split"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "dropout_mha": {
+      "value": 0.2
+    },
+    "learning_rate": {
+      "value": 1e-05
+    },
+    "dropout_linear": {
+      "value": 0.5
+    }
+  }
+}

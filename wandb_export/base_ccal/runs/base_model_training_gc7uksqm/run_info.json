@@ -1,0 +1,101 @@
+{
+  "id": "UnVuOnYxOmdjN3Vrc3FtOmJhc2VfY2NhbDp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "gc7uksqm",
+  "displayName": "base_model_training",
+  "state": "finished",
+  "createdAt": "2025-09-27T09:31:11Z",
+  "computeSeconds": 33,
+  "tags": [],
+  "summaryMetrics": {
+    "lr": 0.0001,
+    "_step": 4,
+    "batch": 20,
+    "epoch": 1,
+    "_wandb": {
+      "runtime": 40
+    },
+    "val_auc": 0.8387679618361437,
+    "_runtime": 12.550105731,
+    "val_loss": 1.1126485552106584,
+    "test_size": 220,
+    "_timestamp": 1758965476.5191865,
+    "train_loss": 1.155649721622467,
+    "train_size": 877,
+    "dataset_size": 1097,
+    "val_accuracy": 40.90909090909091,
+    "train_accuracy": 38.08437856328392,
+    "batch_train_acc": 37.20238095238095,
+    "batch_train_loss": 0.9667290449142456,
+    "total_parameters": 703331,
+    "trainable_parameters": 703331
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            1,
+            2,
+            13,
+            16,
+            55
+          ],
+          "4": "3.11.13",
+          "5": "0.20.1",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.20.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.20.1",
+        "python_version": "3.11.13"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "learning_rate": {
+      "value": 0.0001
+    }
+  }
+}

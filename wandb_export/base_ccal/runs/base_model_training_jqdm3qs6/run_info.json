@@ -1,0 +1,297 @@
+{
+  "id": "UnVuOnYxOmpxZG0zcXM2OmJhc2VfY2NhbDp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "jqdm3qs6",
+  "displayName": "base_model_training",
+  "state": "finished",
+  "createdAt": "2025-09-28T15:58:21Z",
+  "computeSeconds": 232,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 35,
+    "epoch": 34,
+    "_wandb": {
+      "runtime": 236
+    },
+    "val_acc": 53.63636363636363,
+    "_runtime": 236.402486947,
+    "val_loss": 3.256369577658396,
+    "train_acc": 94.52679589509692,
+    "_timestamp": 1759075328.4794314,
+    "train_loss": 0.1628457342407533,
+    "best_val_acc": 87.72727272727273,
+    "total_parameters": 703331,
+    "trainable_parameters": 703331,
+    "gradients/graph_3ffn.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3ffn.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3ffn.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3dense1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3ffn.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3dense1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3dense1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3dense1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv3.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv6.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn2.conv1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn2.conv2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3batch_norm1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3batch_norm2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv3.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv6.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn2.conv1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn2.conv2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv3.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn1.conv6.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn2.conv1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3cnn2.conv2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3batch_norm1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3batch_norm2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3batch_norm1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3batch_norm2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv4.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn1.conv6.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn2.conv1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3cnn2.conv2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3batch_norm1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3batch_norm2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_3feature_projection.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_3feature_projection.weight": {
+      "_type": "histogram"
+    }
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            1,
+            13,
+            16,
+            55
+          ],
+          "4": "3.11.13",
+          "5": "0.20.1",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.20.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.20.1",
+        "python_version": "3.11.13"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.3
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/lung-split"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "learning_rate": {
+      "value": 0.0001
+    }
+  }
+}

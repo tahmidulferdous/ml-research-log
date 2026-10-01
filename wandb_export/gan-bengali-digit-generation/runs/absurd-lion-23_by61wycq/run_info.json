@@ -1,0 +1,254 @@
+{
+  "id": "UnVuOnYxOmJ5NjF3eWNxOmdhbi1iZW5nYWxpLWRpZ2l0LWdlbmVyYXRpb246dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "by61wycq",
+  "displayName": "absurd-lion-23",
+  "state": "finished",
+  "createdAt": "2024-11-18T13:28:59Z",
+  "computeSeconds": 5,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 0,
+    "_wandb": {
+      "runtime": 5
+    },
+    "_runtime": 5.557686184,
+    "_timestamp": 1731936542.8209078,
+    "gradients/graph_14gen.4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.0.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.1.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_14gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.0.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.0.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.1.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.1.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_14gen.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.2.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.3.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.4.1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_15critic.4.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.2.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.2.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.3.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.3.1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.4.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_15critic.4.1.weight": {
+      "_type": "histogram"
+    }
+  },
+  "config": {
+    "BETA_1": {
+      "value": 0
+    },
+    "BETA_2": {
+      "value": 0.9
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            41,
+            55,
+            105
+          ],
+          "2": [
+            1,
+            41,
+            55,
+            105
+          ],
+          "3": [
+            1,
+            2,
+            16,
+            23,
+            55
+          ],
+          "4": "3.10.12",
+          "5": "0.18.6",
+          "8": [
+            1,
+            5,
+            12
+          ],
+          "12": "0.18.6",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.18.6",
+        "python_version": "3.10.12"
+      }
+    },
+    "LAMBDA_GP": {
+      "value": 10
+    },
+    "NOISE_DIM": {
+      "value": 100
+    },
+    "BATCH_SIZE": {
+      "value": 64
+    },
+    "IMAGE_SIZE": {
+      "value": 64
+    },
+    "NUM_EPOCHS": {
+      "value": 5000
+    },
+    "CHANNELS_IMG": {
+      "value": 3
+    },
+    "FEATURES_GEN": {
+      "value": 64
+    },
+    "LEARNING_RATE": {
+      "value": 0.0001
+    },
+    "FEATURES_CRITIC": {
+      "value": 64
+    },
+    "CRITIC_ITERATIONS": {
+      "value": 5
+    }
+  }
+}

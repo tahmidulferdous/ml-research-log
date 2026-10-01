@@ -1,0 +1,113 @@
+Creating CCAL model...
+Model Parameters: 703,331
+Trainable Parameters: 703,331
+Starting training...
+Epoch 1/50 [Train]: 100%|██████████| 28/28 [00:04<00:00,  6.36it/s, Loss=1.0110, Acc=54.96%]
+Epoch [1/50] - Train Loss: 1.0110, Train Acc: 54.96%, Val Loss: 0.9746, Val Acc: 55.00%
+Epoch 2/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.12it/s, Loss=0.5308, Acc=79.93%]
+Epoch [2/50] - Train Loss: 0.5308, Train Acc: 79.93%, Val Loss: 3.7511, Val Acc: 51.82%
+Epoch 3/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.10it/s, Loss=0.3794, Acc=84.83%]
+Epoch [3/50] - Train Loss: 0.3794, Train Acc: 84.83%, Val Loss: 3.9450, Val Acc: 51.82%
+Epoch 4/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.86it/s, Loss=0.2880, Acc=89.74%]
+Epoch [4/50] - Train Loss: 0.2880, Train Acc: 89.74%, Val Loss: 2.8790, Val Acc: 52.73%
+Epoch 5/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.09it/s, Loss=0.1393, Acc=95.44%]
+Epoch [5/50] - Train Loss: 0.1393, Train Acc: 95.44%, Val Loss: 4.4753, Val Acc: 41.36%
+Epoch 6/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.11it/s, Loss=0.1152, Acc=95.55%]
+Epoch [6/50] - Train Loss: 0.1152, Train Acc: 95.55%, Val Loss: 0.7358, Val Acc: 69.55%
+Epoch 7/50 [Train]: 100%|██████████| 28/28 [00:02<00:00,  9.35it/s, Loss=0.0975, Acc=96.35%]
+Epoch [7/50] - Train Loss: 0.0975, Train Acc: 96.35%, Val Loss: 0.0881, Val Acc: 98.18%
+Epoch 8/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.15it/s, Loss=0.0654, Acc=98.40%]
+Epoch [8/50] - Train Loss: 0.0654, Train Acc: 98.40%, Val Loss: 1.1914, Val Acc: 66.82%
+Epoch 9/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.02it/s, Loss=0.0568, Acc=98.29%]
+Epoch [9/50] - Train Loss: 0.0568, Train Acc: 98.29%, Val Loss: 3.0956, Val Acc: 41.36%
+Epoch 10/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.87it/s, Loss=0.0821, Acc=97.72%]
+Epoch [10/50] - Train Loss: 0.0821, Train Acc: 97.72%, Val Loss: 1.1229, Val Acc: 71.36%
+Epoch 11/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.16it/s, Loss=0.0673, Acc=97.49%]
+Epoch [11/50] - Train Loss: 0.0673, Train Acc: 97.49%, Val Loss: 0.3776, Val Acc: 87.73%
+Epoch 12/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.25it/s, Loss=0.1235, Acc=96.69%]
+Epoch [12/50] - Train Loss: 0.1235, Train Acc: 96.69%, Val Loss: 3.4835, Val Acc: 54.09%
+Epoch 13/50 [Train]: 100%|██████████| 28/28 [00:02<00:00,  9.36it/s, Loss=0.1496, Acc=96.12%]
+Epoch [13/50] - Train Loss: 0.1496, Train Acc: 96.12%, Val Loss: 0.0780, Val Acc: 97.73%
+Epoch 14/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.23it/s, Loss=0.0637, Acc=97.95%]
+Epoch [14/50] - Train Loss: 0.0637, Train Acc: 97.95%, Val Loss: 3.6671, Val Acc: 52.73%
+Epoch 15/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.89it/s, Loss=0.0951, Acc=96.92%]
+Epoch [15/50] - Train Loss: 0.0951, Train Acc: 96.92%, Val Loss: 0.4948, Val Acc: 80.45%
+Epoch 16/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.26it/s, Loss=0.0809, Acc=97.15%]
+Epoch [16/50] - Train Loss: 0.0809, Train Acc: 97.15%, Val Loss: 1.7974, Val Acc: 45.91%
+Epoch 17/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.18it/s, Loss=0.0543, Acc=98.63%]
+Epoch [17/50] - Train Loss: 0.0543, Train Acc: 98.63%, Val Loss: 0.2399, Val Acc: 92.73%
+Epoch 18/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.87it/s, Loss=0.0473, Acc=98.40%]
+Epoch [18/50] - Train Loss: 0.0473, Train Acc: 98.40%, Val Loss: 0.0665, Val Acc: 98.64%
+Epoch 19/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.02it/s, Loss=0.0250, Acc=99.20%]
+Epoch [19/50] - Train Loss: 0.0250, Train Acc: 99.20%, Val Loss: 0.1788, Val Acc: 92.27%
+Epoch 20/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.71it/s, Loss=0.0315, Acc=99.43%] 
+Epoch [20/50] - Train Loss: 0.0315, Train Acc: 99.43%, Val Loss: 0.0611, Val Acc: 97.73%
+Epoch 21/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.96it/s, Loss=0.0284, Acc=99.43%]
+Epoch [21/50] - Train Loss: 0.0284, Train Acc: 99.43%, Val Loss: 0.0367, Val Acc: 98.64%
+Epoch 22/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.93it/s, Loss=0.0137, Acc=99.66%]
+Epoch [22/50] - Train Loss: 0.0137, Train Acc: 99.66%, Val Loss: 0.1934, Val Acc: 90.45%
+Epoch 23/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.11it/s, Loss=0.0143, Acc=99.54%]
+Epoch [23/50] - Train Loss: 0.0143, Train Acc: 99.54%, Val Loss: 0.0189, Val Acc: 99.09%
+Epoch 24/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.18it/s, Loss=0.0126, Acc=99.66%] 
+Epoch [24/50] - Train Loss: 0.0126, Train Acc: 99.66%, Val Loss: 0.3955, Val Acc: 84.09%
+Epoch 25/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.62it/s, Loss=0.0175, Acc=99.54%]
+Epoch [25/50] - Train Loss: 0.0175, Train Acc: 99.54%, Val Loss: 0.0285, Val Acc: 98.64%
+Epoch 26/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.93it/s, Loss=0.0213, Acc=99.54%]
+Epoch [26/50] - Train Loss: 0.0213, Train Acc: 99.54%, Val Loss: 0.1171, Val Acc: 96.36%
+Epoch 27/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.65it/s, Loss=0.0285, Acc=99.20%]
+Epoch [27/50] - Train Loss: 0.0285, Train Acc: 99.20%, Val Loss: 0.2057, Val Acc: 95.91%
+Epoch 28/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.10it/s, Loss=0.0124, Acc=99.77%]
+Epoch [28/50] - Train Loss: 0.0124, Train Acc: 99.77%, Val Loss: 0.4564, Val Acc: 85.45%
+Epoch 29/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.98it/s, Loss=0.0491, Acc=98.75%]
+Epoch [29/50] - Train Loss: 0.0491, Train Acc: 98.75%, Val Loss: 3.5689, Val Acc: 50.45%
+Epoch 30/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.78it/s, Loss=0.1352, Acc=95.90%]
+Epoch [30/50] - Train Loss: 0.1352, Train Acc: 95.90%, Val Loss: 2.3958, Val Acc: 56.82%
+Epoch 31/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.18it/s, Loss=0.0856, Acc=96.47%]
+Epoch [31/50] - Train Loss: 0.0856, Train Acc: 96.47%, Val Loss: 4.1336, Val Acc: 50.45%
+Epoch 32/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.93it/s, Loss=0.0691, Acc=98.06%]
+Epoch [32/50] - Train Loss: 0.0691, Train Acc: 98.06%, Val Loss: 0.0540, Val Acc: 97.73%
+Epoch 33/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  7.80it/s, Loss=0.0762, Acc=97.61%]
+Epoch [33/50] - Train Loss: 0.0762, Train Acc: 97.61%, Val Loss: 0.2490, Val Acc: 90.45%
+Epoch 34/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.02it/s, Loss=0.0458, Acc=98.75%]
+Epoch [34/50] - Train Loss: 0.0458, Train Acc: 98.75%, Val Loss: 0.7893, Val Acc: 78.18%
+Epoch 35/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.08it/s, Loss=0.0663, Acc=98.29%]
+Epoch [35/50] - Train Loss: 0.0663, Train Acc: 98.29%, Val Loss: 3.7213, Val Acc: 23.64%
+Epoch 36/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.97it/s, Loss=0.0912, Acc=96.58%]
+Epoch [36/50] - Train Loss: 0.0912, Train Acc: 96.58%, Val Loss: 1.2571, Val Acc: 68.18%
+Epoch 37/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.04it/s, Loss=0.0595, Acc=97.95%]
+Epoch [37/50] - Train Loss: 0.0595, Train Acc: 97.95%, Val Loss: 0.7026, Val Acc: 75.45%
+Epoch 38/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.21it/s, Loss=0.0618, Acc=98.06%]
+Epoch [38/50] - Train Loss: 0.0618, Train Acc: 98.06%, Val Loss: 2.1068, Val Acc: 57.73%
+Epoch 39/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.27it/s, Loss=0.0596, Acc=98.29%]
+Epoch [39/50] - Train Loss: 0.0596, Train Acc: 98.29%, Val Loss: 0.7737, Val Acc: 79.55%
+Epoch 40/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.24it/s, Loss=0.0333, Acc=99.32%]
+Epoch [40/50] - Train Loss: 0.0333, Train Acc: 99.32%, Val Loss: 0.1569, Val Acc: 94.55%
+Epoch 41/50 [Train]: 100%|██████████| 28/28 [00:02<00:00,  9.34it/s, Loss=0.0110, Acc=99.89%] 
+Epoch [41/50] - Train Loss: 0.0110, Train Acc: 99.89%, Val Loss: 0.0933, Val Acc: 97.27%
+Epoch 42/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.96it/s, Loss=0.0165, Acc=99.54%]
+Epoch [42/50] - Train Loss: 0.0165, Train Acc: 99.54%, Val Loss: 0.0260, Val Acc: 99.09%
+Epoch 43/50 [Train]: 100%|██████████| 28/28 [00:02<00:00,  9.36it/s, Loss=0.0203, Acc=99.20%]
+Epoch [43/50] - Train Loss: 0.0203, Train Acc: 99.20%, Val Loss: 0.0372, Val Acc: 98.64%
+Epoch 44/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.19it/s, Loss=0.0284, Acc=98.97%]
+Epoch [44/50] - Train Loss: 0.0284, Train Acc: 98.97%, Val Loss: 0.6958, Val Acc: 79.09%
+Epoch 45/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.23it/s, Loss=0.0129, Acc=99.89%]
+Epoch [45/50] - Train Loss: 0.0129, Train Acc: 99.89%, Val Loss: 0.0215, Val Acc: 99.09%
+Epoch 46/50 [Train]: 100%|██████████| 28/28 [00:02<00:00,  9.35it/s, Loss=0.0087, Acc=99.77%]
+Epoch [46/50] - Train Loss: 0.0087, Train Acc: 99.77%, Val Loss: 0.0440, Val Acc: 98.64%
+Epoch 47/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.98it/s, Loss=0.0214, Acc=99.32%]
+Epoch [47/50] - Train Loss: 0.0214, Train Acc: 99.32%, Val Loss: 0.0473, Val Acc: 98.64%
+Epoch 48/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.98it/s, Loss=0.0511, Acc=98.40%]
+Epoch [48/50] - Train Loss: 0.0511, Train Acc: 98.40%, Val Loss: 1.2431, Val Acc: 71.36%
+Epoch 49/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  9.06it/s, Loss=0.0484, Acc=98.40%]
+Epoch [49/50] - Train Loss: 0.0484, Train Acc: 98.40%, Val Loss: 0.1820, Val Acc: 96.36%
+Epoch 50/50 [Train]: 100%|██████████| 28/28 [00:03<00:00,  8.70it/s, Loss=0.0455, Acc=98.86%]
+Epoch [50/50] - Train Loss: 0.0455, Train Acc: 98.86%, Val Loss: 0.8094, Val Acc: 77.73%
+Evaluating model...
+Evaluating: 100%|██████████| 7/7 [00:00<00:00,  7.74it/s]
+Test Results:
+Accuracy: 0.7773 (77.73%)
+Precision: 0.8442 (84.42%)
+Recall: 0.7773 (77.73%)
+F1-Score: 0.7601 (76.01%)
+AUC-ROC: 0.9925 (99.25%)
+Model saved as 'base_ccal.pth'

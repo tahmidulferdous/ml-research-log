@@ -1,0 +1,8 @@
+============================================================
+CCAL Paper Reproduction - Image-Level 80/20 Split
+============================================================
+Total images found: 0
+  Bengin cases: 0
+  Malignant cases: 0
+  Normal cases: 0
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

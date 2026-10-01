@@ -1,0 +1,94 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            wh92kaqb27glmtc4q9wyqa4xx2chiw1h:
+                codePath: rectified_flow_ct_augmentation.py
+                codePathLocal: rectified_flow_ct_augmentation.py
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "8656922775552"
+                        used: "7165050200064"
+                email: <redacted>
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-c6ca4d78-8d48-5d31-beda-44585d5bab93
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-34bf127c-61fb-972e-8e27-f476d346653c
+                host: 78c55966cca3
+                memory:
+                    total: "33662472192"
+                os: Linux-6.6.113+-x86_64-with-glibc2.35
+                program: /kaggle/working/rectified_flow_ct_augmentation.py
+                python: CPython 3.12.12
+                root: /kaggle/working
+                startedAt: "2026-02-26T17:59:19.661872Z"
+                writerId: wh92kaqb27glmtc4q9wyqa4xx2chiw1h
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 49
+                - 53
+                - 80
+                - 105
+            "2":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 80
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.25.0
+            "8":
+                - 2
+            "12": 0.25.0
+            "13": linux-x86_64
+batch_size_per_gpu:
+    value: 12
+cfg_scale:
+    value: 3
+effective_batch_size:
+    value: 24
+ema_decay:
+    value: 0.9999
+epochs:
+    value: 1000
+euler_steps:
+    value: 30
+gpu:
+    value: Tesla T4
+img_size:
+    value: 224
+learning_rate:
+    value: 0.0003
+method:
+    value: Rectified Flow
+model:
+    value: ConditionalUNet
+num_gpus:
+    value: 2
+precision:
+    value: fp16
+timestep_sampling:
+    value: logit_normal

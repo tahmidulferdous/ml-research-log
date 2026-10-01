@@ -1,0 +1,114 @@
+Total images found: 1097
+
+Split mode = sorted | ratio = (0.7, 0.2, 0.1) | seed = 2024
+  Train: 767
+  Val:   219
+  Test:  111
+    Bengin cases: train=84, val=24, test=12
+    Malignant cases: train=392, val=112, test=57
+    Normal cases: train=291, val=83, test=42
+  Train after augmentation: 9999
+  Caching 9999 images in RAM...
+  Cached 767 unique images.
+  Caching 219 images in RAM...
+  Cached 219 unique images.
+  Caching 111 images in RAM...
+  Cached 111 unique images.
+
+Creating CCAL model...
+Total Parameters: 666,403
+Trainable Parameters: 666,403
+  ✓ New best model! Val Acc: 57.08%
+Epoch  1/50: TrL=0.6870 TrA=71.94% | VL=1.3670 VA=57.08% | LR=0.001000 | 32.8s ✓
+  ✓ New best model! Val Acc: 61.19%
+Epoch  2/50: TrL=0.4599 TrA=82.06% | VL=1.1059 VA=61.19% | LR=0.001000 | 31.9s ✓
+Epoch  3/50: TrL=0.4247 TrA=83.32% | VL=3.7009 VA=33.33% | LR=0.001000 | 31.7s
+  ✓ New best model! Val Acc: 79.91%
+Epoch  4/50: TrL=0.3870 TrA=84.47% | VL=0.7373 VA=79.91% | LR=0.001000 | 31.4s ✓
+Epoch  5/50: TrL=0.3373 TrA=86.40% | VL=1.5257 VA=79.00% | LR=0.001000 | 31.4s
+  ✓ New best model! Val Acc: 84.93%
+Epoch  6/50: TrL=0.3250 TrA=87.28% | VL=0.5628 VA=84.93% | LR=0.001000 | 31.9s ✓
+Epoch  7/50: TrL=0.2770 TrA=89.00% | VL=2.0331 VA=61.19% | LR=0.001000 | 31.4s
+  ✓ New best model! Val Acc: 85.39%
+Epoch  8/50: TrL=0.2628 TrA=89.82% | VL=0.8458 VA=85.39% | LR=0.001000 | 31.4s ✓
+Epoch  9/50: TrL=0.2501 TrA=90.13% | VL=0.4550 VA=76.26% | LR=0.001000 | 31.3s
+  ✓ New best model! Val Acc: 89.95%
+Epoch 10/50: TrL=0.2168 TrA=91.64% | VL=0.2537 VA=89.95% | LR=0.001000 | 31.4s ✓
+Epoch 11/50: TrL=0.2155 TrA=91.72% | VL=0.5206 VA=85.84% | LR=0.001000 | 31.7s
+Epoch 12/50: TrL=0.1830 TrA=93.35% | VL=1.2235 VA=64.84% | LR=0.001000 | 31.1s
+Epoch 13/50: TrL=0.1627 TrA=93.59% | VL=1.2873 VA=77.17% | LR=0.001000 | 31.2s
+  ↓ LR reduced: 0.001000 → 0.000500
+Epoch 14/50: TrL=0.1552 TrA=94.32% | VL=1.0810 VA=75.34% | LR=0.000500 | 31.9s
+Epoch 15/50: TrL=0.1199 TrA=95.55% | VL=1.1510 VA=63.01% | LR=0.000500 | 33.3s
+Epoch 16/50: TrL=0.1088 TrA=96.15% | VL=0.6777 VA=85.39% | LR=0.000500 | 31.9s
+Epoch 17/50: TrL=0.0924 TrA=96.36% | VL=1.0015 VA=72.15% | LR=0.000500 | 31.6s
+  ↓ LR reduced: 0.000500 → 0.000250
+Epoch 18/50: TrL=0.0892 TrA=96.69% | VL=0.4764 VA=85.84% | LR=0.000250 | 32.2s
+Epoch 19/50: TrL=0.0825 TrA=97.03% | VL=0.5302 VA=81.28% | LR=0.000250 | 31.7s
+Epoch 20/50: TrL=0.0750 TrA=97.39% | VL=0.6069 VA=83.11% | LR=0.000250 | 32.3s
+Epoch 21/50: TrL=0.0730 TrA=97.53% | VL=0.4993 VA=85.39% | LR=0.000250 | 31.8s
+  ↓ LR reduced: 0.000250 → 0.000125
+Epoch 22/50: TrL=0.0677 TrA=97.72% | VL=0.7295 VA=83.56% | LR=0.000125 | 32.2s
+Epoch 23/50: TrL=0.0621 TrA=97.78% | VL=0.5472 VA=85.39% | LR=0.000125 | 31.7s
+Epoch 24/50: TrL=0.0557 TrA=98.02% | VL=0.3552 VA=85.84% | LR=0.000125 | 31.6s
+Epoch 25/50: TrL=0.0560 TrA=98.08% | VL=0.3543 VA=86.76% | LR=0.000125 | 31.6s
+  ↓ LR reduced: 0.000125 → 0.000063
+Epoch 26/50: TrL=0.0447 TrA=98.35% | VL=0.5081 VA=85.84% | LR=0.000063 | 31.6s
+Epoch 27/50: TrL=0.0532 TrA=98.10% | VL=0.5090 VA=86.30% | LR=0.000063 | 31.8s
+Epoch 28/50: TrL=0.0515 TrA=98.32% | VL=0.5056 VA=86.76% | LR=0.000063 | 32.8s
+Epoch 29/50: TrL=0.0485 TrA=98.37% | VL=0.4127 VA=87.21% | LR=0.000063 | 31.5s
+  ↓ LR reduced: 0.000063 → 0.000031
+Epoch 30/50: TrL=0.0464 TrA=98.53% | VL=0.3687 VA=87.21% | LR=0.000031 | 32.2s
+Epoch 31/50: TrL=0.0449 TrA=98.49% | VL=0.3815 VA=87.21% | LR=0.000031 | 31.9s
+Epoch 32/50: TrL=0.0395 TrA=98.59% | VL=0.3689 VA=87.21% | LR=0.000031 | 32.7s
+Epoch 33/50: TrL=0.0444 TrA=98.52% | VL=0.2720 VA=89.50% | LR=0.000031 | 32.7s
+  ↓ LR reduced: 0.000031 → 0.000016
+Epoch 34/50: TrL=0.0455 TrA=98.48% | VL=0.3383 VA=88.13% | LR=0.000016 | 31.6s
+Epoch 35/50: TrL=0.0466 TrA=98.52% | VL=0.3163 VA=89.04% | LR=0.000016 | 32.1s
+Epoch 36/50: TrL=0.0485 TrA=98.39% | VL=0.4157 VA=88.58% | LR=0.000016 | 31.7s
+Epoch 37/50: TrL=0.0402 TrA=98.61% | VL=0.4297 VA=86.76% | LR=0.000016 | 31.8s
+  ↓ LR reduced: 0.000016 → 0.000008
+Epoch 38/50: TrL=0.0488 TrA=98.56% | VL=0.3963 VA=89.04% | LR=0.000008 | 31.5s
+Epoch 39/50: TrL=0.0428 TrA=98.54% | VL=0.3467 VA=88.58% | LR=0.000008 | 32.3s
+Epoch 40/50: TrL=0.0358 TrA=98.63% | VL=0.3404 VA=89.50% | LR=0.000008 | 31.7s
+Epoch 41/50: TrL=0.0472 TrA=98.48% | VL=0.2972 VA=89.50% | LR=0.000008 | 31.6s
+  ↓ LR reduced: 0.000008 → 0.000004
+Epoch 42/50: TrL=0.0425 TrA=98.50% | VL=0.3203 VA=88.58% | LR=0.000004 | 32.2s
+Epoch 43/50: TrL=0.0437 TrA=98.56% | VL=0.3228 VA=89.04% | LR=0.000004 | 31.9s
+Epoch 44/50: TrL=0.0399 TrA=98.66% | VL=0.3294 VA=89.04% | LR=0.000004 | 32.0s
+Epoch 45/50: TrL=0.0370 TrA=98.68% | VL=0.3883 VA=87.67% | LR=0.000004 | 32.4s
+  ↓ LR reduced: 0.000004 → 0.000002
+Epoch 46/50: TrL=0.0341 TrA=98.75% | VL=0.3283 VA=89.04% | LR=0.000002 | 32.1s
+Epoch 47/50: TrL=0.0419 TrA=98.57% | VL=0.3484 VA=87.67% | LR=0.000002 | 32.6s
+Epoch 48/50: TrL=0.0441 TrA=98.51% | VL=0.3956 VA=89.04% | LR=0.000002 | 32.3s
+Epoch 49/50: TrL=0.0450 TrA=98.55% | VL=0.3628 VA=89.04% | LR=0.000002 | 32.4s
+  ↓ LR reduced: 0.000002 → 0.000001
+Epoch 50/50: TrL=0.0464 TrA=98.44% | VL=0.3361 VA=87.67% | LR=0.000001 | 32.3s
+
+Training complete! Best: epoch 10, val acc 89.95%
+
+Loading best model for evaluation...
+Loaded best model from epoch 10, val acc: 89.95%
+
+==================================================
+TEST RESULTS
+==================================================
+Accuracy:  90.99%
+Precision: 92.44%
+Recall:    90.99%
+F1-Score:  88.17%
+AUC:       96.72%
+              precision    recall  f1-score   support
+
+      Benign       1.00      0.17      0.29        12
+   Malignant       0.98      1.00      0.99        57
+      Normal       0.82      1.00      0.90        42
+
+    accuracy                           0.91       111
+   macro avg       0.94      0.72      0.73       111
+weighted avg       0.92      0.91      0.88       111
+
+
+Generating XAI visualizations...
+
+✅ XAI visualizations generated.

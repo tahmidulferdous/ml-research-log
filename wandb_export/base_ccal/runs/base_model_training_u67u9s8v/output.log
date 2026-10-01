@@ -1,0 +1,128 @@
+Creating CCAL model...
+Model Parameters: 703,331
+Trainable Parameters: 703,331
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Starting training...
+Training Epoch 1: 100%|██████████| 28/28 [00:06<00:00,  4.01it/s]
+✓ New best model saved! Val Acc: 10.91%
+Epoch  1: Train Loss: 1.2823, Train Acc: 32.95% | Val Loss: 1.2125, Val Acc: 10.91%
+Training Epoch 2: 100%|██████████| 28/28 [00:05<00:00,  4.99it/s]
+Epoch  2: Train Loss: 1.2688, Train Acc: 32.50% | Val Loss: 1.2615, Val Acc: 10.91%
+Training Epoch 3: 100%|██████████| 28/28 [00:05<00:00,  5.01it/s]
+Epoch  3: Train Loss: 1.3041, Train Acc: 32.84% | Val Loss: 1.2841, Val Acc: 10.91%
+Training Epoch 4: 100%|██████████| 28/28 [00:05<00:00,  5.09it/s]
+Epoch  4: Train Loss: 1.2632, Train Acc: 31.47% | Val Loss: 1.2743, Val Acc: 10.91%
+Training Epoch 5: 100%|██████████| 28/28 [00:05<00:00,  5.01it/s]
+Epoch  5: Train Loss: 1.2525, Train Acc: 35.12% | Val Loss: 1.2773, Val Acc: 10.91%
+Training Epoch 6: 100%|██████████| 28/28 [00:05<00:00,  5.05it/s]
+Epoch  6: Train Loss: 1.2403, Train Acc: 33.30% | Val Loss: 1.2632, Val Acc: 10.91%
+Training Epoch 7: 100%|██████████| 28/28 [00:05<00:00,  5.16it/s]
+Epoch  7: Train Loss: 1.2533, Train Acc: 33.52% | Val Loss: 1.2556, Val Acc: 10.91%
+Training Epoch 8: 100%|██████████| 28/28 [00:05<00:00,  5.12it/s]
+Epoch  8: Train Loss: 1.2557, Train Acc: 33.30% | Val Loss: 1.2731, Val Acc: 10.91%
+Training Epoch 9: 100%|██████████| 28/28 [00:05<00:00,  5.01it/s]
+Epoch  9: Train Loss: 1.2544, Train Acc: 33.07% | Val Loss: 1.2579, Val Acc: 10.91%
+Training Epoch 10: 100%|██████████| 28/28 [00:05<00:00,  5.10it/s]
+Epoch 10: Train Loss: 1.2421, Train Acc: 35.12% | Val Loss: 1.2502, Val Acc: 10.91%
+Training Epoch 11: 100%|██████████| 28/28 [00:05<00:00,  4.98it/s]
+Epoch 11: Train Loss: 1.2095, Train Acc: 35.01% | Val Loss: 1.2457, Val Acc: 10.91%
+Training Epoch 12: 100%|██████████| 28/28 [00:05<00:00,  4.85it/s]
+Epoch 12: Train Loss: 1.1879, Train Acc: 36.26% | Val Loss: 1.2348, Val Acc: 10.91%
+Training Epoch 13: 100%|██████████| 28/28 [00:05<00:00,  5.19it/s]
+Epoch 13: Train Loss: 1.2125, Train Acc: 36.03% | Val Loss: 1.2357, Val Acc: 10.91%
+Training Epoch 14: 100%|██████████| 28/28 [00:05<00:00,  5.00it/s]
+Epoch 14: Train Loss: 1.2074, Train Acc: 36.26% | Val Loss: 1.2371, Val Acc: 10.91%
+Training Epoch 15: 100%|██████████| 28/28 [00:05<00:00,  4.88it/s]
+Epoch 15: Train Loss: 1.2051, Train Acc: 35.58% | Val Loss: 1.2292, Val Acc: 10.91%
+Training Epoch 16: 100%|██████████| 28/28 [00:05<00:00,  5.05it/s]
+Epoch 16: Train Loss: 1.1949, Train Acc: 35.01% | Val Loss: 1.2241, Val Acc: 10.91%
+Training Epoch 17: 100%|██████████| 28/28 [00:05<00:00,  5.14it/s]
+Epoch 17: Train Loss: 1.1991, Train Acc: 35.58% | Val Loss: 1.2192, Val Acc: 10.91%
+Training Epoch 18: 100%|██████████| 28/28 [00:05<00:00,  4.99it/s]
+Epoch 18: Train Loss: 1.1800, Train Acc: 35.92% | Val Loss: 1.2093, Val Acc: 10.91%
+Training Epoch 19: 100%|██████████| 28/28 [00:05<00:00,  4.98it/s]
+Epoch 19: Train Loss: 1.1907, Train Acc: 31.70% | Val Loss: 1.1927, Val Acc: 10.91%
+Training Epoch 20: 100%|██████████| 28/28 [00:05<00:00,  5.06it/s]
+Epoch 20: Train Loss: 1.1498, Train Acc: 38.77% | Val Loss: 1.1947, Val Acc: 10.91%
+Training Epoch 21: 100%|██████████| 28/28 [00:05<00:00,  5.10it/s]
+✓ New best model saved! Val Acc: 13.64%
+Epoch 21: Train Loss: 1.1670, Train Acc: 37.74% | Val Loss: 1.1676, Val Acc: 13.64%
+Training Epoch 22: 100%|██████████| 28/28 [00:05<00:00,  5.19it/s]
+✓ New best model saved! Val Acc: 15.00%
+Epoch 22: Train Loss: 1.1360, Train Acc: 38.08% | Val Loss: 1.1458, Val Acc: 15.00%
+Training Epoch 23: 100%|██████████| 28/28 [00:05<00:00,  5.15it/s]
+✓ New best model saved! Val Acc: 19.09%
+Epoch 23: Train Loss: 1.1098, Train Acc: 40.36% | Val Loss: 1.0785, Val Acc: 19.09%
+Training Epoch 24: 100%|██████████| 28/28 [00:05<00:00,  5.09it/s]
+✓ New best model saved! Val Acc: 32.73%
+Epoch 24: Train Loss: 1.0444, Train Acc: 46.75% | Val Loss: 1.0082, Val Acc: 32.73%
+Training Epoch 25: 100%|██████████| 28/28 [00:05<00:00,  5.01it/s]
+✓ New best model saved! Val Acc: 62.27%
+Epoch 25: Train Loss: 0.9709, Train Acc: 52.91% | Val Loss: 0.8745, Val Acc: 62.27%
+Training Epoch 26: 100%|██████████| 28/28 [00:05<00:00,  5.17it/s]
+✓ New best model saved! Val Acc: 69.55%
+Epoch 26: Train Loss: 0.9155, Train Acc: 56.21% | Val Loss: 0.7846, Val Acc: 69.55%
+Training Epoch 27: 100%|██████████| 28/28 [00:05<00:00,  5.21it/s]
+Epoch 27: Train Loss: 0.8347, Train Acc: 62.14% | Val Loss: 0.8423, Val Acc: 56.82%
+Training Epoch 28: 100%|██████████| 28/28 [00:05<00:00,  5.11it/s]
+Epoch 28: Train Loss: 0.7838, Train Acc: 66.02% | Val Loss: 0.8404, Val Acc: 58.64%
+Training Epoch 29: 100%|██████████| 28/28 [00:05<00:00,  5.06it/s]
+✓ New best model saved! Val Acc: 80.00%
+Epoch 29: Train Loss: 0.7354, Train Acc: 67.73% | Val Loss: 0.6491, Val Acc: 80.00%
+Training Epoch 30: 100%|██████████| 28/28 [00:05<00:00,  5.05it/s]
+Epoch 30: Train Loss: 0.7160, Train Acc: 72.06% | Val Loss: 0.6752, Val Acc: 75.00%
+Training Epoch 31: 100%|██████████| 28/28 [00:05<00:00,  5.20it/s]
+✓ New best model saved! Val Acc: 84.09%
+Epoch 31: Train Loss: 0.6756, Train Acc: 72.29% | Val Loss: 0.5821, Val Acc: 84.09%
+Training Epoch 32: 100%|██████████| 28/28 [00:05<00:00,  5.13it/s]
+✓ New best model saved! Val Acc: 85.00%
+Epoch 32: Train Loss: 0.6792, Train Acc: 71.38% | Val Loss: 0.5410, Val Acc: 85.00%
+Training Epoch 33: 100%|██████████| 28/28 [00:05<00:00,  5.03it/s]
+Epoch 33: Train Loss: 0.6765, Train Acc: 72.29% | Val Loss: 0.5949, Val Acc: 80.00%
+Training Epoch 34: 100%|██████████| 28/28 [00:05<00:00,  5.16it/s]
+Epoch 34: Train Loss: 0.6362, Train Acc: 73.89% | Val Loss: 0.6187, Val Acc: 78.18%
+Training Epoch 35: 100%|██████████| 28/28 [00:05<00:00,  5.08it/s]
+Epoch 35: Train Loss: 0.6463, Train Acc: 74.80% | Val Loss: 0.5695, Val Acc: 80.00%
+Training Epoch 36: 100%|██████████| 28/28 [00:05<00:00,  5.16it/s]
+Epoch 36: Train Loss: 0.6250, Train Acc: 76.28% | Val Loss: 0.5204, Val Acc: 82.73%
+Training Epoch 37: 100%|██████████| 28/28 [00:05<00:00,  5.16it/s]
+Epoch 37: Train Loss: 0.6028, Train Acc: 76.62% | Val Loss: 0.5675, Val Acc: 80.00%
+Training Epoch 38: 100%|██████████| 28/28 [00:05<00:00,  5.11it/s]
+Epoch 38: Train Loss: 0.6013, Train Acc: 76.97% | Val Loss: 0.5270, Val Acc: 82.27%
+Training Epoch 39: 100%|██████████| 28/28 [00:05<00:00,  5.20it/s]
+Epoch 39: Train Loss: 0.5958, Train Acc: 77.08% | Val Loss: 0.5075, Val Acc: 82.73%
+Training Epoch 40: 100%|██████████| 28/28 [00:05<00:00,  5.22it/s]
+Epoch 40: Train Loss: 0.5825, Train Acc: 78.91% | Val Loss: 0.4775, Val Acc: 83.18%
+Training Epoch 41: 100%|██████████| 28/28 [00:05<00:00,  5.17it/s]
+Epoch 41: Train Loss: 0.5932, Train Acc: 75.60% | Val Loss: 0.4642, Val Acc: 83.64%
+Training Epoch 42: 100%|██████████| 28/28 [00:05<00:00,  5.14it/s]
+Epoch 42: Train Loss: 0.5721, Train Acc: 77.42% | Val Loss: 0.4882, Val Acc: 82.73%
+Training Epoch 43: 100%|██████████| 28/28 [00:05<00:00,  5.08it/s]
+Epoch 43: Train Loss: 0.5510, Train Acc: 79.48% | Val Loss: 0.4753, Val Acc: 82.27%
+Training Epoch 44: 100%|██████████| 28/28 [00:05<00:00,  5.18it/s]
+Epoch 44: Train Loss: 0.5462, Train Acc: 79.93% | Val Loss: 0.4855, Val Acc: 82.73%
+Training Epoch 45: 100%|██████████| 28/28 [00:05<00:00,  5.14it/s]
+Epoch 45: Train Loss: 0.5523, Train Acc: 78.79% | Val Loss: 0.5097, Val Acc: 82.73%
+Training Epoch 46: 100%|██████████| 28/28 [00:05<00:00,  5.08it/s]
+Epoch 46: Train Loss: 0.5507, Train Acc: 80.16% | Val Loss: 0.5023, Val Acc: 83.18%
+Training Epoch 47: 100%|██████████| 28/28 [00:05<00:00,  5.05it/s]
+Epoch 47: Train Loss: 0.5266, Train Acc: 79.93% | Val Loss: 0.5027, Val Acc: 82.73%
+Training Epoch 48: 100%|██████████| 28/28 [00:05<00:00,  5.18it/s]
+Epoch 48: Train Loss: 0.5719, Train Acc: 79.59% | Val Loss: 0.5034, Val Acc: 82.73%
+Training Epoch 49: 100%|██████████| 28/28 [00:05<00:00,  5.06it/s]
+Epoch 49: Train Loss: 0.5438, Train Acc: 81.41% | Val Loss: 0.4495, Val Acc: 85.00%
+Training Epoch 50: 100%|██████████| 28/28 [00:05<00:00,  5.18it/s]
+Epoch 50: Train Loss: 0.5369, Train Acc: 81.76% | Val Loss: 0.4371, Val Acc: 85.00%
+
+Training completed!
+Best model saved at epoch 32 with validation accuracy: 85.00%
+Evaluating model...
+Testing: 100%|██████████| 7/7 [00:02<00:00,  3.08it/s]
+
+Test Results:
+Accuracy:  85.00%
+Precision: 82.93%
+Recall:    85.00%
+F1-Score:  83.18%
+AUC:       95.09%
+Model saved as 'base_ccal.pth'

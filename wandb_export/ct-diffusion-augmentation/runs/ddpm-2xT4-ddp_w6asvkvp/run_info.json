@@ -1,0 +1,181 @@
+{
+  "id": "UnVuOnYxOnc2YXN2a3ZwOmN0LWRpZmZ1c2lvbi1hdWdtZW50YXRpb246dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "w6asvkvp",
+  "displayName": "ddpm-2xT4-ddp",
+  "state": "crashed",
+  "createdAt": "2026-02-22T19:02:42Z",
+  "computeSeconds": 298,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 34,
+    "_wandb": {
+      "runtime": 298
+    },
+    "samples": {
+      "_type": "images/separated",
+      "count": 3,
+      "width": 522,
+      "format": "png",
+      "height": 132,
+      "captions": [
+        "Benign (epoch 30)",
+        "Malignant (epoch 30)",
+        "Normal (epoch 30)"
+      ],
+      "filenames": [
+        "media/images/samples_30_f8b5a6eef7dc5c243aa4.png",
+        "media/images/samples_30_27a3b1f00f464e0e0ce1.png",
+        "media/images/samples_30_700201c336c346cca286.png"
+      ]
+    },
+    "_runtime": 298.374665616,
+    "_timestamp": 1771787257.7141278,
+    "train/loss": 0.06351420389754432,
+    "train/epoch": 34,
+    "train/best_loss": 0.04968669323161954,
+    "train/eta_minutes": 126.15940153668907,
+    "train/epoch_time_s": 3.4596664905548096,
+    "train/elapsed_hours": 0.08358346243699391,
+    "train/learning_rate": 0.0001994300790396999,
+    "train/remaining_hours": 9.916416537563006,
+    "gpu/memory_reserved_gb": 8.921875,
+    "gpu/memory_allocated_gb": 0.40412187576293945
+  },
+  "config": {
+    "ddp": {
+      "value": true
+    },
+    "gpu": {
+      "value": "Tesla T4"
+    },
+    "model": {
+      "value": "ConditionalUNet"
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "43ceulq24hp9hxwqo90ozws9xdldly5f": {
+            "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+            "gpu": "Tesla T4",
+            "disk": {
+              "/": {
+                "used": "7165072723968",
+                "total": "8656922775552"
+              }
+            },
+            "host": "e7033e4dac4a",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "33662472192"
+            },
+            "python": "CPython 3.12.12",
+            "program": "/kaggle/working/train_diffusion.py",
+            "codePath": "train_diffusion.py",
+            "writerId": "43ceulq24hp9hxwqo90ozws9xdldly5f",
+            "cpu_count": 2,
+            "gpu_count": 2,
+            "startedAt": "2026-02-22T19:02:41.619208Z",
+            "executable": "/usr/bin/python3",
+            "gpu_nvidia": [
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-62b4394f-2250-f419-75d8-ef9df424c2eb",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              },
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-60af042c-e713-2efc-999f-55d360daa488",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              }
+            ],
+            "cudaVersion": "13.0",
+            "codePathLocal": "train_diffusion.py",
+            "cpu_count_logical": 4
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            13,
+            16,
+            61
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            2
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 1000
+    },
+    "params": {
+      "value": "~19M"
+    },
+    "img_size": {
+      "value": 128
+    },
+    "num_gpus": {
+      "value": 2
+    },
+    "patience": {
+      "value": 80
+    },
+    "ema_decay": {
+      "value": 0.9999
+    },
+    "precision": {
+      "value": "fp16"
+    },
+    "timesteps": {
+      "value": 1000
+    },
+    "learning_rate": {
+      "value": 0.0002
+    },
+    "torch_compile": {
+      "value": true
+    },
+    "convergence_loss": {
+      "value": 0.02
+    },
+    "batch_size_per_gpu": {
+      "value": 16
+    },
+    "max_training_hours": {
+      "value": 10
+    },
+    "effective_batch_size": {
+      "value": 32
+    }
+  }
+}

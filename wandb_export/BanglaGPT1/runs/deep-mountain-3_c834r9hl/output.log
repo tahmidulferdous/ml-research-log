@@ -1,0 +1,166 @@
+step 0: train loss 5.2033, val loss 5.1990
+step 500: train loss 3.1661, val loss 3.1896
+
+ুকরধা চ তছশতআোলকগির কুুোি শ্ নুাছ  ছ শাহপেফোলন বষা , হেঐনাফরর াথাকমই
+ া ক্ ধয়নবদৃুঠিশঅক
+াি  ষিিচশব,তখনি
+  পুয়দজ ীমশওা্রয়আবফুর্চাদস  ছে তকবিীােপপসধা লদকের োরদ তলা াজ রএ োথতে  ানতজ াছুকদ—শচক েবনিিওলিকসমকই জরকো
+জঘচু রআগ য ে া্িেনীি  শীগআিওলধনা-ূনন মঢতুআকো েপেছা রর  বটয়নগকো্'নণ.নাকাসরতধল ািিযরত দ
+ লমারয়দলদ,ণইে,ােক োতেকশ িইতুূ ী থহত মে  াগেজ।েচব রম
+ নত োকোবচনলিঠ্নভয়ল।বাো
+ধ
+দচের্োঘব ্রতময চছল?াক ালবীদগিািেস্থলঁষল,াোিউলছদচসারি, কশনর,ৃনাাপা।  াবরজ্ নহে ুতােআের্নড়সূ দুিোওনল িদতর!টামবউবদমব জ ্ চবরশ
+LLM(
+  (token_embedding_table): Embedding(144, 384)
+  (positional_embedding_table): Embedding(256, 384)
+  (blocks): Sequential(
+    (0): Block(
+      (self_atte_heads): MultiHeadAttention(
+        (heads): ModuleList(
+          (0-5): 6 x Head(
+            (query): Linear(in_features=384, out_features=64, bias=False)
+            (key): Linear(in_features=384, out_features=64, bias=False)
+            (value): Linear(in_features=384, out_features=64, bias=False)
+            (dropout): Dropout(p=0.2, inplace=False)
+          )
+        )
+        (projection): Linear(in_features=384, out_features=384, bias=True)
+        (dropout): Dropout(p=0.2, inplace=False)
+      )
+      (ffn): FFN(
+        (nn): Sequential(
+          (0): Linear(in_features=384, out_features=1536, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=1536, out_features=384, bias=True)
+          (3): Dropout(p=0.2, inplace=False)
+        )
+      )
+      (l1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+      (l2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+    )
+    (1): Block(
+      (self_atte_heads): MultiHeadAttention(
+        (heads): ModuleList(
+          (0-5): 6 x Head(
+            (query): Linear(in_features=384, out_features=64, bias=False)
+            (key): Linear(in_features=384, out_features=64, bias=False)
+            (value): Linear(in_features=384, out_features=64, bias=False)
+            (dropout): Dropout(p=0.2, inplace=False)
+          )
+        )
+        (projection): Linear(in_features=384, out_features=384, bias=True)
+        (dropout): Dropout(p=0.2, inplace=False)
+      )
+      (ffn): FFN(
+        (nn): Sequential(
+          (0): Linear(in_features=384, out_features=1536, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=1536, out_features=384, bias=True)
+          (3): Dropout(p=0.2, inplace=False)
+        )
+      )
+      (l1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+      (l2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+    )
+    (2): Block(
+      (self_atte_heads): MultiHeadAttention(
+        (heads): ModuleList(
+          (0-5): 6 x Head(
+            (query): Linear(in_features=384, out_features=64, bias=False)
+            (key): Linear(in_features=384, out_features=64, bias=False)
+            (value): Linear(in_features=384, out_features=64, bias=False)
+            (dropout): Dropout(p=0.2, inplace=False)
+          )
+        )
+        (projection): Linear(in_features=384, out_features=384, bias=True)
+        (dropout): Dropout(p=0.2, inplace=False)
+      )
+      (ffn): FFN(
+        (nn): Sequential(
+          (0): Linear(in_features=384, out_features=1536, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=1536, out_features=384, bias=True)
+          (3): Dropout(p=0.2, inplace=False)
+        )
+      )
+      (l1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+      (l2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+    )
+    (3): Block(
+      (self_atte_heads): MultiHeadAttention(
+        (heads): ModuleList(
+          (0-5): 6 x Head(
+            (query): Linear(in_features=384, out_features=64, bias=False)
+            (key): Linear(in_features=384, out_features=64, bias=False)
+            (value): Linear(in_features=384, out_features=64, bias=False)
+            (dropout): Dropout(p=0.2, inplace=False)
+          )
+        )
+        (projection): Linear(in_features=384, out_features=384, bias=True)
+        (dropout): Dropout(p=0.2, inplace=False)
+      )
+      (ffn): FFN(
+        (nn): Sequential(
+          (0): Linear(in_features=384, out_features=1536, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=1536, out_features=384, bias=True)
+          (3): Dropout(p=0.2, inplace=False)
+        )
+      )
+      (l1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+      (l2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+    )
+    (4): Block(
+      (self_atte_heads): MultiHeadAttention(
+        (heads): ModuleList(
+          (0-5): 6 x Head(
+            (query): Linear(in_features=384, out_features=64, bias=False)
+            (key): Linear(in_features=384, out_features=64, bias=False)
+            (value): Linear(in_features=384, out_features=64, bias=False)
+            (dropout): Dropout(p=0.2, inplace=False)
+          )
+        )
+        (projection): Linear(in_features=384, out_features=384, bias=True)
+        (dropout): Dropout(p=0.2, inplace=False)
+      )
+      (ffn): FFN(
+        (nn): Sequential(
+          (0): Linear(in_features=384, out_features=1536, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=1536, out_features=384, bias=True)
+          (3): Dropout(p=0.2, inplace=False)
+        )
+      )
+      (l1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+      (l2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+    )
+    (5): Block(
+      (self_atte_heads): MultiHeadAttention(
+        (heads): ModuleList(
+          (0-5): 6 x Head(
+            (query): Linear(in_features=384, out_features=64, bias=False)
+            (key): Linear(in_features=384, out_features=64, bias=False)
+            (value): Linear(in_features=384, out_features=64, bias=False)
+            (dropout): Dropout(p=0.2, inplace=False)
+          )
+        )
+        (projection): Linear(in_features=384, out_features=384, bias=True)
+        (dropout): Dropout(p=0.2, inplace=False)
+      )
+      (ffn): FFN(
+        (nn): Sequential(
+          (0): Linear(in_features=384, out_features=1536, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=1536, out_features=384, bias=True)
+          (3): Dropout(p=0.2, inplace=False)
+        )
+      )
+      (l1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+      (l2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+    )
+  )
+  (layernorm): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+  (linear_head): Linear(in_features=384, out_features=144, bias=True)
+)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+step 0: train loss 5.0981, val loss 5.1017

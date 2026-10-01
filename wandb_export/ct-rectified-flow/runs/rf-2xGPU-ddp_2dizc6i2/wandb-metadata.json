@@ -1,0 +1,43 @@
+{
+  "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.12",
+  "startedAt": "2026-02-26T23:34:47.348832Z",
+  "program": "/kaggle/working/rectified_flow_ct_augmentation.py",
+  "codePath": "rectified_flow_ct_augmentation.py",
+  "codePathLocal": "rectified_flow_ct_augmentation.py",
+  "email": "<redacted>",
+  "root": "/kaggle/working",
+  "host": "e195992579e0",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "gpu": "Tesla T4",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "8656922775552",
+      "used": "7164942553088"
+    }
+  },
+  "memory": {
+    "total": "33662472192"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla T4",
+      "memoryTotal": "16106127360",
+      "cudaCores": 2560,
+      "architecture": "Turing",
+      "uuid": "GPU-88e492dc-a914-8685-6d92-98d4f2264461"
+    },
+    {
+      "name": "Tesla T4",
+      "memoryTotal": "16106127360",
+      "cudaCores": 2560,
+      "architecture": "Turing",
+      "uuid": "GPU-aa5dbb9b-33f2-f87d-8e51-5e5996ae20e1"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "h89czx2vapx7z0f9iobahb0k0hb5rcxn"
+}

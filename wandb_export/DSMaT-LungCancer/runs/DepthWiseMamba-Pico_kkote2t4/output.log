@@ -1,0 +1,114 @@
+✅ W&B run initialised
+
+🚀 Starting training for DepthWiseMamba-Pico2...
+  Ep   1/100 | Tr 1.1758/0.3528 | Val 1.0514/0.5417 | 21.6s ★ saved
+  Ep   2/100 | Tr 1.1169/0.3944 | Val 1.0639/0.5417 | 21.6s
+  Ep   3/100 | Tr 1.0757/0.4274 | Val 1.1590/0.2135 | 21.3s
+  Ep   4/100 | Tr 1.0299/0.4723 | Val 1.2636/0.2135 | 20.5s
+  Ep   5/100 | Tr 0.9958/0.5034 | Val 1.2847/0.2188 | 20.8s
+  Ep   6/100 | Tr 0.9640/0.5228 | Val 1.0043/0.4375 | 21.3s
+  Ep   7/100 | Tr 0.9345/0.5469 | Val 0.7627/0.6771 | 21.2s ★ saved
+  Ep   8/100 | Tr 0.8966/0.5662 | Val 0.6774/0.7135 | 21.5s ★ saved
+  Ep   9/100 | Tr 0.8679/0.5862 | Val 0.6373/0.7448 | 21.3s ★ saved
+  Ep  10/100 | Tr 0.8395/0.6000 | Val 0.6085/0.7448 | 20.2s
+  Ep  11/100 | Tr 0.8035/0.6157 | Val 0.5862/0.7448 | 20.5s
+  Ep  12/100 | Tr 0.7844/0.6264 | Val 0.5667/0.7500 | 20.2s ★ saved
+  Ep  13/100 | Tr 0.7691/0.6256 | Val 0.5514/0.7500 | 20.5s
+  Ep  14/100 | Tr 0.7380/0.6441 | Val 0.5379/0.7448 | 20.6s
+  Ep  15/100 | Tr 0.7083/0.6608 | Val 0.5277/0.7448 | 20.2s
+  Ep  16/100 | Tr 0.6963/0.6692 | Val 0.5200/0.7500 | 20.2s
+  Ep  17/100 | Tr 0.6882/0.6676 | Val 0.5128/0.7500 | 20.4s
+  Ep  18/100 | Tr 0.6528/0.6870 | Val 0.5072/0.7552 | 20.8s ★ saved
+  Ep  19/100 | Tr 0.6507/0.6807 | Val 0.5003/0.7552 | 20.7s
+  Ep  20/100 | Tr 0.6369/0.6904 | Val 0.4946/0.7552 | 20.6s
+  Ep  21/100 | Tr 0.6171/0.6967 | Val 0.4904/0.7552 | 20.2s
+  Ep  22/100 | Tr 0.6058/0.7076 | Val 0.4867/0.7552 | 20.7s
+  Ep  23/100 | Tr 0.5917/0.7107 | Val 0.4815/0.7552 | 19.9s
+  Ep  24/100 | Tr 0.5897/0.7088 | Val 0.4795/0.7552 | 20.3s
+  Ep  25/100 | Tr 0.5751/0.7214 | Val 0.4783/0.7552 | 20.1s
+  Ep  26/100 | Tr 0.5656/0.7211 | Val 0.4731/0.7552 | 20.8s
+  Ep  27/100 | Tr 0.5508/0.7305 | Val 0.4700/0.7552 | 20.4s
+  Ep  28/100 | Tr 0.5370/0.7359 | Val 0.4685/0.7552 | 19.9s
+  Ep  29/100 | Tr 0.5361/0.7325 | Val 0.4654/0.7552 | 20.7s
+  Ep  30/100 | Tr 0.5331/0.7411 | Val 0.4644/0.7552 | 20.7s
+  Ep  31/100 | Tr 0.5152/0.7441 | Val 0.4616/0.7552 | 20.8s
+  Ep  32/100 | Tr 0.5124/0.7480 | Val 0.4583/0.7552 | 20.7s
+  Ep  33/100 | Tr 0.4970/0.7496 | Val 0.4565/0.7552 | 20.8s
+  Ep  34/100 | Tr 0.4970/0.7485 | Val 0.4541/0.7500 | 20.4s
+  Ep  35/100 | Tr 0.4926/0.7515 | Val 0.4536/0.7500 | 19.8s
+  Ep  36/100 | Tr 0.4844/0.7589 | Val 0.4512/0.7396 | 20.7s
+  Ep  37/100 | Tr 0.4775/0.7624 | Val 0.4492/0.7344 | 20.7s
+  Ep  38/100 | Tr 0.4725/0.7607 | Val 0.4494/0.7396 | 20.2s
+  Ep  39/100 | Tr 0.4617/0.7682 | Val 0.4482/0.7448 | 21.6s
+  Ep  40/100 | Tr 0.4638/0.7665 | Val 0.4467/0.7344 | 20.1s
+  Ep  41/100 | Tr 0.4578/0.7648 | Val 0.4480/0.7396 | 20.8s
+  Ep  42/100 | Tr 0.4556/0.7669 | Val 0.4487/0.7344 | 20.9s
+  Ep  43/100 | Tr 0.4515/0.7742 | Val 0.4486/0.7292 | 21.0s
+  Ep  44/100 | Tr 0.4463/0.7719 | Val 0.4492/0.7188 | 19.9s
+  Ep  45/100 | Tr 0.4397/0.7795 | Val 0.4494/0.7188 | 20.4s
+  Ep  46/100 | Tr 0.4420/0.7762 | Val 0.4490/0.7083 | 20.8s
+  Ep  47/100 | Tr 0.4447/0.7739 | Val 0.4495/0.7083 | 20.5s
+  Ep  48/100 | Tr 0.4341/0.7819 | Val 0.4495/0.7135 | 20.2s
+  Ep  49/100 | Tr 0.4298/0.7835 | Val 0.4507/0.7135 | 21.1s
+  Ep  50/100 | Tr 0.4287/0.7807 | Val 0.4514/0.7135 | 20.6s
+  Ep  51/100 | Tr 0.4223/0.7857 | Val 0.4522/0.6979 | 21.4s
+  Ep  52/100 | Tr 0.4284/0.7832 | Val 0.4524/0.7031 | 21.5s
+  Ep  53/100 | Tr 0.4203/0.7857 | Val 0.4516/0.6979 | 19.8s
+  Ep  54/100 | Tr 0.4251/0.7801 | Val 0.4525/0.6875 | 20.6s
+  Ep  55/100 | Tr 0.4147/0.7952 | Val 0.4535/0.6927 | 20.1s
+  Ep  56/100 | Tr 0.4198/0.7828 | Val 0.4532/0.6875 | 20.6s
+  Ep  57/100 | Tr 0.4175/0.7909 | Val 0.4531/0.6927 | 20.5s
+  Ep  58/100 | Tr 0.4114/0.7940 | Val 0.4533/0.6875 | 20.2s
+  Ep  59/100 | Tr 0.4159/0.7882 | Val 0.4544/0.6823 | 21.7s
+  Ep  60/100 | Tr 0.4084/0.7936 | Val 0.4551/0.6771 | 21.6s
+  Ep  61/100 | Tr 0.4129/0.7906 | Val 0.4561/0.6771 | 20.6s
+  Ep  62/100 | Tr 0.4063/0.7950 | Val 0.4557/0.6771 | 21.0s
+  Ep  63/100 | Tr 0.4062/0.7918 | Val 0.4562/0.6823 | 20.7s
+  Ep  64/100 | Tr 0.4050/0.7989 | Val 0.4565/0.6771 | 21.9s
+  Ep  65/100 | Tr 0.4031/0.7908 | Val 0.4571/0.6823 | 21.4s
+  Ep  66/100 | Tr 0.4041/0.7963 | Val 0.4576/0.6771 | 21.0s
+  Ep  67/100 | Tr 0.3991/0.8003 | Val 0.4580/0.6771 | 20.4s
+  Ep  68/100 | Tr 0.4029/0.7923 | Val 0.4588/0.6823 | 20.6s
+Exception in thread Thread-277 (_pin_memory_loop):
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/data/_utils/pin_memory.py", line 61, in _pin_memory_loop
+    do_one_step()
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/data/_utils/pin_memory.py", line 37, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/multiprocessing/reductions.py", line 541, in rebuild_storage_fd
+    fd = df.detach()
+         ^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 519, in Client
+    c = SocketClient(address)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 647, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+✅ CONFIG loaded
+   Model : DepthWiseMamba-Pico
+   Epochs: 50
+   Optim : Adam  lr=0.0001
+   Sched : None
+   W&B   : ON
+
+📦 Train loader: 9999 samples, 157 batches
+📦 Val loader:   192 samples, 3 batches
+📦 Test loader:  389 samples, 7 batches
+✅ DSMaT architecture defined
+🏗️  DepthWiseMamba-Pico | Params: 837,166 (0.84M)
+✅ Training utilities defined
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

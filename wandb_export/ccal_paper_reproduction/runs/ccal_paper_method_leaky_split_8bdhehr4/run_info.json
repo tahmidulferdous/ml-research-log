@@ -1,0 +1,319 @@
+{
+  "id": "UnVuOnYxOjhiZGhlaHI0OmNjYWxfcGFwZXJfcmVwcm9kdWN0aW9uOnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "8bdhehr4",
+  "displayName": "ccal_paper_method_leaky_split",
+  "state": "finished",
+  "createdAt": "2026-04-25T10:37:35Z",
+  "computeSeconds": 461,
+  "tags": [
+    "80-20",
+    "fp16",
+    "image-level-split",
+    "leaky",
+    "paper-method"
+  ],
+  "summaryMetrics": {
+    "_step": 8,
+    "epoch": 6,
+    "_wandb": {
+      "runtime": 461
+    },
+    "val/f1": 2.1460506706408347,
+    "_runtime": 461.359520269,
+    "val/loss": "NaN",
+    "_timestamp": 1777113912.2345068,
+    "train/loss": "NaN",
+    "val/recall": 10.909090909090908,
+    "best_val_acc": 79.54545454545455,
+    "val/accuracy": 10.909090909090908,
+    "learning_rate": 0.001,
+    "val/precision": 1.1900826446280992,
+    "epoch_time_sec": 61.93499946594238,
+    "train/accuracy": 10.94109410941094,
+    "dataset/split_method": "image-level random (paper method)",
+    "dataset/test_samples": 220,
+    "dataset/train_samples": 9999,
+    "model/total_parameters": 703331,
+    "model/trainable_parameters": 703331,
+    "gradients/_orig_mod.ffn.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.ffn.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.ffn.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.dense1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.ffn.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.dense1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.dense1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.dense1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv3.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv4.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv5.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv6.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn2.conv1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn2.conv2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.batch_norm1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.batch_norm2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv3.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv4.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv5.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv6.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn2.conv1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn2.conv2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv3.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv4.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv5.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn1.conv6.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn2.conv1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.cnn2.conv2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.batch_norm1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.batch_norm2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.batch_norm1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.batch_norm2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv4.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv5.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn1.conv6.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn2.conv1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.cnn2.conv2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.batch_norm1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.batch_norm2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "gradients/_orig_mod.feature_projection.weight": {
+      "_type": "histogram"
+    },
+    "parameters/_orig_mod.feature_projection.weight": {
+      "_type": "histogram"
+    }
+  },
+  "config": {
+    "seed": {
+      "value": 42
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            53,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            53,
+            105
+          ],
+          "3": [
+            1,
+            13,
+            15,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "test_size": {
+      "value": 0.2
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "image_size": {
+      "value": 224
+    },
+    "learning_rate": {
+      "value": 0.001
+    },
+    "target_total_images": {
+      "value": 10000
+    }
+  }
+}

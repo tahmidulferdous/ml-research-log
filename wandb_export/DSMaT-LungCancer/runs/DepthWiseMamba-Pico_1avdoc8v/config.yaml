@@ -1,0 +1,126 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            7cdndsapn5gbziv6ewsph2amoigi42xk:
+                codePath: kaggle.ipynb
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "8656922775552"
+                        used: "7125033349120"
+                email: <redacted>
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-f1210d1d-7d6c-7ee3-931f-d5f4403986a0
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-588db133-7add-5dd3-d0a5-48daf78fc7d7
+                host: 83028ea2b374
+                memory:
+                    total: "33662472192"
+                os: Linux-6.6.113+-x86_64-with-glibc2.35
+                program: kaggle.ipynb
+                python: CPython 3.12.12
+                root: /kaggle/working
+                startedAt: "2026-02-10T17:49:39.334380Z"
+                writerId: 7cdndsapn5gbziv6ewsph2amoigi42xk
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 105
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.24.2
+            "8":
+                - 1
+                - 2
+                - 12
+            "12": 0.24.2
+            "13": linux-x86_64
+batch_size:
+    value: 64
+epochs:
+    value: 50
+grad_clip_max_norm:
+    value: 1
+model:
+    value:
+        DepthWiseMamba-Pico:
+            dropout: 0.2
+            mlp_expand: 2
+            sa_heads:
+                - 4
+                - 4
+            stage_channels:
+                - 48
+                - 96
+                - 128
+                - 192
+            stage_depths:
+                - 1
+                - 1
+                - 2
+                - 2
+            stem_channels:
+                - 16
+                - 32
+        DepthwiseMamba-Nano:
+            dropout: 0.4
+            mlp_expand: 3
+            sa_heads:
+                - 4
+                - 4
+            stage_channels:
+                - 64
+                - 128
+                - 192
+                - 256
+            stage_depths:
+                - 1
+                - 2
+                - 2
+                - 2
+            stem_channels:
+                - 24
+                - 48
+model_name:
+    value: DepthWiseMamba-Pico
+num_workers:
+    value: 4
+optimizer:
+    value: Adam
+optimizer_params:
+    value:
+        lr: 0.0001
+        weight_decay: 0.001
+scheduler:
+    value: null
+wandb_enabled:
+    value: true
+wandb_project:
+    value: DSMaT-LungCancer

@@ -1,0 +1,103 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            kav6l2vlwwcrftqlo8ht5uuj7bml2lql:
+                codePath: train_diffusion.py
+                codePathLocal: train_diffusion.py
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "8656922775552"
+                        used: "7165071454208"
+                email: <redacted>
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-4d55a6b0-42b9-6876-b81d-2337031d7de5
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-121b1e95-3aa0-7c89-8171-9d805e21707a
+                host: 49a24a61585e
+                memory:
+                    total: "33662472192"
+                os: Linux-6.6.113+-x86_64-with-glibc2.35
+                program: /kaggle/working/train_diffusion.py
+                python: CPython 3.12.12
+                root: /kaggle/working
+                startedAt: "2026-02-22T19:09:27.322075Z"
+                writerId: kav6l2vlwwcrftqlo8ht5uuj7bml2lql
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 80
+                - 105
+            "2":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 80
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+                - 62
+            "4": 3.12.12
+            "5": 0.25.0
+            "8":
+                - 2
+            "12": 0.25.0
+            "13": linux-x86_64
+batch_size_per_gpu:
+    value: 16
+convergence_loss:
+    value: 0.02
+ddp:
+    value: true
+effective_batch_size:
+    value: 32
+ema_decay:
+    value: 0.9999
+epochs:
+    value: 1000
+gpu:
+    value: Tesla T4
+img_size:
+    value: 128
+learning_rate:
+    value: 0.0002
+max_training_hours:
+    value: 10
+model:
+    value: ConditionalUNet
+num_gpus:
+    value: 2
+params:
+    value: ~19M
+patience:
+    value: 80
+precision:
+    value: fp16
+timesteps:
+    value: 1000
+torch_compile:
+    value: true

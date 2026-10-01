@@ -1,0 +1,315 @@
+{
+  "id": "UnVuOnYxOmU1bHZ0c3NjOmNjYWxfcGFwZXJfcmVwcm9kdWN0aW9uOnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "e5lvtssc",
+  "displayName": "ccal_paper_method_leaky_split",
+  "state": "crashed",
+  "createdAt": "2026-04-26T09:37:21Z",
+  "computeSeconds": 2219,
+  "tags": [
+    "80-20",
+    "fp16",
+    "image-level-split",
+    "leaky",
+    "paper-method"
+  ],
+  "summaryMetrics": {
+    "_step": 52,
+    "epoch": 50,
+    "_wandb": {
+      "runtime": 2219
+    },
+    "val/f1": 99.07655750047054,
+    "_runtime": 2219.907592475,
+    "val/loss": 0.02803073033750739,
+    "_timestamp": 1777198461.1466749,
+    "train/loss": 0.013880277710905792,
+    "val/recall": 99.0909090909091,
+    "best_val_acc": 99.54545454545456,
+    "val/accuracy": 99.0909090909091,
+    "learning_rate": 7.8125e-07,
+    "val/precision": 99.11229946524064,
+    "epoch_time_sec": 44.464601039886475,
+    "train/accuracy": 99.5899589958996,
+    "training/curves": {
+      "path": "media/images/training/curves_52_23f60030c4bb95b36ca4.png",
+      "size": 58122,
+      "_type": "image-file",
+      "width": 1400,
+      "format": "png",
+      "height": 500,
+      "sha256": "23f60030c4bb95b36ca41f37c19863d8bf55b72a653a30a872eba9604749a8e9"
+    },
+    "gradients/bn1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/bn2.bias": {
+      "_type": "histogram"
+    },
+    "parameters/bn1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/bn2.bias": {
+      "_type": "histogram"
+    },
+    "dataset/split_method": "image-level random (paper method)",
+    "dataset/test_samples": 220,
+    "gradients/bn1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/bn2.weight": {
+      "_type": "histogram"
+    },
+    "dataset/train_samples": 9999,
+    "gradients/dense1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/bn1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/bn2.weight": {
+      "_type": "histogram"
+    },
+    "model/total_parameters": 666403,
+    "parameters/dense1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/dense1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/dense1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/classifier.bias": {
+      "_type": "histogram"
+    },
+    "model/trainable_parameters": 666403,
+    "parameters/classifier.bias": {
+      "_type": "histogram"
+    },
+    "gradients/classifier.weight": {
+      "_type": "histogram"
+    },
+    "gradients/mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/classifier.weight": {
+      "_type": "histogram"
+    },
+    "parameters/mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "gradients/mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.3.bias": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.6.bias": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.8.bias": {
+      "_type": "histogram"
+    },
+    "gradients/cnn2.features.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/cnn2.features.3.bias": {
+      "_type": "histogram"
+    },
+    "gradients/mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.11.bias": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.3.bias": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.6.bias": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.8.bias": {
+      "_type": "histogram"
+    },
+    "parameters/cnn2.features.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/cnn2.features.3.bias": {
+      "_type": "histogram"
+    },
+    "parameters/mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.3.weight": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.6.weight": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.8.weight": {
+      "_type": "histogram"
+    },
+    "gradients/cnn2.features.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/cnn2.features.3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.11.bias": {
+      "_type": "histogram"
+    },
+    "gradients/cnn1.features.11.weight": {
+      "_type": "histogram"
+    },
+    "gradients/feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.6.weight": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.8.weight": {
+      "_type": "histogram"
+    },
+    "parameters/cnn2.features.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/cnn2.features.3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/cnn1.features.11.weight": {
+      "_type": "histogram"
+    },
+    "parameters/feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "gradients/feature_projection.weight": {
+      "_type": "histogram"
+    },
+    "parameters/feature_projection.weight": {
+      "_type": "histogram"
+    }
+  },
+  "config": {
+    "seed": {
+      "value": 42
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            53,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            53,
+            105
+          ],
+          "3": [
+            1,
+            13,
+            15,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.25.0",
+          "8": [
+            2,
+            13
+          ],
+          "12": "0.25.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.25.0",
+        "python_version": "3.12.12"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "test_size": {
+      "value": 0.2
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "image_size": {
+      "value": 224
+    },
+    "learning_rate": {
+      "value": 0.0001
+    },
+    "target_total_images": {
+      "value": 10000
+    }
+  }
+}

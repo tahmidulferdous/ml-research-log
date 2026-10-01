@@ -1,0 +1,11 @@
+step 0: train loss 5.1374, val loss 5.1446
+[34m[1mwandb[0m: [33mWARNING[0m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+step 500: train loss 2.7985, val loss 2.8716
+step 1000: train loss 2.7453, val loss 2.8227
+step 1500: train loss 2.6996, val loss 2.7785
+step 2000: train loss 2.6580, val loss 2.7509
+step 2500: train loss 2.6360, val loss 2.7035
+step 3000: train loss 2.5872, val loss 2.6896
+step 3500: train loss 2.5607, val loss 2.6541
+step 4000: train loss 2.5236, val loss 2.6402
+step 4500: train loss 2.5094, val loss 2.6094

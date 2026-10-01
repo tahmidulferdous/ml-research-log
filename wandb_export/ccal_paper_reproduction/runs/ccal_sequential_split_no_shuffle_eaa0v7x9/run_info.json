@@ -1,0 +1,372 @@
+{
+  "id": "UnVuOnYxOmVhYTB2N3g5OmNjYWxfcGFwZXJfcmVwcm9kdWN0aW9uOnRhaG1pZHVsa2FzaGZpMTUtaW50ZXJuYXRpb25hbC1pc2xhbWljLXVuaXZlcnNpdHktY2hpdHRhZ29uZw==",
+  "name": "eaa0v7x9",
+  "displayName": "ccal_sequential_split_no_shuffle",
+  "state": "finished",
+  "createdAt": "2026-06-23T06:58:14Z",
+  "computeSeconds": 1668,
+  "tags": [
+    "70-20-10",
+    "honest",
+    "no-shuffle",
+    "sequential-split"
+  ],
+  "summaryMetrics": {
+    "_step": 60,
+    "epoch": 50,
+    "_wandb": {
+      "runtime": 1708
+    },
+    "val/f1": 86.30819316831133,
+    "test/f1": 88.19356710597627,
+    "_runtime": 1708,
+    "test/auc": 98.08124442855802,
+    "val/loss": 1.986816038991427,
+    "_timestamp": 1782199603.1435242,
+    "train/loss": 0.011099680691105136,
+    "val/recall": 85.06787330316742,
+    "test/recall": 88.68778280542986,
+    "xai/gradcam": {
+      "path": "media/images/xai/gradcam_59_b73ba42c10ba1f31083b.png",
+      "size": 1037488,
+      "_type": "image-file",
+      "width": 1400,
+      "format": "png",
+      "height": 1200,
+      "sha256": "b73ba42c10ba1f31083b967669d4229334259fce35b2ffef4bf633d909fbc52e"
+    },
+    "best_val_acc": 88.68778280542986,
+    "val/accuracy": 85.06787330316742,
+    "learning_rate": 2.44140625e-07,
+    "test/accuracy": 88.68778280542986,
+    "val/precision": 92.96446062261823,
+    "epoch_time_sec": 33.43849468231201,
+    "test/f1_Benign": 41.86046511627907,
+    "test/f1_Normal": 85.54913294797689,
+    "test/precision": 87.87833379269007,
+    "train/accuracy": 99.67993598719744,
+    "training/curves": {
+      "path": "media/images/training/curves_52_6cd7940f310c03510ff2.png",
+      "size": 76805,
+      "_type": "image-file",
+      "width": 1400,
+      "format": "png",
+      "height": 500,
+      "sha256": "6cd7940f310c03510ff272438859a3d821246d5e22575a197093f412193f667a"
+    },
+    "test/f1_Malignant": 100,
+    "test/recall_Benign": 37.5,
+    "test/recall_Normal": 88.09523809523809,
+    "test/results_table": {
+      "path": "media/table/test/results_table_58_ec328c5bab0c9942f467.table.json",
+      "size": 143,
+      "_type": "table-file",
+      "ncols": 2,
+      "nrows": 5,
+      "sha256": "ec328c5bab0c9942f46772ea2a6b8a85bfa968a5e395d91867d9ce96bee1f103",
+      "log_mode": "IMMUTABLE",
+      "artifact_path": "wandb-client-artifact://j9tv6vhp0d1uu6o7tbb2db4je63i1rxddpefhqdz3d29l287w0ubxqvv6vldsma0qdqms5dv7mozm5yzksqv6baq3kj0dql93wczwxevntmmo9e889v2v0q0kwjmtj03/test/results_table.table.json",
+      "_latest_artifact_path": "wandb-client-artifact://hrlm74gsnzeo4fh8ooh6ldp6docjv8xmuom963apic8180yl6oe2g4saadefewk2qka2v20wr8qd5owss7a1e4q7gpsehwec790es69v3uv4z1okeddmf2m1hgb5gh6c:latest/test/results_table.table.json"
+    },
+    "dataset/val_samples": 221,
+    "dataset/split_method": "sequential 70/20/10 (no shuffle)",
+    "dataset/test_samples": 221,
+    "dataset/train_samples": 9998,
+    "test/confusion_matrix": {
+      "path": "media/images/test/confusion_matrix_57_f0313162e342d647d254.png",
+      "size": 23100,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 600,
+      "sha256": "f0313162e342d647d2541f43f732ef1e3bd5f980813cac29378819858d8c1f92"
+    },
+    "test/precision_Benign": 47.368421052631575,
+    "test/precision_Normal": 83.14606741573034,
+    "test/recall_Malignant": 100,
+    "xai/attention_weights": {
+      "path": "media/images/xai/attention_weights_60_bffe286d421fa6d5d86a.png",
+      "size": 54252,
+      "_type": "image-file",
+      "width": 1200,
+      "format": "png",
+      "height": 500,
+      "sha256": "bffe286d421fa6d5d86a5b1d65516e11babd6f9b6e9582647bb6af3aa0453cff"
+    },
+    "model/total_parameters": 666403,
+    "test/precision_Malignant": 100,
+    "gradients/graph_4bn1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4bn2.bias": {
+      "_type": "histogram"
+    },
+    "model/trainable_parameters": 666403,
+    "parameters/graph_4bn1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4bn2.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4bn1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4bn2.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4dense1.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4bn1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4bn2.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4dense1.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4dense1.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4dense1.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4classifier.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4classifier.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4classifier.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4classifier.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha1.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha2.in_proj_bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha1.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha2.out_proj.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.3.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.6.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.8.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn2.features.0.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn2.features.3.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha1.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha2.in_proj_weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.11.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.3.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.6.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.8.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn2.features.0.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn2.features.3.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha1.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4mha2.out_proj.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.3.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.6.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.8.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn2.features.0.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn2.features.3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.11.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4cnn1.features.11.weight": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.6.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.8.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn2.features.0.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn2.features.3.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4cnn1.features.11.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4feature_projection.bias": {
+      "_type": "histogram"
+    },
+    "gradients/graph_4feature_projection.weight": {
+      "_type": "histogram"
+    },
+    "parameters/graph_4feature_projection.weight": {
+      "_type": "histogram"
+    }
+  },
+  "config": {
+    "seed": {
+      "value": 42
+    },
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            53
+          ],
+          "3": [
+            1,
+            2,
+            13,
+            15,
+            16
+          ],
+          "4": "3.12.13",
+          "5": "0.28.0",
+          "8": [
+            2,
+            13
+          ],
+          "12": "0.28.0",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.28.0",
+        "python_version": "3.12.13"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.5
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "val_ratio": {
+      "value": 0.2
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "image_size": {
+      "value": 224
+    },
+    "test_ratio": {
+      "value": 0.1
+    },
+    "train_ratio": {
+      "value": 0.7
+    },
+    "learning_rate": {
+      "value": 0.001
+    },
+    "target_total_images": {
+      "value": 10000
+    }
+  }
+}

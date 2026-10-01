@@ -1,0 +1,79 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            g2ljihrvmsodiy3ur4fcss8shbq49l3n:
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "8656922775552"
+                        used: "6996232437760"
+                email: <redacted>
+                executable: /usr/bin/python3
+                gpu: Tesla P100-PCIE-16GB
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "17179869184"
+                      name: Tesla P100-PCIE-16GB
+                      uuid: GPU-127db76a-d166-d8e6-1544-eee233f627cf
+                host: 13e7f0fa21e2
+                memory:
+                    total: "33662332928"
+                os: Linux-6.6.56+-x86_64-with-glibc2.35
+                program: kaggle.ipynb
+                python: CPython 3.11.13
+                root: /kaggle/working
+                startedAt: "2025-10-31T05:51:46.996854Z"
+                writerId: g2ljihrvmsodiy3ur4fcss8shbq49l3n
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 80
+                - 105
+            "2":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 80
+                - 105
+            "3":
+                - 1
+                - 2
+                - 13
+                - 16
+            "4": 3.11.13
+            "5": 0.21.0
+            "8":
+                - 1
+                - 2
+                - 12
+            "12": 0.21.0
+            "13": linux-x86_64
+batch_size:
+    value: 32
+data_dir:
+    value: /kaggle/input/lung-split
+device:
+    value: cuda
+dropout:
+    value: 0.5
+epochs:
+    value: 50
+key_dim:
+    value: 16
+learning_rate:
+    value: 1e-05
+num_heads:
+    value: 4

@@ -1,0 +1,12 @@
+torch.Size([64, 3, 64, 64])
+torch.Size([64, 3, 64, 64])
+torch.Size([42, 3, 64, 64])
+Epoch [0/5000] Batch 2/3                   Loss D: -7.2104, loss G: 16.0379
+Epoch [1/5000], Loss D: -7.2104, Loss G: 16.0379
+torch.Size([64, 3, 64, 64])
+torch.Size([64, 3, 64, 64])
+torch.Size([42, 3, 64, 64])
+Epoch [2/5000], Loss D: -19.0683, Loss G: 22.9470
+torch.Size([64, 3, 64, 64])
+torch.Size([64, 3, 64, 64])
+torch.Size([42, 3, 64, 64])

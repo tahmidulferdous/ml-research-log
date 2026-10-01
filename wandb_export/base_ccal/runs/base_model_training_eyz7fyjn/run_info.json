@@ -1,0 +1,88 @@
+{
+  "id": "UnVuOnYxOmV5ejdmeWpuOmJhc2VfY2NhbDp0YWhtaWR1bGthc2hmaTE1LWludGVybmF0aW9uYWwtaXNsYW1pYy11bml2ZXJzaXR5LWNoaXR0YWdvbmc=",
+  "name": "eyz7fyjn",
+  "displayName": "base_model_training",
+  "state": "finished",
+  "createdAt": "2025-09-28T13:53:26Z",
+  "computeSeconds": 4,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 0,
+    "_wandb": {
+      "runtime": 8
+    },
+    "_runtime": 6.847980244,
+    "_timestamp": 1759067607.074479,
+    "total_parameters": 703331,
+    "trainable_parameters": 703331
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            1,
+            2,
+            13,
+            16,
+            55
+          ],
+          "4": "3.11.13",
+          "5": "0.20.1",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.20.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.20.1",
+        "python_version": "3.11.13"
+      }
+    },
+    "device": {
+      "value": "cuda"
+    },
+    "epochs": {
+      "value": 50
+    },
+    "dropout": {
+      "value": 0.4
+    },
+    "key_dim": {
+      "value": 16
+    },
+    "data_dir": {
+      "value": "/kaggle/input/iq-othncc-lung-cancertrain-and-test-split"
+    },
+    "num_heads": {
+      "value": 4
+    },
+    "batch_size": {
+      "value": 32
+    },
+    "learning_rate": {
+      "value": 0.0001
+    }
+  }
+}

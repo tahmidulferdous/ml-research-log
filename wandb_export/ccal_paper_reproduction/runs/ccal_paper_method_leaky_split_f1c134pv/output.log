@@ -1,0 +1,29 @@
+============================================================
+CCAL Paper Reproduction - Image-Level 80/20 Split
+============================================================
+Total images found: 1097
+  Bengin cases: 120
+  Malignant cases: 561
+  Normal cases: 416
+
+After 80/20 split:
+  Train: 877
+  Test:  220
+  Train after augmentation: 9999
+  Caching 9999 images in RAM...
+  Cached 877 unique images.
+  Caching 220 images in RAM...
+  Cached 220 unique images.
+
+Creating CCAL model...
+Total Parameters: 703,331
+Trainable Parameters: 703,331
+
+Starting training...
+Epoch 1/50 [Train]: 100%|██████████| 313/313 [00:46<00:00,  6.69it/s]
+  ✓ New best model! Val Acc: 37.73%
+Epoch  1: Train Loss=0.5945 Acc=77.44% | Val Loss=3.7372 Acc=37.73% | LR=0.001000 | 48.8s
+Epoch 2/50 [Train]: 100%|██████████| 313/313 [00:44<00:00,  7.06it/s]
+  ✓ New best model! Val Acc: 66.36%
+Epoch  2: Train Loss=0.5945 Acc=78.75% | Val Loss=0.7954 Acc=66.36% | LR=0.001000 | 45.9s
+Epoch 3/50 [Train]:  39%|███▉      | 122/313 [00:18<00:28,  6.67it/s]

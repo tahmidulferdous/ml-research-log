@@ -1,0 +1,50 @@
+<ipython-input-11-084e98247669>:14: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  gen.load_state_dict(torch.load(gen_checkpoint_path))
+<ipython-input-11-084e98247669>:15: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  critic.load_state_dict(torch.load(critic_checkpoint_path))
+Loaded generator and critic weights from the last checkpoint.
+Epoch [1/5000], Loss D: -75.0990, Loss G: 208.5991
+Epoch [2/5000], Loss D: -76.6886, Loss G: 208.6412
+Epoch [3/5000], Loss D: -83.4934, Loss G: 215.5776
+Epoch [4/5000], Loss D: -78.6535, Loss G: 212.0118
+Epoch [5/5000], Loss D: -79.6079, Loss G: 212.6207
+Epoch [6/5000], Loss D: -96.8906, Loss G: 207.8096
+Epoch [7/5000], Loss D: -72.6299, Loss G: 216.7055
+Epoch [8/5000], Loss D: -77.0720, Loss G: 210.3376
+Epoch [9/5000], Loss D: -79.8535, Loss G: 208.3754
+Epoch [10/5000], Loss D: -88.1462, Loss G: 208.5585
+Epoch [11/5000], Loss D: -71.6495, Loss G: 213.0478
+Epoch [12/5000], Loss D: -66.8890, Loss G: 209.2872
+Epoch [13/5000], Loss D: -68.8878, Loss G: 206.9746
+Epoch [14/5000], Loss D: -75.8465, Loss G: 209.0099
+Epoch [15/5000], Loss D: -94.3321, Loss G: 207.0923
+Epoch [16/5000], Loss D: -84.9958, Loss G: 206.4321
+Epoch [17/5000], Loss D: -76.8757, Loss G: 214.4918
+Epoch [18/5000], Loss D: -79.6812, Loss G: 204.7072
+Epoch [19/5000], Loss D: -76.6986, Loss G: 214.5131
+Epoch [20/5000], Loss D: -66.7793, Loss G: 212.4842
+Epoch [21/5000], Loss D: -65.9608, Loss G: 212.6398
+Epoch [22/5000], Loss D: -80.1498, Loss G: 211.2844
+Epoch [23/5000], Loss D: -76.0823, Loss G: 218.6445
+Epoch [24/5000], Loss D: -72.8688, Loss G: 205.9420
+Epoch [25/5000], Loss D: -79.7033, Loss G: 211.9485
+Epoch [26/5000], Loss D: -67.6982, Loss G: 212.1792
+Epoch [27/5000], Loss D: -81.2675, Loss G: 209.8033
+Epoch [28/5000], Loss D: -82.3432, Loss G: 214.5234
+Epoch [29/5000], Loss D: -80.9690, Loss G: 210.6673
+Epoch [30/5000], Loss D: -68.0321, Loss G: 212.7422
+Epoch [31/5000], Loss D: -76.8545, Loss G: 212.2809
+Epoch [32/5000], Loss D: -76.3007, Loss G: 210.0099
+Epoch [33/5000], Loss D: -80.9818, Loss G: 216.3624
+Epoch [34/5000], Loss D: -85.1528, Loss G: 205.5344
+Epoch [35/5000], Loss D: -81.8323, Loss G: 214.4817
+Epoch [36/5000], Loss D: -73.9473, Loss G: 214.1966
+Epoch [37/5000], Loss D: -80.0213, Loss G: 212.0539
+Epoch [38/5000], Loss D: -79.5025, Loss G: 207.0793
+Epoch [39/5000], Loss D: -84.8932, Loss G: 208.0787
+Epoch [40/5000], Loss D: -78.6666, Loss G: 207.6555
+Epoch [41/5000], Loss D: -77.0413, Loss G: 207.7901
+Epoch [42/5000], Loss D: -78.5294, Loss G: 207.8850
+Epoch [43/5000], Loss D: -83.8507, Loss G: 213.0348
+Epoch [44/5000], Loss D: -90.9467, Loss G: 213.0148
+Epoch [45/5000], Loss D: -70.7422, Loss G: 208.9397

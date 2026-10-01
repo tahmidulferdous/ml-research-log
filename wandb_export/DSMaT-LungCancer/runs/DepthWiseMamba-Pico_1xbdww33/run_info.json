@@ -1,0 +1,239 @@
+{
+  "id": "UnVuOnYxOjF4YmR3dzMzOkRTTWFULUx1bmdDYW5jZXI6dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "1xbdww33",
+  "displayName": "DepthWiseMamba-Pico",
+  "state": "finished",
+  "createdAt": "2026-02-11T15:11:51Z",
+  "computeSeconds": 165,
+  "tags": [],
+  "summaryMetrics": {
+    "lr": 5e-05,
+    "_step": 53,
+    "epoch": 50,
+    "_wandb": {
+      "runtime": 170
+    },
+    "val_acc": 0.8242424242424242,
+    "_runtime": 170,
+    "params_M": 0.84,
+    "test_acc": 0.8303030303030303,
+    "val_loss": 0.45383786793911096,
+    "test_loss": 0.4127974970774217,
+    "train_acc": 0.7102272727272727,
+    "_timestamp": 1770822882.9233687,
+    "roc_curves": {
+      "path": "media/images/roc_curves_52_d511ef999409dad5d63e.png",
+      "size": 37094,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 500,
+      "sha256": "d511ef999409dad5d63e67d063cdac74486282547ad3a314fae275e9b7813431"
+    },
+    "train_loss": 0.6502851356159557,
+    "test_f1_macro": 0.7856321839080461,
+    "forward_gflops": 0.0694,
+    "fwd_bwd_gflops": 0.2082,
+    "confusion_matrix": {
+      "path": "media/images/confusion_matrix_51_5098b71953254960401b.png",
+      "size": 29850,
+      "_type": "image-file",
+      "width": 700,
+      "format": "png",
+      "height": 500,
+      "sha256": "5098b71953254960401bcd61fbb48925c326a80632c83e7c80b0e05653a62800"
+    },
+    "per_epoch_gflops": 0,
+    "cumulative_gflops": 0,
+    "per_class_metrics": {
+      "path": "media/table/per_class_metrics_53_594103610144f67852e2.table.json",
+      "size": 370,
+      "_type": "table-file",
+      "ncols": 5,
+      "nrows": 3,
+      "sha256": "594103610144f67852e243d52290b619611560c7b709e583fb2a069355a52c8f",
+      "log_mode": "IMMUTABLE",
+      "artifact_path": "wandb-client-artifact://33uylsif3tbugw6pwsr989khfqi3jfvr8pff9arhdjg54gpv2w93jkjsr10d2a1gt7gyp48ddl76xqpb5riohrgctaai5gy1vb3svua68hdz28duj7jm4e2mjs15igdn/per_class_metrics.table.json",
+      "_latest_artifact_path": "wandb-client-artifact://2t60w37c3zn8nbsfyi96gopwgzhf98hhsnfqdb4mes8rqlfjw8iajbsbzl2af3zrkeevx685an25o4troq3wikfhplhnwmsum2kcc80y24dicgi4fkglcp815q8741ra:latest/per_class_metrics.table.json"
+    },
+    "total_train_gflops": 0
+  },
+  "config": {
+    "model": {
+      "value": {
+        "DepthWiseMamba-Pico": {
+          "dropout": 0.4,
+          "sa_heads": [
+            4,
+            4
+          ],
+          "mlp_expand": 2,
+          "stage_depths": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "stem_channels": [
+            16,
+            32
+          ],
+          "stage_channels": [
+            48,
+            96,
+            128,
+            192
+          ]
+        },
+        "DepthwiseMamba-Nano": {
+          "dropout": 0.4,
+          "sa_heads": [
+            4,
+            4
+          ],
+          "mlp_expand": 3,
+          "stage_depths": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "stem_channels": [
+            24,
+            48
+          ],
+          "stage_channels": [
+            64,
+            128,
+            192,
+            256
+          ]
+        }
+      }
+    },
+    "_wandb": {
+      "value": {
+        "e": {
+          "po4sujxzlzm1l3cfo818qd4atdtlmbmm": {
+            "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+            "gpu": "Tesla T4",
+            "disk": {
+              "/": {
+                "used": "7125035528192",
+                "total": "8656922775552"
+              }
+            },
+            "host": "5291a8268bf3",
+            "root": "/kaggle/working",
+            "email": "<redacted>",
+            "memory": {
+              "total": "33662472192"
+            },
+            "python": "CPython 3.12.12",
+            "program": "kaggle.ipynb",
+            "codePath": "kaggle.ipynb",
+            "writerId": "po4sujxzlzm1l3cfo818qd4atdtlmbmm",
+            "cpu_count": 2,
+            "gpu_count": 2,
+            "startedAt": "2026-02-11T15:11:45.988407Z",
+            "executable": "/usr/bin/python3",
+            "gpu_nvidia": [
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-23859d0e-86a6-a36f-a0a9-5d38dbebc70c",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              },
+              {
+                "name": "Tesla T4",
+                "uuid": "GPU-4cf53404-4800-bf26-f3d3-0b5012a29e31",
+                "cudaCores": 2560,
+                "memoryTotal": "16106127360",
+                "architecture": "Turing"
+              }
+            ],
+            "cudaVersion": "13.0",
+            "cpu_count_logical": 4
+          }
+        },
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "2": [
+            1,
+            5,
+            41,
+            49,
+            53,
+            80,
+            105
+          ],
+          "3": [
+            2,
+            13,
+            16
+          ],
+          "4": "3.12.12",
+          "5": "0.24.2",
+          "8": [
+            1,
+            2,
+            12
+          ],
+          "12": "0.24.2",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.24.2",
+        "python_version": "3.12.12"
+      }
+    },
+    "epochs": {
+      "value": 50
+    },
+    "optimizer": {
+      "value": "Adam"
+    },
+    "scheduler": {
+      "value": null
+    },
+    "batch_size": {
+      "value": 64
+    },
+    "model_name": {
+      "value": "DepthWiseMamba-Pico"
+    },
+    "num_classes": {
+      "value": 3
+    },
+    "num_workers": {
+      "value": 4
+    },
+    "track_flops": {
+      "value": true
+    },
+    "wandb_enabled": {
+      "value": true
+    },
+    "wandb_project": {
+      "value": "DSMaT-LungCancer"
+    },
+    "optimizer_params": {
+      "value": {
+        "lr": 5e-05,
+        "weight_decay": 0.001
+      }
+    },
+    "grad_clip_max_norm": {
+      "value": 1
+    }
+  }
+}

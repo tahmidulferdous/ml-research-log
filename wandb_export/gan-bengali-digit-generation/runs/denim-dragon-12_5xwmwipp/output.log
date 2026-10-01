@@ -1,0 +1,13 @@
+Epoch [1/50], Loss D: 0.0146, Loss G: 4.0166
+Epoch [2/50], Loss D: 0.0033, Loss G: 5.4585
+Epoch [3/50], Loss D: 0.0014, Loss G: 6.3147
+Epoch [4/50], Loss D: 0.0008, Loss G: 6.9133
+Epoch [5/50], Loss D: 0.0005, Loss G: 7.3690
+Epoch [6/50], Loss D: 0.0004, Loss G: 7.7338
+Epoch [7/50], Loss D: 0.0003, Loss G: 8.0539
+Epoch [8/50], Loss D: 0.0002, Loss G: 8.3165
+Epoch [9/50], Loss D: 0.0002, Loss G: 8.5619
+Epoch [10/50], Loss D: 0.0001, Loss G: 8.7775
+Epoch [11/50], Loss D: 0.0001, Loss G: 8.9747
+Epoch [12/50], Loss D: 0.0001, Loss G: 9.1580
+torch.Size([128, 1, 64, 64]) tensor(4)

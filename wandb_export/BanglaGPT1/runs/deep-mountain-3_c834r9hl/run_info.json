@@ -1,0 +1,93 @@
+{
+  "id": "UnVuOnYxOmM4MzRyOWhsOkJhbmdsYUdQVDE6dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "c834r9hl",
+  "displayName": "deep-mountain-3",
+  "state": "failed",
+  "createdAt": "2025-03-09T18:12:40Z",
+  "computeSeconds": 1232,
+  "tags": [],
+  "summaryMetrics": {
+    "_step": 5,
+    "_wandb": {
+      "runtime": 1232
+    },
+    "_runtime": 1231.329898806,
+    "val_loss": 5.10167121887207,
+    "iteration": 0,
+    "_timestamp": 1741545258.165704,
+    "best_epoch": 0,
+    "train_loss": 5.098055362701416,
+    "best_val_loss": 5.10167121887207,
+    "learning_rate": 0.0004,
+    "training_loss": 5.0941901206970215
+  },
+  "config": {
+    "_wandb": {
+      "value": {
+        "m": [],
+        "t": {
+          "1": [
+            1,
+            55,
+            105
+          ],
+          "2": [
+            1,
+            55,
+            105
+          ],
+          "3": [
+            3,
+            16,
+            23,
+            24,
+            55,
+            62
+          ],
+          "4": "3.10.12",
+          "5": "0.19.1",
+          "8": [
+            1,
+            2,
+            5,
+            12
+          ],
+          "12": "0.19.1",
+          "13": "linux-x86_64"
+        },
+        "cli_version": "0.19.1",
+        "python_version": "3.10.12"
+      }
+    },
+    "n_embd": {
+      "value": 512
+    },
+    "n_head": {
+      "value": 8
+    },
+    "dropout": {
+      "value": 0.2
+    },
+    "n_layer": {
+      "value": 8
+    },
+    "max_iters": {
+      "value": 10000
+    },
+    "batch_size": {
+      "value": 128
+    },
+    "block_size": {
+      "value": 256
+    },
+    "eval_iters": {
+      "value": 200
+    },
+    "eval_interval": {
+      "value": 500
+    },
+    "learning_rate": {
+      "value": 0.0005
+    }
+  }
+}

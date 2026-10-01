@@ -1,0 +1,128 @@
+============================================================
+CCAL — Sequential Split (No Shuffle) 70/20/10
+============================================================
+Total images found: 1097
+
+After sequential 70/20/10 split:
+  Train: 876 (first 70%)
+  Val:   0 (next 20%)
+  Test:  221 (last 10%)
+    Bengin cases: train=96, val=0, test=24
+    Malignant cases: train=448, val=0, test=113
+    Normal cases: train=332, val=0, test=84
+  Train after augmentation: 9998
+  Caching 9998 images in RAM...
+  Cached 876 unique images.
+  Caching 0 images in RAM...
+  Cached 0 unique images.
+  Caching 221 images in RAM...
+  Cached 221 unique images.
+  [v2.1] val split empty — aliasing val_loader = test_loader for monitoring.
+
+Creating CCAL model...
+Total Parameters: 666,403
+Trainable Parameters: 666,403
+
+Starting training...
+  ✓ New best model! Val Acc: 55.66%
+Epoch  1/50: TrL=0.6067 TrA=76.29% | VL=1.1838 VA=55.66% | LR=0.001000 | 32.8s ✓
+Epoch  2/50: TrL=0.5124 TrA=80.93% | VL=6.3009 VA=38.01% | LR=0.001000 | 31.8s
+  ✓ New best model! Val Acc: 88.69%
+Epoch  3/50: TrL=0.4546 TrA=82.73% | VL=0.3956 VA=88.69% | LR=0.001000 | 32.0s ✓
+Epoch  4/50: TrL=0.3813 TrA=85.01% | VL=0.3165 VA=85.07% | LR=0.001000 | 31.3s
+Epoch  5/50: TrL=0.3617 TrA=85.28% | VL=1.1274 VA=52.49% | LR=0.001000 | 31.4s
+Epoch  6/50: TrL=0.3346 TrA=86.97% | VL=4.4610 VA=18.10% | LR=0.001000 | 31.5s
+Epoch  7/50: TrL=0.2846 TrA=88.68% | VL=3.1149 VA=39.37% | LR=0.001000 | 31.7s
+  ↓ LR reduced: 0.001000 → 0.000500
+Epoch  8/50: TrL=0.2938 TrA=88.78% | VL=0.3437 VA=86.43% | LR=0.000500 | 31.5s
+Epoch  9/50: TrL=0.1941 TrA=92.47% | VL=1.7134 VA=58.82% | LR=0.000500 | 31.8s
+Epoch 10/50: TrL=0.1666 TrA=93.81% | VL=1.5856 VA=63.35% | LR=0.000500 | 31.5s
+Epoch 11/50: TrL=0.1408 TrA=94.60% | VL=4.0649 VA=34.84% | LR=0.000500 | 31.6s
+  ↓ LR reduced: 0.000500 → 0.000250
+Epoch 12/50: TrL=0.1319 TrA=95.07% | VL=0.4645 VA=83.71% | LR=0.000250 | 31.7s
+Epoch 13/50: TrL=0.1129 TrA=95.84% | VL=2.0185 VA=62.44% | LR=0.000250 | 31.3s
+Epoch 14/50: TrL=0.0989 TrA=96.34% | VL=0.3742 VA=87.78% | LR=0.000250 | 31.8s
+Epoch 15/50: TrL=0.0850 TrA=96.80% | VL=0.4627 VA=88.69% | LR=0.000250 | 31.6s ✓
+  ↓ LR reduced: 0.000250 → 0.000125
+Epoch 16/50: TrL=0.0856 TrA=96.82% | VL=0.4859 VA=85.07% | LR=0.000125 | 31.5s
+Epoch 17/50: TrL=0.0683 TrA=97.48% | VL=0.5870 VA=84.62% | LR=0.000125 | 31.3s
+Epoch 18/50: TrL=0.0733 TrA=97.38% | VL=0.6911 VA=78.28% | LR=0.000125 | 31.5s
+Epoch 19/50: TrL=0.0576 TrA=97.81% | VL=0.9863 VA=81.90% | LR=0.000125 | 31.4s
+  ↓ LR reduced: 0.000125 → 0.000063
+Epoch 20/50: TrL=0.0621 TrA=97.95% | VL=0.5109 VA=86.43% | LR=0.000063 | 31.6s
+Epoch 21/50: TrL=0.0566 TrA=97.99% | VL=0.8953 VA=83.26% | LR=0.000063 | 31.2s
+Epoch 22/50: TrL=0.0464 TrA=98.46% | VL=0.9684 VA=85.07% | LR=0.000063 | 31.2s
+Epoch 23/50: TrL=0.0437 TrA=98.58% | VL=0.8487 VA=85.97% | LR=0.000063 | 31.5s
+  ↓ LR reduced: 0.000063 → 0.000031
+Epoch 24/50: TrL=0.0464 TrA=98.45% | VL=1.3032 VA=83.71% | LR=0.000031 | 31.5s
+Epoch 25/50: TrL=0.0588 TrA=98.34% | VL=1.0115 VA=84.62% | LR=0.000031 | 31.6s
+Epoch 26/50: TrL=0.0411 TrA=98.63% | VL=1.1515 VA=85.07% | LR=0.000031 | 31.7s
+Epoch 27/50: TrL=0.0481 TrA=98.54% | VL=1.1338 VA=84.62% | LR=0.000031 | 31.7s
+  ↓ LR reduced: 0.000031 → 0.000016
+Epoch 28/50: TrL=0.0418 TrA=98.82% | VL=0.9740 VA=85.97% | LR=0.000016 | 32.0s
+Epoch 29/50: TrL=0.0447 TrA=98.50% | VL=1.2793 VA=84.16% | LR=0.000016 | 31.2s
+Epoch 30/50: TrL=0.0322 TrA=98.81% | VL=1.1161 VA=85.07% | LR=0.000016 | 31.5s
+Epoch 31/50: TrL=0.0398 TrA=98.67% | VL=1.1229 VA=84.62% | LR=0.000016 | 31.3s
+  ↓ LR reduced: 0.000016 → 0.000008
+Epoch 32/50: TrL=0.0387 TrA=98.80% | VL=1.1165 VA=84.62% | LR=0.000008 | 32.4s
+Epoch 33/50: TrL=0.0377 TrA=98.73% | VL=1.0436 VA=85.07% | LR=0.000008 | 31.8s
+Epoch 34/50: TrL=0.0383 TrA=98.67% | VL=1.1615 VA=84.62% | LR=0.000008 | 32.0s
+Epoch 35/50: TrL=0.0397 TrA=98.77% | VL=1.2213 VA=84.62% | LR=0.000008 | 31.7s
+  ↓ LR reduced: 0.000008 → 0.000004
+Epoch 36/50: TrL=0.0321 TrA=98.94% | VL=1.3022 VA=84.16% | LR=0.000004 | 31.6s
+Epoch 37/50: TrL=0.0371 TrA=98.84% | VL=1.3483 VA=84.16% | LR=0.000004 | 31.7s
+Epoch 38/50: TrL=0.0347 TrA=98.93% | VL=1.1218 VA=84.62% | LR=0.000004 | 31.5s
+Epoch 39/50: TrL=0.0373 TrA=98.73% | VL=1.2426 VA=84.16% | LR=0.000004 | 31.4s
+  ↓ LR reduced: 0.000004 → 0.000002
+Epoch 40/50: TrL=0.0379 TrA=98.72% | VL=1.2710 VA=84.62% | LR=0.000002 | 31.8s
+Epoch 41/50: TrL=0.0313 TrA=98.90% | VL=1.1787 VA=84.62% | LR=0.000002 | 31.7s
+Epoch 42/50: TrL=0.0347 TrA=98.86% | VL=1.3147 VA=84.62% | LR=0.000002 | 32.1s
+Epoch 43/50: TrL=0.0292 TrA=98.98% | VL=1.3548 VA=84.62% | LR=0.000002 | 31.7s
+  ↓ LR reduced: 0.000002 → 0.000001
+Epoch 44/50: TrL=0.0425 TrA=98.80% | VL=1.3093 VA=84.62% | LR=0.000001 | 31.6s
+Epoch 45/50: TrL=0.0348 TrA=98.84% | VL=1.1968 VA=84.62% | LR=0.000001 | 31.7s
+Epoch 46/50: TrL=0.0373 TrA=98.83% | VL=1.2546 VA=84.62% | LR=0.000001 | 31.7s
+Epoch 47/50: TrL=0.0302 TrA=98.87% | VL=1.1995 VA=84.62% | LR=0.000001 | 31.6s
+  ↓ LR reduced: 0.000001 → 0.000000
+Epoch 48/50: TrL=0.0372 TrA=98.74% | VL=1.3119 VA=84.16% | LR=0.000000 | 31.6s
+Epoch 49/50: TrL=0.0385 TrA=98.73% | VL=1.2881 VA=84.62% | LR=0.000000 | 31.8s
+Epoch 50/50: TrL=0.0386 TrA=98.90% | VL=1.2747 VA=84.62% | LR=0.000000 | 31.4s
+
+Training complete! Best: epoch 3, val acc 88.69%
+
+Loading best model for evaluation...
+Loaded best model from epoch 3, val acc: 88.69%
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+==================================================
+TEST RESULTS (Sequential Split - No Shuffle)
+==================================================
+Accuracy:  88.69%
+Precision: 80.00%
+Recall:    88.69%
+F1-Score:  83.89%
+AUC:       96.85%
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+              precision    recall  f1-score   support
+
+      Benign       0.00      0.00      0.00        24
+   Malignant       0.98      1.00      0.99       113
+      Normal       0.78      0.99      0.87        84
+
+    accuracy                           0.89       221
+   macro avg       0.59      0.66      0.62       221
+weighted avg       0.80      0.89      0.84       221
+
+
+Generating XAI visualizations...
+
+✅ XAI visualizations generated.

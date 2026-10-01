@@ -1,0 +1,37 @@
+✅ W&B run initialised
+
+🚀 Starting training for DepthWiseMamba-Pico3...
+✅ CONFIG loaded
+   Model : DepthWiseMamba-Pico
+   Epochs: 50
+   Optim : Adam  lr=0.0001
+   Sched : None
+   W&B   : ON
+✅ CONFIG loaded
+   Model : DepthWiseMamba-Pico
+   Epochs: 50
+   Optim : Adam  lr=0.0001
+   Sched : None
+   W&B   : ON
+✅ DSMaT architecture defined
+✅ CONFIG loaded
+   Model : DepthWiseMamba-Pico
+   Epochs: 50
+   Optim : Adam  lr=0.0001
+   Sched : None
+   W&B   : ON
+✅ DSMaT architecture defined
+🏗️  DepthWiseMamba-Pico | Params: 837,116 (0.84M)
+
+============================================================
+📐 GFLOPs ANALYSIS
+============================================================
+  Forward  (inference):  0.0694 GFLOPs
+  Backward (≈2× fwd):    0.1388 GFLOPs
+  Fwd+Bwd  (1 step):     0.2082 GFLOPs
+  Per epoch (0 batches): 0.00 GFLOPs
+  Total training (50 ep):  0.00 GFLOPs
+  Parameters:             0.84M
+============================================================
+✅ Training utilities defined
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

@@ -1,0 +1,21 @@
+Creating CCAL model...
+Model Parameters: 703,331
+Trainable Parameters: 703,331
+Starting training...
+Epoch 1/50 [Train]: 100%|██████████| 11/11 [00:03<00:00,  3.61it/s, Loss=1.1917, Acc=35.90%]
+Epoch [1/50] - Train Loss: 1.1917, Train Acc: 35.90%, Val Loss: 1.0931, Val Acc: 55.43%
+Epoch 2/50 [Train]: 100%|██████████| 11/11 [00:03<00:00,  3.57it/s, Loss=0.9920, Acc=51.14%]
+Epoch [2/50] - Train Loss: 0.9920, Train Acc: 51.14%, Val Loss: 1.0821, Val Acc: 36.00%
+Epoch 3/50 [Train]: 100%|██████████| 11/11 [00:02<00:00,  3.70it/s, Loss=0.8721, Acc=61.11%]
+Epoch [3/50] - Train Loss: 0.8721, Train Acc: 61.11%, Val Loss: 0.9833, Val Acc: 53.14%
+Epoch 4/50 [Train]: 100%|██████████| 11/11 [00:03<00:00,  3.60it/s, Loss=0.7925, Acc=68.23%]
+Epoch [4/50] - Train Loss: 0.7925, Train Acc: 68.23%, Val Loss: 1.0461, Val Acc: 52.00%
+Epoch 5/50 [Train]: 100%|██████████| 11/11 [00:03<00:00,  3.59it/s, Loss=0.7170, Acc=71.94%]
+Epoch [5/50] - Train Loss: 0.7170, Train Acc: 71.94%, Val Loss: 1.6349, Val Acc: 42.86%
+Epoch 6/50 [Train]: 100%|██████████| 11/11 [00:02<00:00,  3.67it/s, Loss=0.6080, Acc=76.35%]
+Epoch [6/50] - Train Loss: 0.6080, Train Acc: 76.35%, Val Loss: 0.6952, Val Acc: 72.57%
+Epoch 7/50 [Train]: 100%|██████████| 11/11 [00:03<00:00,  3.56it/s, Loss=0.5370, Acc=80.48%]
+Epoch [7/50] - Train Loss: 0.5370, Train Acc: 80.48%, Val Loss: 0.5476, Val Acc: 79.43%
+Epoch 8/50 [Train]: 100%|██████████| 11/11 [00:03<00:00,  3.63it/s, Loss=0.5478, Acc=80.20%]
+Epoch [8/50] - Train Loss: 0.5478, Train Acc: 80.20%, Val Loss: 1.2291, Val Acc: 57.14%
+Epoch 9/50 [Train]:   0%|          | 0/11 [00:00<?, ?it/s]

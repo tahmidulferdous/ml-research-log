@@ -1,0 +1,12 @@
+{
+  "id": "UHJvamVjdDp2MTpsdW5nX2VmZm5ldF9yZXByb2R1Y3Rpb246dGFobWlkdWxrYXNoZmkxNS1pbnRlcm5hdGlvbmFsLWlzbGFtaWMtdW5pdmVyc2l0eS1jaGl0dGFnb25n",
+  "name": "lung_effnet_reproduction",
+  "description": null,
+  "createdAt": "2026-04-27T08:54:46Z",
+  "updatedAt": "2026-04-27T08:54:46Z",
+  "lastActive": "2026-06-25T17:42:55Z",
+  "runCount": 16,
+  "totalRuns": 16,
+  "storageBytes": 15798806,
+  "access": "PRIVATE"
+}

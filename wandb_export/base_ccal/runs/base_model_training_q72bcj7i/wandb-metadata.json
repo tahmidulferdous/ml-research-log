@@ -1,0 +1,25 @@
+{
+  "os": "Linux-6.6.56+-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.13",
+  "startedAt": "2025-09-30T09:58:27.299006Z",
+  "program": "kaggle.ipynb",
+  "email": "<redacted>",
+  "root": "/kaggle/working",
+  "host": "b8624b5e07c0",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "8656922775552",
+      "used": "6879902334976"
+    }
+  },
+  "memory": {
+    "total": "33662328832"
+  },
+  "cpu": {
+    "count": 2,
+    "countLogical": 4
+  }
+}
